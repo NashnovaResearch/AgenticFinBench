@@ -9,6 +9,7 @@ image: python:3.12-slim
 
 stages:
   - test
+  - deploy
 
 workflow:
   rules:
@@ -28,3 +29,25 @@ benchmark-offline:
     paths:
       - results/ci-check/manifest.json
     expire_in: 7 days
+
+site-build:
+  stage: test
+  script:
+    - python scripts/build_site.py
+  artifacts:
+    paths:
+      - public/
+    expire_in: 30 days
+
+# Enable this project variable after the instance administrator configures Pages.
+# The build artifact remains available even on instances without GitLab Pages.
+deploy-pages:
+  stage: deploy
+  needs:
+    - job: site-build
+      artifacts: true
+  script:
+    - test -s public/index.html
+  pages: true
+  rules:
+    - if: '$CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH && $PUBLISH_GITLAB_PAGES == "true"'
