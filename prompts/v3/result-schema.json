@@ -1,0 +1,121 @@
+{
+  "type": "object",
+  "properties": {
+    "case_id": {
+      "type": "string"
+    },
+    "items": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "claim_id": {
+            "type": "string"
+          },
+          "claim_text": {
+            "type": "string"
+          },
+          "trace_verdict": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "unsupported",
+              "incomplete"
+            ]
+          },
+          "trace_reason": {
+            "type": "string"
+          },
+          "factual_verdict": {
+            "type": "string",
+            "enum": [
+              "supported",
+              "contradicted",
+              "unresolved"
+            ]
+          },
+          "fact_reason": {
+            "type": "string"
+          },
+          "evidence_basis": {
+            "type": "string"
+          },
+          "extraction_issue": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "kind": {
+                  "type": "string",
+                  "enum": [
+                    "trace_tool",
+                    "trace_context",
+                    "external",
+                    "calculation"
+                  ]
+                },
+                "location": {
+                  "type": "string"
+                },
+                "quote": {
+                  "type": "string"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "supports": {
+                  "type": "string",
+                  "enum": [
+                    "trace",
+                    "fact",
+                    "both",
+                    "context"
+                  ]
+                }
+              },
+              "required": [
+                "kind",
+                "location",
+                "quote",
+                "title",
+                "supports"
+              ],
+              "additionalProperties": false
+            }
+          }
+        },
+        "required": [
+          "claim_id",
+          "claim_text",
+          "trace_verdict",
+          "trace_reason",
+          "factual_verdict",
+          "fact_reason",
+          "evidence_basis",
+          "extraction_issue",
+          "evidence"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "summary": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "case_id",
+    "items",
+    "summary",
+    "limitations"
+  ],
+  "additionalProperties": false
+}

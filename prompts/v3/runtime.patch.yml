@@ -1,0 +1,19 @@
+- id: agent-default-model
+  config:
+    provider: deepseek-official
+    model: deepseek-v4-flash
+- id: llm-deepseek
+  config:
+    baseURL: https://api.ikuncode.cc/v1
+    reasoningEffort: high
+    maxTokens: 32768
+- id: web-search-deepseek
+  config:
+    baseURL: https://api.ikuncode.cc/v1
+    model: deepseek-v4-flash
+- id: tool-subagent
+  disabled: true
+- id: tool-subagent-fork
+  disabled: true
+- id: session-telemetry-otel
+  disabled: true

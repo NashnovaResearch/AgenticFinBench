@@ -1,0 +1,3002 @@
+[
+  {
+    "id": "prod100-001",
+    "question": "嘉信理财系统中期权合约的时间价值Theta是按天衰减还是按小时衰减?",
+    "question_sha256": "67e87f3778179660db7f1a85f54cb7f0a104ae15344cb5932164f261505b72d8",
+    "topic": "期权机制"
+  },
+  {
+    "id": "prod100-002",
+    "question": "Dogecoin还有希望吗？",
+    "question_sha256": "8700e448ffe0de43dc495cc21fe57d0c8352073facb57f364794450b249cf813",
+    "topic": ""
+  },
+  {
+    "id": "prod100-003",
+    "question": "存储在半导体里面的重要性进行排序分析",
+    "question_sha256": "0c1cb43c04173dcef2fbbde96915d44185f3e12c6c31552a3acfdc0668ea1c87",
+    "topic": ""
+  },
+  {
+    "id": "prod100-004",
+    "question": "帮我深刻剖析一下白银slv",
+    "question_sha256": "37aba59fdc90ba841c64c3aff8a8dd140831f11df549350a591fe56a8e61e76f",
+    "topic": ""
+  },
+  {
+    "id": "prod100-005",
+    "question": "中美股票市场本质区别及底层逻辑的差异是什么？",
+    "question_sha256": "999152836d202bb72c755ce9c358db87e7a4b4e7736f37d54368c9b84bc513bf",
+    "topic": "市场制度比较"
+  },
+  {
+    "id": "prod100-006",
+    "question": "如果美债软违约，直接将票面利率降低减轻还款压力，这个概率有多大？如果发生对a股，港股，黄金和有色金属的价格有什么影响？",
+    "question_sha256": "c9e7c4d6b0f0fa462027e8516890a7bd0f62c19063d1efd378f6e3838175f477",
+    "topic": ""
+  },
+  {
+    "id": "prod100-007",
+    "question": "15:03:21【中国人民银行召开2026年下半年工作会议：继续实施好适度宽松的货币政策 及时谋划出台务实管用的增量政策】\n这个释放什么信号，市场会交易什么，利好哪些A股板块",
+    "question_sha256": "620ddcb61cf26e8030611808fe0765ac38b496e1992787408c5cd26aef780172",
+    "topic": ""
+  },
+  {
+    "id": "prod100-008",
+    "question": "请问纳斯达克100 和qqq 两个是不同的ETF吗？",
+    "question_sha256": "87117a05086d952ee0ef118fd8a976244731ab5a5658bc8f7d2fd1ff0f44b4be",
+    "topic": "概念辨析"
+  },
+  {
+    "id": "prod100-010",
+    "question": "说下你对行业的分析框架，可以举例的方向。比如你怎么看低温奶行业。",
+    "question_sha256": "857a67130e85c24aafc5ebc11444dd89efed19bb819c8f3f2dbde4ff5d930c1e",
+    "topic": "行业研究方法"
+  },
+  {
+    "id": "prod100-011",
+    "question": "国内白糖期货是否已到底部区间",
+    "question_sha256": "eacbaacb5953fbaff310bc848086931f4168c6f1e594db5150a6df395f92ad73",
+    "topic": ""
+  },
+  {
+    "id": "prod100-012",
+    "question": "Check out what’s the holding in the ETF GRID",
+    "question_sha256": "3c67b144d10940a5f331d4b3493f2a2d36115b371f0104dbbdc28aa281f7ff53",
+    "topic": "基金持仓数据"
+  },
+  {
+    "id": "prod100-013",
+    "question": "比较定投S&P500 和 VWRA",
+    "question_sha256": "12d1f49aed599e925ccd338acbd8fe651a5454f2e948a723585761cd129bc935",
+    "topic": ""
+  },
+  {
+    "id": "prod100-014",
+    "question": "历史上看,AMD给出的指引是偏保守还是偏乐观?",
+    "question_sha256": "bbd0bf64be0ccac48d5ab91b3d59f4f182d29f4067c540a99f074e6762cd18b4",
+    "topic": ""
+  },
+  {
+    "id": "prod100-015",
+    "question": "如何构建稳定的基金组合？还是直接买FOF？",
+    "question_sha256": "ce7bf92c5d12d05fee383b6bf5173e75deb733971437faffcb995fdbf0556118",
+    "topic": "基金组合方法"
+  },
+  {
+    "id": "prod100-016",
+    "question": "特转A账户是什么意思？请用大白话解释说明",
+    "question_sha256": "6bebefd9d3c28118ac376fd493ca2dff4eebac8dbdfba564cbbc25b3ddb25744",
+    "topic": ""
+  },
+  {
+    "id": "prod100-017",
+    "question": "美国干预日元汇率的钱哪里来的",
+    "question_sha256": "0423332c96571e6e4fb37932d3b516fdb9703181ec3fdfda6b1fcada961998de",
+    "topic": ""
+  },
+  {
+    "id": "prod100-018",
+    "question": "帮我整理国内外Ai公司以及主流产品及相关对比",
+    "question_sha256": "065b919853bb36f9eb725c3fef4d4946533ad51a3d2676ce3a7065af2ef0d12c",
+    "topic": "行业竞争格局"
+  },
+  {
+    "id": "prod100-019",
+    "question": "美国和日本共同去干预日元贬值，这个是怎么操作的？",
+    "question_sha256": "0cb204eb7dc971e323ee7d36420678d25074c8fe1e2cd4584164bb84b207beeb",
+    "topic": ""
+  },
+  {
+    "id": "prod100-020",
+    "question": "002202 a股能买吗",
+    "question_sha256": "ab7ae047c63afccda10e9dc123d202a61c65e42d7b721974412b533d1cfa09c0",
+    "topic": ""
+  },
+  {
+    "id": "prod100-021",
+    "question": "推荐可以买入的基金",
+    "question_sha256": "0a21ecc3638e6e2e3b76580689ffad921b92009bcfe2900263ffc274df30682a",
+    "topic": ""
+  },
+  {
+    "id": "prod100-022",
+    "question": "中电华大科技的前景分析以及潜在的风险点",
+    "question_sha256": "3ae96891eebb67b77bc44b3f8c8da633a9f5bed09650000ece825d61e611d33f",
+    "topic": ""
+  },
+  {
+    "id": "prod100-023",
+    "question": "帮我分析TTWO并给出一份研报",
+    "question_sha256": "22028636e8103c04bde3d5a1f70013bcdede90a550b13bfbe0089b37ebdfbc35",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod100-025",
+    "question": "巨化股份对比昊华科技分析",
+    "question_sha256": "4bedce4c5bc3163f219b356ece173bfc770263a325142e4b57106110db8d23b0",
+    "topic": "公司比较"
+  },
+  {
+    "id": "prod100-026",
+    "question": "分析一下688657浩辰软件",
+    "question_sha256": "876da4993b3440e7f72ef01ae7ac98f6991f2c0f23c2801b70c996cd6c7222d4",
+    "topic": ""
+  },
+  {
+    "id": "prod100-027",
+    "question": "韩国加息对全球经济有哪些影响",
+    "question_sha256": "773d3e977c7a11c3fc16471bd2c93e87f393462c65c70d26e575ae9baf9b36fc",
+    "topic": "宏观传导机制"
+  },
+  {
+    "id": "prod100-028",
+    "question": "作为技术炒股，如何处理黑天鹅事件",
+    "question_sha256": "eb5256949fd0ffe8be194b33b6ba42b56154d3552b1122cc79a3886b38e7f13e",
+    "topic": "投资风险管理"
+  },
+  {
+    "id": "prod100-029",
+    "question": "在A股投资中，如何使用macd指标的dif",
+    "question_sha256": "92ba0c6d33cf462270780f614f0cd17cc18efa7f5d219f5e8c1413b6045a6660",
+    "topic": "技术指标方法"
+  },
+  {
+    "id": "prod100-030",
+    "question": "在AI+生物医药领域有哪些公司做的很好，比如美股的Moderna，找出类似的公司，标的可以涵盖美股，A股和港股。",
+    "question_sha256": "47ce4febf4b4117bac3c8e243fdec2b7721328457df2b35921156a4d80e7b28d",
+    "topic": "行业公司筛选"
+  },
+  {
+    "id": "prod100-031",
+    "question": "About the draftkings, what is the advantages and disadvantages of its stock in next 3 months?",
+    "question_sha256": "9590017e368c8e618616ce42497a5ab85ff1a859ec5dc24045f1879c46e992af",
+    "topic": ""
+  },
+  {
+    "id": "prod100-032",
+    "question": "A股/H股轮胎公司有哪些",
+    "question_sha256": "6798a9eff78bf8ea14904f6b8d5763541c3188e197d1edcaaa3b845b21cbf0be",
+    "topic": "行业公司筛选"
+  },
+  {
+    "id": "prod100-034",
+    "question": "关于机器人供应链拆解，主要涉及到哪些公司",
+    "question_sha256": "2467566c7ff908486e59663ac7400c214100ec0f45234c3d27aa2ebcbb4a559c",
+    "topic": "产业链研究"
+  },
+  {
+    "id": "prod100-036",
+    "question": "海力士还能持有吗",
+    "question_sha256": "d596ec87599768673c90793776e01145e5f8b389adc985b245e7928f6396867c",
+    "topic": ""
+  },
+  {
+    "id": "prod100-037",
+    "question": "A股，20万元炒股，今年到目前为止盈利6.5%，算怎样的水平",
+    "question_sha256": "0ee2aa408d82b9083f0402ed64e2e6a074ae29882cc3ddf844451cbfeff0881b",
+    "topic": ""
+  },
+  {
+    "id": "prod100-038",
+    "question": "中国基金景顺长城沪港深精选股票，值得买吗，定投",
+    "question_sha256": "1266cd52dc52063bfb72f445710d9422d3db9ebd19be12459137a15c9a497689",
+    "topic": ""
+  },
+  {
+    "id": "prod100-039",
+    "question": "美股端侧ai有哪些公司",
+    "question_sha256": "fc7d0fc676c7eaec13f9b377c7d0e43a7409ed25550c0a263b7e932f8394955c",
+    "topic": "行业公司筛选"
+  },
+  {
+    "id": "prod100-041",
+    "question": "分析一下巨人网络和完美世界两家游戏公司",
+    "question_sha256": "62a7391aa068011bbcaef6a6f5676d7b36c2e3c66a5f99f59f96985b41227c6a",
+    "topic": "公司比较"
+  },
+  {
+    "id": "prod100-042",
+    "question": "大陆上市追踪全球AI infra 的ETF",
+    "question_sha256": "3fb86fafa42bf13d8dca9a4bd269da05a635a3a96fcc25fec30613117efac131",
+    "topic": ""
+  },
+  {
+    "id": "prod100-043",
+    "question": "日元升值如何传导到美股科技和BTC",
+    "question_sha256": "5b2a96e7f252f4fda2004306badd91707302fc0d10189e8877a8862df38ac81b",
+    "topic": "跨资产传导"
+  },
+  {
+    "id": "prod100-044",
+    "question": "海兰信可以买入吗？",
+    "question_sha256": "6415843a8cc3f160a85ac09636cc357923f94bc6761c59c41702da5ac9b59964",
+    "topic": ""
+  },
+  {
+    "id": "prod100-045",
+    "question": "如果看好铂和钯，a股有哪些标的，以及ETF",
+    "question_sha256": "73e6966abd38201b8705e0895c045473c83dc42be90b971acdea6d53eafb3974",
+    "topic": "投资工具检索"
+  },
+  {
+    "id": "prod100-046",
+    "question": "现在的标普 500 和纳斯达克 100还适合投资吗",
+    "question_sha256": "45bc574d4021f25c1c4417bdac01a710e7b4a19cacfdb999e4e624b7c1ce2ffb",
+    "topic": ""
+  },
+  {
+    "id": "prod100-047",
+    "question": "对紫金矿业做一个深入研究",
+    "question_sha256": "ee38e2f3cf55419b66d63f09fd9d545ffadf50b88a9cdc35f2de0060f12fc4f8",
+    "topic": ""
+  },
+  {
+    "id": "prod100-048",
+    "question": "我的持股偏科技，我想平衡对冲一下，有什么好的美股可以推荐",
+    "question_sha256": "7301058f7e5338c3ed3e1aae4ba6c2f43f50c0593c5ef206ffeb8141f50864dc",
+    "topic": ""
+  },
+  {
+    "id": "prod100-049",
+    "question": "2025年离岸央票有没有用来维稳汇率？有没有引起离岸利率提高？",
+    "question_sha256": "057e22dbe684c608329e2a8ba12cfcad814eb2d58d7fc2b1997435e559bead4e",
+    "topic": "历史政策核查"
+  },
+  {
+    "id": "prod100-050",
+    "question": "资金属性如何影响投资决策",
+    "question_sha256": "05cb27d4ca6ea926f356fc71c6942d41ef7b8da05555d15f527d2bb1f3f9cf0d",
+    "topic": "投资决策方法"
+  },
+  {
+    "id": "prod100-051",
+    "question": "给我介绍一下现在中国光刻胶行业现状。一个产业链上下游位置的代表性A 股港股公司。",
+    "question_sha256": "b9d38e357f0cfb520904109e246f01e12b65de2e53f336e9244f766cdac5ff3e",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod100-053",
+    "question": "看下A股翰博高新（股票代码：301321）的市场价值和未来潜力，进行投资分析和建议",
+    "question_sha256": "8f5ec471c2cd6bedbface959da5797518460761ed7c39e07fa69bb6f5eea19fb",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod100-054",
+    "question": "请分析一下算力出海的空间，国内A股有哪些标的，分析一下投资价值",
+    "question_sha256": "e7f4e675e9be12e6b41c78725f8f2a00bb9e5da1098b83f5e18bad2f359ab194",
+    "topic": "行业投资研究"
+  },
+  {
+    "id": "prod100-055",
+    "question": "请分析纳斯达克生物科技指数",
+    "question_sha256": "309dd9f12118062715b83e2853ae00717de8224624765f2696bbe244b7075e87",
+    "topic": "指数研究"
+  },
+  {
+    "id": "prod100-056",
+    "question": "标普500公司的历年市盈率多少",
+    "question_sha256": "46da5c903a0f6c71f2ebfe95cc7137bdaeffdf16f369c36e789bcd789008fc95",
+    "topic": ""
+  },
+  {
+    "id": "prod100-057",
+    "question": "理工光科走势",
+    "question_sha256": "ffe12753827906a40cc1f96b4a99b040629936c5b8652983dfa7e838ef55e3e2",
+    "topic": ""
+  },
+  {
+    "id": "prod100-058",
+    "question": "帮忙分析一下恩捷股份前景",
+    "question_sha256": "10b3176706d4ccb204ebc5222d66698b3b404da97f9378f71a82bf30a6aabc42",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod100-059",
+    "question": "从价值投资的角度分析，东方财富目前价位是否可以长期持有，不介意短期波动",
+    "question_sha256": "cf0e32d5b15ce818b7a8d8e4fb9c048cfd6a61e238c76782024c499113058bb0",
+    "topic": ""
+  },
+  {
+    "id": "prod100-060",
+    "question": "试着分析一下A股中国稀土的基本面",
+    "question_sha256": "adfe4cab3f1d1d06dc2576353cb0a22cb6fc8e27f0e819c070ec4bdbd5837e93",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod100-062",
+    "question": "请分析一下麦格米特的投资价值",
+    "question_sha256": "d1bfc38f7d115019a25273f81ba3458b7d63ee9b1bc1e7d6db58102ae51b5e95",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod100-063",
+    "question": "美光现在还能不能买?",
+    "question_sha256": "2faa60f6a1c8a41f1138f6f1075c794dc93e8d5a5d82e50c97b1d39499299c73",
+    "topic": ""
+  },
+  {
+    "id": "prod100-064",
+    "question": "60日均线，SMA和EMA哪个更有价值",
+    "question_sha256": "ebf37a20b4bf1154ba541aa913e6c97e6e8edeec0eebaf17413de2e9af35ee83",
+    "topic": ""
+  },
+  {
+    "id": "prod100-065",
+    "question": "分析康宁Corning",
+    "question_sha256": "89c422a63aed67021c7a62d85299537ff3e5e461bbb5372fd6c0e5429efee3c6",
+    "topic": ""
+  },
+  {
+    "id": "prod100-066",
+    "question": "分析新能源方向的投资机会",
+    "question_sha256": "df5b55739cf76080e03c2a6fd3da3e75315e5314086f48bc7e78049e13a3b733",
+    "topic": "行业投资研究"
+  },
+  {
+    "id": "prod100-068",
+    "question": "A股半导体设备的股票中，有没有比较好的公司",
+    "question_sha256": "218885d232218c5b3376b9d2c65e7ddad324c2168663e427e5696b7ed4c0b12f",
+    "topic": "行业公司筛选"
+  },
+  {
+    "id": "prod100-069",
+    "question": "先声药业（HK.02096）买入价位与交易策略",
+    "question_sha256": "df24b7065926f5ffef662235ee8ce369145cfd52dabfad3edcab59d661b855ca",
+    "topic": ""
+  },
+  {
+    "id": "prod100-070",
+    "question": "拆解同花顺的业绩，结合板块情况以及资金面，情绪面等，分析短期及中期股价走势",
+    "question_sha256": "f6b2021cf78a7f0d027708d62e97692d837502158a0aea9a2fdb9594dd9fb368",
+    "topic": ""
+  },
+  {
+    "id": "prod100-072",
+    "question": "综合各维度比较一下胜宏科技和沪电股份，给出投资建议",
+    "question_sha256": "cfd7478611c0a50258a72544b742f3f6e428c4a8b91132ac53a69226b460d8e0",
+    "topic": "公司比较"
+  },
+  {
+    "id": "prod100-073",
+    "question": "分析一下 美股 磷化铟板块 的交易逻辑",
+    "question_sha256": "1081782bf3db685b581f5066dc7614de0451ca9da561edb10e1872a7b8c58ccf",
+    "topic": "行业投资研究"
+  },
+  {
+    "id": "prod100-074",
+    "question": "如果美国长端利率上行，甚至加息，该如何配置资产",
+    "question_sha256": "87c5470d373ba3b459d5da81e81eeb3f06eb38b47e58fdc8b5bb15b2b8b04d87",
+    "topic": "宏观情景配置"
+  },
+  {
+    "id": "prod100-075",
+    "question": "A股的电网设备和创新药，分析一下投资机会",
+    "question_sha256": "61c625c35e8765777464ea02c9fee8fc57e4bf6b858a1002234736bc895c0133",
+    "topic": "行业比较研究"
+  },
+  {
+    "id": "prod100-078",
+    "question": "any recent insider trading that is worth focused on?",
+    "question_sha256": "7d9a5c76f140aee089c257956295e269d7fc3f2aa749ced7426be190b9d14b69",
+    "topic": ""
+  },
+  {
+    "id": "prod100-079",
+    "question": "帮我分析我的基金持仓组合，做个体检，25%SPY，25%GLD，25%TLT，25%SHY",
+    "question_sha256": "92e1d290515c85c0735fb133e97b54c27198998891fe456c26360da281f4cb99",
+    "topic": "组合风险分析"
+  },
+  {
+    "id": "prod100-080",
+    "question": "A股便宜的ai应用公司有哪些",
+    "question_sha256": "c830d6954d53280ddf0070c3db9ede0f53bb0f7073dff8179db04e04f168efa2",
+    "topic": ""
+  },
+  {
+    "id": "prod100-081",
+    "question": "分析下A股中的军工板块",
+    "question_sha256": "e3c67b154c020e77f95f99f59d9705c529733d40a76cb1768d5b0720dfa70182",
+    "topic": "行业投资研究"
+  },
+  {
+    "id": "prod100-083",
+    "question": "美联储加息预期下，作为A股投资者可以采取怎样的投资策略",
+    "question_sha256": "358e9c37096c17c799a61f2da91c61fdc21d20d7ff40d3a2254224b910ecd38f",
+    "topic": ""
+  },
+  {
+    "id": "prod100-084",
+    "question": "接下来两年时间维度，黄金价格如何走，有具体点位吗？",
+    "question_sha256": "72c7156680b49ae14599c0726dac5d53a37cae8dfba6a47db07675396c98fcaf",
+    "topic": ""
+  },
+  {
+    "id": "prod100-085",
+    "question": "现在持有中际旭创和生益科技，基本累计亏损了7%，后续要怎么操作胜率比较高",
+    "question_sha256": "49f1b38450a7cacc572913ce68c8dd544005a1c331ab5accf08e2a83d1422651",
+    "topic": ""
+  },
+  {
+    "id": "prod100-088",
+    "question": "美国财政部连续干预，究竟能不能实质性压低美债长端利率？",
+    "question_sha256": "3be2b49b411e8eaac421205b72560ca142cf5ed7ab344720366bbb4fe937a9eb",
+    "topic": ""
+  },
+  {
+    "id": "prod100-090",
+    "question": "澳洲证券市场有哪些投资机会",
+    "question_sha256": "a05608e47f6bbb298e1e9bd30e9dd059c7f5802773a7bdc5e3c89594c18e0cc8",
+    "topic": "区域市场研究"
+  },
+  {
+    "id": "prod100-091",
+    "question": "泉峰汽车基本面分析",
+    "question_sha256": "def87e957e118262cf2e36f54e23c815f771593d11473892e8a96bf03ab4a016",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod100-092",
+    "question": "关于A股软件股，有哪些好的etf推荐",
+    "question_sha256": "593309dfa5c8f7918252871257984d8a155b1ceebc90ca55d5963f589946e32c",
+    "topic": "基金检索比较"
+  },
+  {
+    "id": "prod100-093",
+    "question": "预期美国是否加息是看2年国债收益率还是10年国债收益率 20年？",
+    "question_sha256": "6e1814f27ccab04fb09a81b7845f795603ec310ca7a4afef626863a7999a5633",
+    "topic": "宏观指标辨析"
+  },
+  {
+    "id": "prod100-094",
+    "question": "美国的左派和右派上台对经济的影响分别是什么",
+    "question_sha256": "721957660205d859179581ea1b4e7858e8f3f6a845c51e33516000f29fcb9835",
+    "topic": "政治经济机制"
+  },
+  {
+    "id": "prod100-095",
+    "question": "万里石和中国铀业有什关系",
+    "question_sha256": "b04314bb21b3acb26a8323ff9c2cdff930a6619816850647893ba519ea0021b0",
+    "topic": ""
+  },
+  {
+    "id": "prod100-097",
+    "question": "钠电池产业链A股相关上市公司",
+    "question_sha256": "2ac93b557660c902e3cbafae896a8120a4e62961dbc9d0ffe62cae384c1270ac",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod100-098",
+    "question": "假如美元信用体系发生尾部风险，美债会有什么影响。什么东西能对冲美债，黄金可以吗。",
+    "question_sha256": "7aa087199392cfb467d38898a66335c48006100a8ae2a32f10ad26c7fbcd12be",
+    "topic": "宏观尾部风险"
+  },
+  {
+    "id": "prod100-100",
+    "question": "从人类学，社会学角度分析，比特币是未来全球通用货币吗？",
+    "question_sha256": "20d0e5e42fd6950f6e0fd5e372acd6f782b3001570b7dc70644d051644b0ed93",
+    "topic": "货币机制论证"
+  },
+  {
+    "id": "prod386-087",
+    "question": "做一个详细的沪深300ETF、科创50ETF、纳指ETF、标普ETF定投比选分析，可组合配置。其中纳指和标普ETF溢价高有风险吗，有何应对措施",
+    "question_sha256": "7907e8d5d560152b48643caab8b6c69601f3de8bbc5768b85989a163e363e989",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-088",
+    "question": "股权风险溢价（ERP）已经转负是什么意思 erp有什么指示作用，计算公式是什么",
+    "question_sha256": "f37173154a90cff4916c0f9b48f0210facfc03ddc81ef7ad7b1e5b8a9c080be8",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-089",
+    "question": "A股AI应用相关的ETF是不是主要还在软件板块，但是很多A股的软件股成色其实很差，会不会投资ETF是个不好的选择呢？",
+    "question_sha256": "04442b4cb3d72a20f72283a302ee9484e56fd9cf1693f1c0b4f1e89fdfb58a0f",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-090",
+    "question": "境外机构持有银行间债券，说明什么？",
+    "question_sha256": "46778f810af140060928c2cb923070099d967f547b73a057f8386748c56286dc",
+    "topic": "跨境资本机制"
+  },
+  {
+    "id": "prod386-091",
+    "question": "十年期和三十年期美债收益率对纳斯达克科技加权指数影响",
+    "question_sha256": "3ca444983c6ad783c51097e0af22110e5460bebca9b9b9f5d17aa08f9d347c05",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-092",
+    "question": "古井贡B，陕西煤业最新股息率",
+    "question_sha256": "b02755dbcbb945220b3c12eedd93f7748a52fe65d81cb650126ebcb242dcb42e",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-093",
+    "question": "想找一只比较好的国内做多资产配置的基金，帮我确认一下南方全球精选和招商普盛全球配置，是不是少有的QDII+FOF基金",
+    "question_sha256": "16c421b2012ef9c3aac28d4ff2f42a5f0eb91af6af7494ae70b8cd9f5eeb79e1",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-094",
+    "question": "分析一下印度和印尼两国货币的周围的基本面和前瞻状况。",
+    "question_sha256": "a35b447fbe254d37fed8e559afde7dd9690553a74c9a109d5bfdbe3e833f8d6a",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-095",
+    "question": "目前整体的TOKEN成本还是挺高的，对此你怎么看，这会如何影响AI产业链中的利润分配。",
+    "question_sha256": "e4a5e155402cd1736be5c55772e5d7dab4079bc1f1e111afad6c8f1125acf9a8",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-096",
+    "question": "搜索台湾的整个进口和出口额，每个月的贸易顺差，从 2020 年到现在。分析趋势变化以及是什么变量造成的。而这样的贸易顺差，多大程度上反映在汇率变化上？",
+    "question_sha256": "0598588227b6f480f6084487f65c74549fff308f28a5d54359a998565afcc539",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-097",
+    "question": "请帮我分析一下英伟达这家公司到底是做什么的？它的核心业务是什么？",
+    "question_sha256": "8184120475c937f461ab0c8d4d13f6c117b6d6ecfb228269f2f4435686361596",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-098",
+    "question": "2026/7/31中美10年国债收益率分别是多少？",
+    "question_sha256": "8e96196a0d1e4400fe03123d7c71775daebcfbb79272a37add2947245f6c0f1a",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-099",
+    "question": "目前美国2年国债是否已经充分定价加息预期，是否具有投资价值",
+    "question_sha256": "bcadf6b21cc204cd943121d1e6c50659f7adf8c5c38c1888060a28bce851851a",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-100",
+    "question": "美股历史上的去杠杆，除了1999年之外，还有哪些比较著名的？曾经有过哪一次，是板块基本面还很强劲、前瞻市盈率还是个位数的时候，就开始暴跌并一蹶不振的？",
+    "question_sha256": "2603418389ca742e876a53f87de91316f775a278261068666ccaa2872f9a58c7",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-101",
+    "question": "横向对比Bitdeer，Vistra、Talen Energy、Constellation Energy财务数据和股票估值",
+    "question_sha256": "9eb6ff00309e271aaa665a933444dcc3af90dfc58d864c29fa5c99df4f9e9bb8",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-102",
+    "question": "请对PLTR进行分析，如果是期权的话，你会如何购买",
+    "question_sha256": "f7407b65bc8f2014b782210ab0ce116342190274a53bbea0c33f1ca18ed95221",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-103",
+    "question": "我想了解下now这只美股",
+    "question_sha256": "c4464bc57a8ded948fe6019351392860a3012e234096c77c7b111b2c0bbb59ec",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-104",
+    "question": "有哪些适合个人散户持有的美股ETF",
+    "question_sha256": "63dfb7fec2fd0deb2cad3edb1b910329c8537342ccfc56ee94e85ddeef4b84d2",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-105",
+    "question": "港股金山云、美图全面剖析",
+    "question_sha256": "d076a9ca053fcb50007c2abdf3bcb6e2db8af8f7679938fb10d93587f5a314a3",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-106",
+    "question": "如果国内买黄金，可以买什么金融产品",
+    "question_sha256": "139396489c5ffc768a7b8a9062c4e6cdc6edda9984513a6745b404f53527cf8a",
+    "topic": "投资工具检索"
+  },
+  {
+    "id": "prod386-107",
+    "question": "美国有类似于瑞芯微这样业务的上市公司嘛",
+    "question_sha256": "fce1b36aca46ffa6b2bbfb7c18f9fbc53e249988be8953856e34f7a83d76a035",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-108",
+    "question": "美债etf美股上市的品种有哪些，主流品种",
+    "question_sha256": "d600bab226a959db8767ba1b778fff8204fdfa05b8d473d3d8d98aa35955b021",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-109",
+    "question": "美国三十年期国债收益率和十年期国债收益率对什么观察有影响？",
+    "question_sha256": "87efd441eccdd83a4680160680a456d014780968771504178418864a56930410",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-110",
+    "question": "中微公司和北方华创相比",
+    "question_sha256": "59df428ce9e715048e995c289b6ac14b38dc284d3e85f236171cbaeba61ec585",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-111",
+    "question": "游戏etf（159869）的安全边际和成长空间怎么样？",
+    "question_sha256": "58ce44ea3b5542a16f3e9780a458617af454211a81ce03de4ff8a35bd7bda746",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-112",
+    "question": "解读一下亚马逊等算力中心的 26 年二季度财报，特别是算力业务到底能不能赚钱，还有就是是不是投资有可持续性",
+    "question_sha256": "949bd8ccfb66079000537252a9c30dbcd86665068c1b3b29c4bb31213389b18c",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-113",
+    "question": "美债长端收益率上升的终点是多少，有什么限制因素",
+    "question_sha256": "16459e40f0bfc4bedd0c08a45bec5019adfa59bd7abb7ed4c12c43347e3a597e",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-114",
+    "question": "买入特斯拉leaps call可以代替买入两倍的etf比如tsll吗？",
+    "question_sha256": "4852350abace879c21ef18fbad5950d6f181da95f580e04fdd229badaa9d567a",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-115",
+    "question": "深入分析一下AI应用软件行业当中的公司有哪些是真正有效利用AI进行降本增效的？具体论据和逻辑是什么",
+    "question_sha256": "682e2e3b6d0fe0956ccad881c91254a04bdf907eadd76e077ee13844dd4c29b4",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-116",
+    "question": "请对天赐材料股票进行综合分析，并通过交易策略",
+    "question_sha256": "984840cef5e9c50799767afb9c5e4b6e6271c6075a4c03f3633c6365d810a540",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-117",
+    "question": "有个说法是Ai竞争最后是电力竞争，具体指哪些电力环节？目前而言有哪些可投资的股票",
+    "question_sha256": "18c3bf42128deaaa3f8bdca8765f11e893954c190376852a744bee0a1cf9fa63",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-118",
+    "question": "美国和日本30年期国债流动性分析",
+    "question_sha256": "b06d069209a54a9c55fb6bcf721a592bb6b683285cc3781c825d02886009f590",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-119",
+    "question": "请深度研究一下美股RDDT,并评估一下未来一年的业绩情况",
+    "question_sha256": "6f8c5afe97925f5f537b43796ea90928546cc4a2e01328630d297eea31598455",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-120",
+    "question": "A股市场科技类股票股价等于或者小于250日年线的股票，梳理一下",
+    "question_sha256": "2c71704d9930ae5633199256889f8e51a221459a92b2bf75a110b1eb90e85749",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-121",
+    "question": "股票资产特别是高成长股票资产定价的锚是名义利率还是实际利率",
+    "question_sha256": "8d3aea8fb809afb4a0db178d003589af7272a58468c4126d95f75c495661d190",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-122",
+    "question": "DR001,DR007,7天逆回购利率和LPR一起看的意义是什么",
+    "question_sha256": "f808cc1752383e7ef310e830a303a5edc910e051ca300834137e2d42f6ceb957",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-123",
+    "question": "刚果（金）禁止铜精矿、钴精矿出口的背后逻辑，以及该事件的启示；中国矿企在刚果（金）的布局情况；该事件对国际铜价和A股铜企业表现的穿透影响；",
+    "question_sha256": "9900efce8e2904873ed72ca2434e75cce9846a26059ba27f24ebd7a66cf809d9",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-124",
+    "question": "有没有可以每天大额购买的投资美国指数的场外基金",
+    "question_sha256": "9c92e678993e4628e459d681432914c8f0bd53016f86594121ccd29d37bf2bbe",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-125",
+    "question": "那我如果手里有200万，10年8年不用，投资什么指数或者基金为好，我期望的平均年化收益率维持在10％左右到能达到12％更好",
+    "question_sha256": "d28ca54f2c971ad5e443fb46ae770c084ea5b6f92cfa343b28408014b77b8f54",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-126",
+    "question": "帮我分析长川科技和亨通光电的基本面",
+    "question_sha256": "06ce2c2a04436d1cfe89038e6530c0dc7ef550022d1da89c99c510354facf278",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-127",
+    "question": "我是一个趋势股小白 请你教我如何选股 要求简单易懂",
+    "question_sha256": "39b79208b8be17ca3920b696dc5a400ced7659df87bfe7968cb4bc2c69b4f34a",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-128",
+    "question": "生益科技怎么看？是纯正储存芯片嘛",
+    "question_sha256": "78148e42e371410075cff82d72f8f7afc8c144748e4cf8de438b0a44554afdae",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-129",
+    "question": "AIPCB板产业链以及涉及的相关上市公司和行业地位、竞争优势",
+    "question_sha256": "4d7c87211b17de938d8b7afe75899495d3ebae3dd711fd102c2004c1e7ce2e3b",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-130",
+    "question": "理想近 3 年现金流情况以及现金流损失大头在哪里",
+    "question_sha256": "ae75892f6e7acc7d079c4fa823e9a9c27a206f860a7a996355eaa8645fdfbf04",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-131",
+    "question": "结合资金面、技术面、消息面、基本面，选择胜宏科技还是麦格米特",
+    "question_sha256": "ca179e8645f6abf5b29fe3f79f77fa744a4fdd48614ad0aa459473ed2edd1975",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-132",
+    "question": "2015年股灾为什么会发生，当时的杠杆结构是怎样的",
+    "question_sha256": "70636c47641657c840c6a0fe59d537bd2cb3106407daece854c2904186375eac",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-133",
+    "question": "帮我拆解一下新雷能的 投资价值",
+    "question_sha256": "3553402dc5569befb8c2d90db29f0730838a85500256d6a070caf53fc9a527f9",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-134",
+    "question": "托管行业在发生哪些关键趋势？托管较强的美国领先银行例如state street，纽约梅隆银行，他们的托管业务如何赋能其主业增长？AI对于托管业务意味着什么？",
+    "question_sha256": "6ca98790985fddbff81f73815f69e4898cf0950c7cc8fef4278a83dbdf6ba1e3",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-135",
+    "question": "你帮我分析一下美国的光模块 光通信公司吧 他们的财报和csp的绑定关系",
+    "question_sha256": "79c97b71460bb420665bb561488899d98460737e90706cbf773e7030e7fe54e4",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-136",
+    "question": "我是一个小白，连户都没有开，现在想入手应该怎么开始学习，怎么选股?",
+    "question_sha256": "2ed7f4e05d5017877a15b664eff42758279653c856cce8e17c307931888dd642",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-137",
+    "question": "Based on the most recent stock price,  fundamentals, and industrial trend, present detailed analysis between Micron / Samsung / SK Hynix for short / mid / long term attractiveness.",
+    "question_sha256": "f077e087380de89e543fbb5ca1052fa9e99768ef3d7b1f40dd3bd2ad92242a9c",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-138",
+    "question": "黄金涨价对美元的影响",
+    "question_sha256": "955ecae4b691806f65e9a0669d1498fb76aec77c88abd150cfdcae770724d2c0",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-139",
+    "question": "CXO主题的主动基金有哪些",
+    "question_sha256": "432e948c7d1b8a7500761345687970bf56e46b8d92d5e1b1277d1c635a816c5b",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-140",
+    "question": "日本经济近年发展如何，日经225ETF是够可以像买纳指ETF一样持有",
+    "question_sha256": "a52041f2aab35be112ced02436b34b980e4da7516a1b55b216d0020a2f04879e",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-141",
+    "question": "单价如下，计算Q2 混合起来单车净利润 ，国内传统42.69万辆 海外47.11万辆 国内二代21万辆\n国内传统500 元\t海外7,164元\t         国内二代 7000\n国内传统1,000 元\t海外16,565元\t  国内二代 7000\n国内传统2,000 元\t海外15,368元\t   国内二代 7000\n国内传统3,000 元\t海外14,171元\t      国内二代 7000\n国内传统5,563 元\t海外11,126元\t国内二代 7000",
+    "question_sha256": "2e45cde9abf936bb87d398a94ec7f26c6423575e6bfbbe8c7402c9850a47d2f9",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-142",
+    "question": "介绍一下上纬新材这家公司，主营业务及核心竞争力。",
+    "question_sha256": "ecf81f3c6c0c2a6904f70b9c869af8612ffeca815bf4d1f248db14c3bd849ce1",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-143",
+    "question": "sell put 期权交易到期了，怎么行权，以什么价格行权",
+    "question_sha256": "db80bf90f3321d83d95a2d45eb26ff93f359e383a90ffe856049eeedbf26f2f0",
+    "topic": "期权机制辨析"
+  },
+  {
+    "id": "prod386-144",
+    "question": "美股市场上的ALLW和标普500的夏普比率哪个更高？最大回撤修复天数对比呢？",
+    "question_sha256": "56325664a98a30fb812daaf1a6562ff312bddba8d5579ba13dfff254e6196c90",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-145",
+    "question": "查询并罗列A股中流通股少于总股本10%的公司",
+    "question_sha256": "e8852d3d1d5a0b178db32d6b30d7b88d9b41ed210d2c3523dfd9320db02da440",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-146",
+    "question": "帮我深度剖析一下东宏股份",
+    "question_sha256": "fcc38facf2ea3a3f1fd000723be279447396a439e902bac55d506552d6e6f7f5",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-147",
+    "question": "看看美股哪些公司满足下面的条件，市值大于 100 亿美金，股价>50ma>150ma>200ma，且这三个均线均向上",
+    "question_sha256": "f940bfa95aea0aac53ffcaa40598d5c166f375e5ebe21ad37dcd43a2ab880f80",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-148",
+    "question": "40盎司黄金对应多少美元，按照目前的价格",
+    "question_sha256": "0bcc23d792e40a14be9403aa7f4a9a6533221cda272e00568eb46c7af160ecfa",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-149",
+    "question": "银华日利相对其他货币基金有什么优势",
+    "question_sha256": "49daae56c1b39f67178e53c494a17b2a9ec478676f9c9ca95d9d14db7c4f734e",
+    "topic": "基金机制比较"
+  },
+  {
+    "id": "prod386-150",
+    "question": "以药明康德目前的股价，结合行业基本面以及市场情绪，值得买入吗？如果买入后可以持有多久",
+    "question_sha256": "263d4de7b887213801a7bcdbf9a019a328da27258506654ef4d8e02ee4628b69",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-151",
+    "question": "A股有哪些可以做T+0类型的标的",
+    "question_sha256": "3061ccc0aa82be68602453372b6edf38cfce3e697a1c2192ff2a60d5347cb327",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-152",
+    "question": "GEV作为电力基建的重要角色，已经确定了很多未完成订单，能否结合财报，预测它未来两年的收入和利润？",
+    "question_sha256": "64adcb53f1493dea51d9209d6b472e2303559bcc5e9e56f22a6ff147b30bb244",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-153",
+    "question": "跟踪中证1000指数的ETF，和公募基金比较和推荐",
+    "question_sha256": "c81a6cd567c69d9514177d67d9fcbcf1212cf190d1d48a28338cb3054b5e0f1d",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-154",
+    "question": "美国国债持续增长，它的债务能不违约的原因？",
+    "question_sha256": "4f169d98367f002b58381fbba39acb9e5c08b0fe90baae9f8d77d4fdb2021774",
+    "topic": "宏观信用机制"
+  },
+  {
+    "id": "prod386-155",
+    "question": "动力煤中国龙头上市公司",
+    "question_sha256": "931843511ebc368902fb941add2e4a28175c1bf8a87079c73058d05fad6eae01",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-156",
+    "question": "有什么长江存储相关标的？请按照产业链上下游及受益程度分析并排序",
+    "question_sha256": "1f6becf64eac15fd83074f06c8b4bdd2667b4341b61f14f8907f16aa21cb3026",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-157",
+    "question": "大储、户储是什么？铜箔是指覆铜板上用的铜箔吗？它在新能源产业中用于哪里？",
+    "question_sha256": "f14242e10c16781e6099afdaf5b3da6f743689ca6ded5555c4d24e40060cf06d",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-158",
+    "question": "新能源投资方向上目前最大的希望、风险分别是什么？最大的预期差可能出在哪里？",
+    "question_sha256": "2f81bf5abdc65a6b85522ad597800b643e598308d42189f7c24fe4efd4e189df",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-159",
+    "question": "基金 012417 和 011041 对比 哪个更合适",
+    "question_sha256": "0a4426ec73fe12beaba9404faae61164defe36ea12acacf4e916ed19b54b45fc",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-160",
+    "question": "分析工业富联最新财报",
+    "question_sha256": "d254a91650ed7229f3dfa4e4cd57baf60ebbb728a21ced5a2737edfd0c9ed46a",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-161",
+    "question": "美股半导体设备同类公司",
+    "question_sha256": "e03ce26019334f67e067f818c14aa5bc7069fde147e627549137f33192167928",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-162",
+    "question": "目前A股和AI生物医药相关的股票有哪些？哪些是真科技？哪些是概念炒作？",
+    "question_sha256": "202b8e95ac7e7af74ee964d89e263d5cb90bd91bfd8a8f1242ee92f40e2b1bfd",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-163",
+    "question": "为什么现在很奇怪黄金和原油一起上涨，按照我的理解两者的投资逻辑应该是不同的一个代表降息和加息",
+    "question_sha256": "4ca9cc1a003978d51f011e917f779b50d64cb150d62a9056bc7e8a87288f6d71",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-164",
+    "question": "深入分析微软最新财报，用独特的视角深挖影响其估值的特色数据或关键kpi指标或数据",
+    "question_sha256": "c2e22325023004f9c999216d2a5ee51f713678576d69a0da37372f379fff608b",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-165",
+    "question": "推荐什么书，交易期货的，入门科普，和手法策略的，尤其是适合想做交易的",
+    "question_sha256": "4df86d0b283dbb52a585b77912804eab69bb25e37e85a453b334d28ebef2bca0",
+    "topic": "投资学习资料"
+  },
+  {
+    "id": "prod386-166",
+    "question": "美股的折现利率使用的是什么利率？",
+    "question_sha256": "7ba7bad3cdfe256cce984ab6fff400abb93ee820d5375967bd3836893d454744",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-167",
+    "question": "A股最纯正的HBM相关个股有哪些，有何产业逻辑",
+    "question_sha256": "6d94e671e26b11b082a960479a18abb2d5b1480dd1abf630f2ca610e1ecc1e22",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-168",
+    "question": "B股市值，ETF市值，能作为打新持仓吗",
+    "question_sha256": "98d1b4733a3ebb2f1cbe559cbf5ad731e9f7df48fca8e647389e3f584cb4eaa1",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-169",
+    "question": "港股01888建滔积层板·基本面分析，主要营收情况，近三年财报分析.当前估值分析.当前股价分析.未来两年的风险因素和机会因素",
+    "question_sha256": "0faa3baad88294dafb5e28d990c9a6fd111e8d0777a7ae29f0b013e30a53ae3a",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-170",
+    "question": "易方达黄金ETF联接C\n002963，是什么类型的黄金，其价格涨幅追踪是依据什么",
+    "question_sha256": "a4db7a2af9b9b3d405df2c312957d505b65bb46eb97dfd135f93b2dcdf9198fc",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-171",
+    "question": "如何确认某只股票的机构持仓是否拥挤？拥挤的概念是什么，不利点在于？",
+    "question_sha256": "27e15b018fb74d278dc8a13cf0c5ae923445c1da1a7bd32548ab0da64feaefc1",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-172",
+    "question": "我想投资算力租赁相关的股票，请帮我制作A股算力租赁的产业链可视图，以及分析算力租赁投资的逻辑和关注点，影响整个产业发展的制约因素，并给出不看好算力租赁的理由，如果投资算力租赁，哪些公司最值得投资，原因是什么",
+    "question_sha256": "804882c45baf82e3fa411698cfc25f6f287be036dff83879889dc8449ab440af",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-173",
+    "question": "腾讯财报和电话会中关于workbuddy和codebuddy如何为客户创造价值或为现有应用赋能的？有数据支撑吗？",
+    "question_sha256": "f665083716d70d19ccee5db98cdcbad7c92ee1b0982301e82938acf7a2ed0f9c",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-174",
+    "question": "Build a falsifiable investment thesis framework for Apple ($AAPL).\n\nSeparate the core thesis from supporting evidence, key assumptions, risks, and signals to monitor.\n\nShow what would strengthen, weaken, or invalidate the thesis.\n\nDo not provide a buy, sell, or hold recommendation or a price target.",
+    "question_sha256": "d6b854ddbd840c6d2957382675bf7a5c98d908006dbd12be311bf0dde40b5400",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-175",
+    "question": "总结复盘2026年8月13日国债期货T2609的交易情况以及央行的公开市场操作情况",
+    "question_sha256": "f8419bab6fa531542093e218ebb2813aa79777562a68837b7ec5e49e58b7227c",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-176",
+    "question": "目前黄金的价格是多少",
+    "question_sha256": "9b08c1d41d04cf9fd2f78362f36b4bd6efbe2bdd63eead56911eb6a74578f367",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-177",
+    "question": "如果科创50的集中度比较高的话，买科创100ETF是不是会更好一点?",
+    "question_sha256": "64f873afa0a639097f6bbdb63ede35774f9a2e4127c803b0663aeaa6154c0d0e",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-178",
+    "question": "标普美国品质消费的成分股是哪些？比重多少",
+    "question_sha256": "0206d309bae1cd81cc902ab313b4348e083111a32e812d768fe00fa79b3614cb",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-179",
+    "question": "如果我想买微盘策略，哪个基金更可能一直坚持，怕经理风格飘逸，华泰柏瑞量化阿尔法怎么样？中邮新锐量化选股混合怎么样？",
+    "question_sha256": "c31b8889f2a66248de7db697fb9eb9d83b8c5173052624bbb6e7d08d75e94459",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-180",
+    "question": "如何开股票账户，避免高收费率",
+    "question_sha256": "4e41d2a4240929ba7f1f21910ecb100cc5341a81c3cbd8434e4fba87f627d183",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-182",
+    "question": "为什么宽货币传不到宽信用",
+    "question_sha256": "e856f7006e2f7c3dcc4ea39be0473a9c27dab3689e5197ac88610810e3875bd5",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-183",
+    "question": "场内ETF购买需要什么门槛",
+    "question_sha256": "389ae1d4aa49523b8bb58f375eb9914a7598c5d8df6f91c64ad2495611d766b6",
+    "topic": "投资工具机制"
+  },
+  {
+    "id": "prod386-184",
+    "question": "现在中国的航空公司股价的波动与油价涨跌的关联性紧密吗？",
+    "question_sha256": "d711454cecc3fe19b11aa489a25fca9a36bada9f44fb042599c5bf5cdd821161",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-185",
+    "question": "中国电力行业未来发展前景如何？值得配置吗？",
+    "question_sha256": "1ae9b748d8b2e905a266b71b4d1190fd9ccd713762ea6011c88fa4e15dc8db28",
+    "topic": "行业投资研究"
+  },
+  {
+    "id": "prod386-186",
+    "question": "迈威尔科技公司大客户分析。销售收入分析，扣非净利润分析",
+    "question_sha256": "174e293a673a2c3c3ed743435041bfc6f07c092295d5ef862fc472f3e6ab0f65",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-187",
+    "question": "介绍一下美股crwv",
+    "question_sha256": "a1c423b2ec4c38612028b31856094f2da23d31334c19cefdccbbf1a9f9d89931",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-188",
+    "question": "零售数据下降，美国和中国面临一样的问题，AI一头热，股市资金小部分人群收益，但是大量的非AI行业不景气，大家从少消费到不消费，最后一定会传导到AI企业的，这也是AI泡沫的一个支撑点吧",
+    "question_sha256": "573cd01119da51c58dc80c9b6a7be7643b2677b8ed32032f455e59f99b978c46",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-189",
+    "question": "有研新材的主要业务是什么？股价目前多少？未来趋势如何？",
+    "question_sha256": "c6be4d2d04d4f27a7830e675d8e4d15ef92ccc3807b8d5870b19ce5ae05c1e16",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-190",
+    "question": "请梳理美以伊冲突自2026年2月以来的时间线，并且分析重要事件对于国际原油和国际天然气市场的影响，重点分析期货市场。",
+    "question_sha256": "93fd0777721aadf825f76ae5eba2dfcaf6df4790290af45a90b6dcb49effb6b6",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-191",
+    "question": "基金净值和基金收益有什么区别，举例说明",
+    "question_sha256": "5d3f191c9203fe4b46735103a3377da76b2b3ef03174bf4b84975977f134266a",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-192",
+    "question": "A股上市公司中开展算电协同业务的公司有哪几家？各自的竞争优势如何？",
+    "question_sha256": "839e67534d4e4eac14f44208eb3c0f7065063251bb97e89f4ff3bc7fcba2ecab",
+    "topic": "行业公司筛选"
+  },
+  {
+    "id": "prod386-193",
+    "question": "兆易创新的主营业务是什么？目前股价是否合理？未来趋势如何？",
+    "question_sha256": "f38f1ff91995df29bc500b49828495d25f83801e10ab935a0b7519a3b31cc163",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-194",
+    "question": "bitq etf投资的是什么",
+    "question_sha256": "e5e1f6729b9e2eac0e1ddd18ec8c2336eeb23acbef57966616179f5c76297a4c",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-196",
+    "question": "深度研究个股盛屯矿业，包含技术面",
+    "question_sha256": "2a838169d6a4592caa1927119b78f3fb70bea31f4abceb2805ed9920d9a5cbb2",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-197",
+    "question": "科创板的磁谷科技，股票代码688448怎么样？",
+    "question_sha256": "222b0fb55024ba05bb41363a29eef101d75e64d3ae96c2982ce3c232a9e08250",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod386-198",
+    "question": "英伟达和AMD在AI芯片市场的竞争格局如何？结合最新财报数据分析各自的护城河与风险",
+    "question_sha256": "044bcf593efbd8e19019b985bc034c7c4fe98acff0bfc1162601ea6891e86e4b",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-199",
+    "question": "分析一下特斯拉最近一期财报，毛利率的变化说明了什么问题",
+    "question_sha256": "b4b28c8084e3584d07ede5d988664adbf69f9ed26d1613391a3a2d205711e693",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-200",
+    "question": "中国人民银行货币工具有哪些，和美联储货币工具相比有什么区别",
+    "question_sha256": "15a92eef0560889fb8eb804b54371270811e405e2e0068eab3213daac3dcc128",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-201",
+    "question": "港股创新药板块做多空辩论",
+    "question_sha256": "d3f4fb360ec31a2cc7aeb8ec10968a51500069a0f8981b8781e90717e46695c5",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-202",
+    "question": "股票中控制回撤是什么意思，如何控制",
+    "question_sha256": "a6ef2a7fe41243c43413a31d0586875a7dc51aa814d70742fdec696e950f4b07",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-203",
+    "question": "中美汇率未来3-5年周期内如何变化？10年呢？",
+    "question_sha256": "39bd1ae005f019892cdd881255013cd10627df2c8f517db92a7c553be163ebd9",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-204",
+    "question": "工业富联和紫光股份，对比下当前投资价值",
+    "question_sha256": "37eb599d4481700bdea31cc5cc2f3178372aaa01a8cef5b0aeae5b06663585e4",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-205",
+    "question": "根据最近的茅台财报，对茅台进行多空分析",
+    "question_sha256": "907745e3ef12b872c51f387582219cad5028ce534ac4efdfeb794b041d96a219",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-207",
+    "question": "请分析A股 002484",
+    "question_sha256": "3ac0aca02429cc1483365db1dff91210e8ced19180f52c487b972d090f79cf01",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-208",
+    "question": "请分析A股002436，要求字数在500字以内。",
+    "question_sha256": "97fc82295cb9d74f7519e338807be0eb548978512aba6be2cc561b807453aa18",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-209",
+    "question": "营运资本增加额怎么计算",
+    "question_sha256": "256bc8a11271c1a6cdcf10f8d9bc9e9a86e62bb446ad9384e893543912310ebe",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-210",
+    "question": "与场外基金相比，场内ETF的管理费、托管费、运作费等综合费率是免收的还是一样的？",
+    "question_sha256": "eb83c2c93efcd34dce336e2b077b46eb4351de9080073ec5d19dd5311a7c53e6",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-211",
+    "question": "请分析港股快手基本面，给出当前买卖建议",
+    "question_sha256": "d59cb67946347b6172a609bcfbde1ccc226f2ad4a7d55c7ae407c704cd9bb13c",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-212",
+    "question": "沪深300指数最新市盈率及10年期国债收益率",
+    "question_sha256": "d35c8a3eaa38171e5d590fab48f7d18c73b3e8257d6848e13dbf1fa693133933",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-213",
+    "question": "很多A股的指数，比如价值100、自由现金流指数，在发布时展示的历史数据无论历史回撤、年化收益都很好，但是随着跟中该指数的基金发行后，买入该基金一段时间，发现持有感受没有该指数历史展现的那么好，这是什么原因？",
+    "question_sha256": "28d52c993edcd7eb4eff458e6d2d33e95cb056236534ce4709da415700e9e60e",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-214",
+    "question": "请问退市公司新纶科技的现状及其发展前景如何？",
+    "question_sha256": "31dd9fe21d1cca44832edf2ec4e78d987e86805376c09c264a0b19e35d879ecf",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-215",
+    "question": "买入pg美股投资价值",
+    "question_sha256": "bd1fdd771c28dcd6a594a0688d697156b9b9b8bc23ec113af077541d824f6541",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-216",
+    "question": "鼎捷数智是属于做什么方向的公司",
+    "question_sha256": "3c389132f16825ae0979e7bcb7daf61438a3782841573a43817b0afb32b0506c",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-217",
+    "question": "从估值和未来出发，猫眼娱乐当前是否低估值得买入",
+    "question_sha256": "dda623d1db726e449b8bd01fa6fa429a34c634738d50fcf9dd0864915a598adc",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-218",
+    "question": "从估值和未来财务预测角度出发，京东物流当前是否低估，是否值得买入",
+    "question_sha256": "ff9bb7128263b832555dbe1edefc500a92d0828b0635489ba6b78336dd8a9201",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-219",
+    "question": "央国企股息红利，这种产品，国内买什么金融产品比较好",
+    "question_sha256": "9ab931f662e968df83aaea90a362468aa3539e7526fdd9036c4db2338e10f51a",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-220",
+    "question": "各大类资产的逻辑框架图是什么？至少要包括美元、黄金、原油、比特币、大宗商品、美债、国债、股票",
+    "question_sha256": "8a0470cadc97367b4e6e9bebda2bf66dc4a4856689de36534fa9b83661807d4a",
+    "topic": "跨资产研究框架"
+  },
+  {
+    "id": "prod386-221",
+    "question": "宽基类基金适合怎么样的操作呢？",
+    "question_sha256": "fd78a514f1f4a8f348c03ba47659bdd2ea1a35580bfc72dfbba74283b8738dcf",
+    "topic": "基金投资方法"
+  },
+  {
+    "id": "prod386-222",
+    "question": "中国的劳动力调查失业率可以反应什么情况？重要吗？一般是做什么分析的时候用到？消费？",
+    "question_sha256": "28ba058ae905ceb2eb584ae8162cbcf665fb008a081ab3522cfa44a06256777e",
+    "topic": "宏观指标解释"
+  },
+  {
+    "id": "prod386-223",
+    "question": "提供中国办公设备租赁行业的研报。",
+    "question_sha256": "8b9b1b129167270375498d40b8209fdaa8084468310cf72348b2ebacf79966de",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-224",
+    "question": "Compare the investment value of Tencent (0700.HK) and Alibaba (9988.HK) from three dimensions: industry competition landscape, valuation level and technical trend. Give specific data support and your judgment on the current market environment.",
+    "question_sha256": "855398345c90b1445fc3cb7526ac3bc69c6ebad0790adf743201c0f38fc23680",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-225",
+    "question": "分析对比下以下医药指数的构成、区别、特点、投资价值，最后给出结论及推荐的各指数对应ETF基金：国证港股通创新(987018)、恒生港股通创新药、中证港股通创新药(931250)、中证香港创新药 (931787)、恒生沪深港创新药精选50、中证沪港深创新药（931409）、中证创新药（931152）。",
+    "question_sha256": "3a85ac77db63e2b48a082eefa7c2b7fb10422de72fbfb3e166d030a88e61b9c4",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-226",
+    "question": "現在用日幣carry trade 投資股權(例如VT) 你覺得是好的交易嗎?",
+    "question_sha256": "2fda53046ef48bd5e60463124b117fdc2b0bd4abd66ad0eb4980126d5e6aa2f9",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-227",
+    "question": "港股07688基本面分析，未来两年发展前景，主要客户和竞争对手有哪些",
+    "question_sha256": "f0a35dc806d5d345bfe7bc48547f356814048973694101146d08e64ccfdc2a4a",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-228",
+    "question": "美国企业发债数量增加会不会影响美债收益率，如何影响，影响有多大，影响的机制是什么，影响的美债长短期收益率结构如何",
+    "question_sha256": "497b88adbadf905f3680eaaf36c7e8e4a98153167a5997d8af60178aee599611",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-229",
+    "question": "如何理解美国财政部回购长短债券的含义",
+    "question_sha256": "198dee4567c055c784c54421409fe170ba7934533531a4fcb3b9a48cc8ff49dd",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-230",
+    "question": "请介绍一下上市公司山子高科的业务及其业务发展情况",
+    "question_sha256": "43cce7a333b116992d2b6cc0352c2b7d80c773a1615618fa4e57f53266f28d3a",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-231",
+    "question": "对国能日新的投资接下来更应该关心哪些重要的事件，指标等。",
+    "question_sha256": "65093b4eff6ef2b407a2c3dbd976ff82eecf4d5796a18112774c056096f1461f",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-232",
+    "question": "深入了解下华润微的市值成长 经营变化 产品变化",
+    "question_sha256": "8c643f637ee33e8e0114b95c827ceeab967aed147382dc645d93d4ca612eff56",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-233",
+    "question": "中远海控，招商轮船这类航运股如何看待，是机会吗，招商南油存在补涨空间吗？",
+    "question_sha256": "2704daa8a3adb76eb3fdf24dc6a2ca543a603ff351ac4b29a7737d076ac83629",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-234",
+    "question": "moderna用ai技术辅助, 到底如何用? 买2台电脑吗? ai应用于医药行业如何实现? 晶泰和英矽智能的路线区别",
+    "question_sha256": "d0d22c879ebf326bfd2e1cb979f8aa1d6ead9ad1bdff055bcf8479673eb2e248",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-235",
+    "question": "短期美债和长期美债表现不同的背后逻辑是什么",
+    "question_sha256": "05821830b939365dfae4ac70bad5531755b5ccfab1188ccd7aaacb43e0161fd4",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-236",
+    "question": "对比斯瑞新材和超捷股份，商业航天，只选一只买哪一个",
+    "question_sha256": "ca2775514d2b0306cacbf37d5ec2b491697e6814f2b1747f656e39764c780076",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-237",
+    "question": "帮我做个深度研究，研究下目前晶圆厂、封测厂、设备厂的产能&Capex投入趋势？是否能满足AI Capex持续高增背景下的行业扩产需求？后续景气度传导链条如何？从全球链和国产链角度分别展开论述行业机会和挑战？",
+    "question_sha256": "f045488eeaa9f69b21185606f2eae78c508f85d09ce62eb94d6a82f078a4d629",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-238",
+    "question": "光互连（激光/InP），配玻璃基板和电力，对应美股龙头股票有哪些？",
+    "question_sha256": "715c6ab32517693c56da58f9d0f35bb836ec34b3d1dda3f9b9be4425e42a1619",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-239",
+    "question": "国债逆回购是什么？怎么操作？",
+    "question_sha256": "29cd45e8a04532a57c6813a8fe74e07972ba0ba70386a123d7229889c715000a",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-240",
+    "question": "对比下多氟多 昊华科技 新宙邦 巨化股份 三美股份的PE, 分析他们的股票价位以及投资价值",
+    "question_sha256": "28040a386e2e873389fa42e8bf2d5f02e65c3b49271e00d493ba9af3b8627ca5",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-241",
+    "question": "对于个人投资者开展量化交易，请问付总有什么建议吗？个人做量化交易有可行性嘛？",
+    "question_sha256": "4e23acfa200a1f3c0e07a7630381270d961e61e71d5cc7c845984df2d38b81e5",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-242",
+    "question": "A股有哪些是AI4S相关的医药/生物制药/化学制药类公司",
+    "question_sha256": "e1d8e0b2e86a1861b8292df7c919a2a5f59a9da302cd42c51fd768c43c093915",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-243",
+    "question": "介绍一下汇量科技这家公司，主营业绩及核心竞争力",
+    "question_sha256": "d1a3e36484d726ee503759d0f515d8a0b9861f0f1991e6df6017c4d08319a696",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-244",
+    "question": "美联储加息能把长端美债收益率打下来吗",
+    "question_sha256": "4fc7fb7bb4bb03abffe804a836ae5ee9199d96a88eb95111079fd90a4269a7d7",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-245",
+    "question": "请跟我讲清楚AI服务器、交换机、机柜、cpo、光模块的组成部分有哪些和他们之间的关系，上下游有哪些，分别承担什么作用，产业链上的价值对应国际和国内的头部公司有哪些，请讲细讲清楚",
+    "question_sha256": "e053149b516b9a1cc9349a27b409192b37ac39eb273b4948f3e4bf5db9a3510a",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-246",
+    "question": "600160这只股票是否具有投资价值？适合短线投资？还是中长线投资给出最合理的投资策略？",
+    "question_sha256": "23f0eb37e063426e1647d4f21ddf7eb3b70b28b537c015831afa8c47f6d166cb",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-247",
+    "question": "如何做一个量化交易模型，通过资金，成交量，各种技术指标来分析判断板块及个股走势买卖决策点，这种量化交易模型是否可以实现",
+    "question_sha256": "4721f5ec0c3b8c59fe1c6511633104a1509898680e0f3b52f22ab0f5b550bcc6",
+    "topic": "量化研究方法"
+  },
+  {
+    "id": "prod386-248",
+    "question": "中国股市缩量严重，轮动快，说明什么",
+    "question_sha256": "db6acc6e1431005e3c649679a2d581f77acccadd232ead8e63a3b374206b3dc8",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-249",
+    "question": "东方甄选从财务估值角度和未来发展出发，当前价格值得买入吗",
+    "question_sha256": "629536a47922d759f8bdd037efc07d1665065b790174117009fe71329e731733",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-250",
+    "question": "ETF（T 加零）和可转债对比，哪个更好操作",
+    "question_sha256": "259a50516cf7e25bd2ec97f090fd2ed45cdf33d4fc87486d267160d1575d8fdf",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-251",
+    "question": "价值仓.趋势仓和波段仓都有什么区别",
+    "question_sha256": "57e1e2fde5c31953a43aa3fcb135acb8547d6cd947721e56bc040d1cb82c3449",
+    "topic": "投资策略比较"
+  },
+  {
+    "id": "prod386-252",
+    "question": "黄金、白银、有色贵金属与美元的关系",
+    "question_sha256": "56f3b07b514b8d92deca872aed3acee19e318453c8f6f6885f83b437d21dadcd",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-253",
+    "question": "为什么比特币价格是跟美国债券10年期与短期的期限差之间有相关性，而不是直接跟美债短端的利率有相关性呢？",
+    "question_sha256": "eca6981ed84e6ae11360cfa219452aef2c013d1aa62ac5e48d2a929c22ba809e",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-254",
+    "question": "帮我分析600629这只股票",
+    "question_sha256": "cf7f16dc77a7810219ea816519c4326c2185cf397b89ad4cb473e850e04ea8d4",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-255",
+    "question": "关注一个个股，判断它近半年的买入和卖出点，需要关注哪些维度数据。",
+    "question_sha256": "e2e6b3af7b4287f55c530a8edba04c1c4810234ec704be838a371a4050d2d462",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-256",
+    "question": "帮我调用阿里巴巴的近三年的财报，然后帮我进行它的尽职调查",
+    "question_sha256": "3fef8aa122b6961a808c335d9aa59fcec69837da5d896184d73a8ae6f6d4b626",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-257",
+    "question": "推演一下如果哪天美债失控了全世界会发生什么事，黄金，原油，美国的半导体，以及美国的金融对世界金融的影响，纳斯达克还适合做十年定投吗",
+    "question_sha256": "30d9f89854b1be06e55e87a8b51075aa91e2ff86df0ad68419ca5ce801eef8bf",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-258",
+    "question": "美债长短端收益率曲线扁平化，为什么经常是由于市场交易经济衰退的结果？",
+    "question_sha256": "4efe364a98a96ce2d8914017d147bd409af11d501926ce0711c8eeb16cc68452",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-259",
+    "question": "日元套息交易具体是指什么，从实际进行套息交易的主体的角度看是用什么品种、和什么对手方、具体怎么做的，日本本土交易者和国际交易者的做法有什么不同，其中日元的资金来源是什么，交易为什么可能出现踩踏式的平仓、细节机制是什么，既有测算套息交易规模的方式有什么缺陷。",
+    "question_sha256": "ec058a4cb3449c8698fa791a29c6f7012a0041a794fe60521cd4ce851cc2aad4",
+    "topic": "跨资产机制研究"
+  },
+  {
+    "id": "prod386-260",
+    "question": "结合英伟达跟我解释一下pe和股价的关系，如果pe再不上升，股价还会涨吗？",
+    "question_sha256": "a05229ceea73d06d3a78e67afb9497ad77da80e6766414acc4de817801b64942",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-261",
+    "question": "观点1：买基金，纯粹选人（基金经理）是不够的。还需要结合宏观、周期、行业、地缘、估值来预判底层资产走势，然后配置对应负相关性标的，实现相对稳定的低波动长期正向收益。观点2：明星基金短期看收益大，拉长看都会趋于普通化。以专业基金投资人的角度看以上两个观点是否正确，如果不是，请说明。举例更好的基金选择方法，要求可量化可执行。",
+    "question_sha256": "54b284acc7d2fe81797154ba4dba43f6b5d5883f786805a94db4a45131f19252",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-262",
+    "question": "中国黄金国际  02099是中国大陆的公司吗",
+    "question_sha256": "aba2a368792ecbd4a462948aa24c4b9e2da5c41bb9db562cacf765344ac3fd8b",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-263",
+    "question": "财政部回购长债是否增加股市的流动性？",
+    "question_sha256": "62449364e1fe200156508dd74827b57c44055d34fd6e9cff02193697903b971d",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-264",
+    "question": "兆易创新(603986)是科创板的股票吗？它到底在哪个板块？",
+    "question_sha256": "30e5e82c1a7148bbd69f70547e2fb333b09a2dc92d624a76a0b1fbcfe5fa21ac",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-265",
+    "question": "国内可以交易的大宗商品有哪些，除了期货",
+    "question_sha256": "717a08090eae03fc42beb7e1efd6c4026c406b3e63803ae729a28fd1e89b3fcf",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-266",
+    "question": "分析融资租赁行业和分析制造行业所使用的研究分析框架会有哪些差别？",
+    "question_sha256": "dba3216a0e9fc762f3737409012c24e7fe1d4f924123da831e8a1c4478e7834d",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-267",
+    "question": "可以帮我分析一下Natera 这家公司吗",
+    "question_sha256": "6cab2b93829faf2a2767b545f5f386339d49e993a25fe22782b789cf2f0ab887",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-268",
+    "question": "请设计一套比特币的研究框架，用来分析比特币的走势，希望能判断长期走势与中短期（半年内）走势",
+    "question_sha256": "4e494aa31b9e1ff3a8ea44b184e0533ac86950daefa4fcd28c4b6e12b66f2555",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-269",
+    "question": "分析一下长飞光纤的财报",
+    "question_sha256": "ace0b828d9e62f72c51c1dd2a109cf5b839ab5bffe914e0600c46ec4e398c3be",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-270",
+    "question": "ai产业大概什么时候可以对其下游应用端进行证实，如果证实的话，更有可能在什么产业端",
+    "question_sha256": "233e053390eacaa0f65bf2eaf16a3a6a90e9cbe1b173f482c7dbc79404264e15",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-271",
+    "question": "关于美图公司的定价逻辑，我有一个问题：这类比较小的应用公司，如何避免在未来几年内被大模型或者更大的应用平台抢占市场份额；目前美图的股价跌那么多，是不是也是因为市场有这方面的担心",
+    "question_sha256": "494495d6eda4d1f020c75b537de43204e6a0e0ecb7f10050f2822ee8d5f279f8",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-272",
+    "question": "请详细复盘原油（布伦特原油期货、WTI原油期货和上海原油期货）和天然气（亨利枢纽天然气期货、TTF天然气期货以及JKM天然气价格）在2026年8月17日至2026年8月23日这一周的价格走势，并且分析其原因。",
+    "question_sha256": "d074f7e5587634e3c8dbdb0333854f2a237a6b5b73d9a093dc2ab795624b6048",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-273",
+    "question": "CAPE RATIO是什么指标？有哪些公开信息能够实时地观察个股和指数的CAPE RATIO？",
+    "question_sha256": "915b06dcc8733806181070a2a91b8c86eba83b30ec7257e2676f528e6c65706f",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-274",
+    "question": "针对汇川技术，做一次技术分析和财报分析，并对未来做出预测和实操建议",
+    "question_sha256": "86568f246b72f0b16cbd250fd2cb9277a8baf7c337004705f2e292a1ca829eca",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-275",
+    "question": "美联储持续高利率，市场低流动性，这种环境下有哪些值得关注的投资机会；另外高利率意味着AI提升了社会整体生产效率，AI的核心（如存储、光模块）等这样推算，是不是会维持区间震荡或慢牛走势",
+    "question_sha256": "e06908a26b73e06205c1ae11927141483330a72e231b42790930d74e6cfdb6a8",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-276",
+    "question": "融资租赁行业的公开数据比较有限，如果要分析融资租赁的“供、需、价”可能要使用一定的宏观经济指标。比如价，LPR可能就是比较好的一个指标；比如需，社融的变化情况可能可以表示实体经济整体融资需求的情况，制造业PMI是一个反映下游景气度的指标。首先验证我的思路是否有问题，如果有就指出；另外回答建议“供需价”可使用的指标以及理由",
+    "question_sha256": "570531989a4f24e75e7f7c5a2dab181386952334214db46690bed7b09179de37",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-277",
+    "question": "如果考虑买美团股票，问少数几个核心关键的问题，是哪几个",
+    "question_sha256": "7153d187f893bd8b50c044d2644200eebdd73a9557c146644a77d5b9307656be",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-278",
+    "question": "短端利率走平的意思是什么 怎么观察",
+    "question_sha256": "5777fa8f9fdbbebfd1df5c6d3695da75f535ffc1714e8dcc412b8394554b1ef1",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-279",
+    "question": "江铜公司最近几年的行业前景，业务细分情况，运营情况，财务状况，以及相关行业情况分析",
+    "question_sha256": "eaa7256687c764ed3d615ffed39949f251b630782464d31d65e3c15bcbd4afc0",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-280",
+    "question": "目前你对医药板块创新药 医疗器械 医疗服务 医疗外包如何看待，如何我要投资，如何选择以及布局，分析一下",
+    "question_sha256": "2d5718269c08c95739769711b689e82b84248c157ce147f9fd7aeb85d068a739",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-281",
+    "question": "HBF和HBM的区别，HBF是否可以替代HBM",
+    "question_sha256": "1c4cdfa0c471ef959c057036e54cc8120ac60c43f4cbc4fca81691d423505913",
+    "topic": "产业技术比较"
+  },
+  {
+    "id": "prod386-282",
+    "question": "将中国AI产业链与美国AI产业链之间重要的产业合作关系罗列出来并分析以当下为节点未来重要观察美国AI产业链对中国AI产业链影响的关键性因素，请具体说明",
+    "question_sha256": "8463f880ee9a2bb536c0516d36dd260faebd650cfa97085f63b6ea3d32605bff",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-283",
+    "question": "中美机器人产业发展的核心差异是什么",
+    "question_sha256": "761382cab3f7009528f4df5bc8fba208deef5d78e1765c3bad7b00bca2460ce0",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-284",
+    "question": "你是一个资深投资大师，我是一个对财经资讯有着深入了解，但是对于投资做的很差的人，也并非学习投资出身，我主要是跟风操作，会被媒体信息左右，如果我要提升自己的投资能力，现在需要怎么做，你来对我进行指导",
+    "question_sha256": "76569394023c35374f8f1cec6a26c943aa605a3157171fb8d5bd083ed91e7a7d",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-285",
+    "question": "谷歌-A, 谷歌-C有什么区别？",
+    "question_sha256": "5d6d6102213ec92a18812c5b70702357c2596481c35d2639cccc63d8134f99cb",
+    "topic": "证券类别辨析"
+  },
+  {
+    "id": "prod386-286",
+    "question": "A股持有红利股的策略是什么？",
+    "question_sha256": "8a3a511cf882eebce96c2822ab121547052977b68c4e7da881262f98cfeaef51",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-287",
+    "question": "北京时间2026年8月26日，现在比特币的上涨处在周期的哪个位置了？",
+    "question_sha256": "7dcbd98dd3dbe7282b172719ff88800c0467f28bd8dc03453bf7b04f28be7474",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-288",
+    "question": "07年次贷危机的底层原因是什么？二战婴儿潮（代际）和它的相关性，还有经济 全球化（铁锈带）相关性是什么？",
+    "question_sha256": "d551ab408b8725593fb5f31e7d746df30b7de9a9cca9211adc13db80c6c284f9",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-289",
+    "question": "分析一下当前煤炭行业的基本面还有兖矿能源这家公司",
+    "question_sha256": "eeb4646bb6ad33b9710ec8d67e985819238376bc93d7e958cb18f3a20816e456",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-290",
+    "question": "AI 基建行业供需拐点推演",
+    "question_sha256": "0d659548e5eb5382f0c1170c2b13b6fb9b8e41c132a8db28da8390e3bb574c09",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-291",
+    "question": "目前长期美债是否有投资的价值，为什么，具体风险在什么地方，和国内国债理财对比呢",
+    "question_sha256": "0da0601d080d8ad4db2a9b20eb58607c911d0c81b72f9fa7405b463bbae57a3e",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-292",
+    "question": "美债如何影响股票市场",
+    "question_sha256": "7ec2f2217b60728164723a1352f86d7f5e5299eb372c69f0b88969e568441eb7",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-293",
+    "question": "澳洲的经济，目前在什么一个阶段。",
+    "question_sha256": "6c53f53701a8081d22e9bb4449bc9bc52fde4aafc93f4a6e966e8d6ac2f0dd96",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-294",
+    "question": "根据最新数据，结合全球金融环境（利率政策、地缘政治、大宗商品周期）与国内外股市行情，全面分析盐湖股份（000792）的投资价值。请覆盖以下维度：公司基本面（主营业务、钾肥与锂盐产能、财务数据）、行业供需格局与产品价格走势、全球宏观与政策影响、估值水平与同业对比，以及主要风险因素。最后给出综合投资价值判断，并区分短期、中期和长期视角。",
+    "question_sha256": "fa0c2f994b02c941c53319fb99503d13c1ca8e2520d490cf7795c304ce579531",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-295",
+    "question": "如何看待国内梭哈纳指etf",
+    "question_sha256": "68c01b226041de51a720bb7bfd5c51cd697e3f291ceb3f445d9e9b054e6d9fcb",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-296",
+    "question": "你对茶饮行业的后续增长性如何看，消费群体会有粘性吗？",
+    "question_sha256": "9bb924f0204cf8f87b5c6d296d9b9d3d11a3f0ee466f4a2f863a497be6543291",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-297",
+    "question": "航发动力为首的航空发动机公司与沈飞等战机公司未来的发展会如何？",
+    "question_sha256": "4c1b16839b8d20f22e40ad54c8e59aea5f943ddfe501c3ddeb9289244d6df610",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-298",
+    "question": "1. “现在中国普通家庭，未来3年，现金、三年期国债、银行存款、黄金、权益基金应该怎么理解各自的位置？”",
+    "question_sha256": "e2a49af381bf79b50209837a883f07fe50ec706bcdb23077aa7044e9809dbbc6",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-299",
+    "question": "帮我分析一下港股的中国神华这支股票，他的长期叙事逻辑是什么？他每年分红几次，分红年化大概在多少？",
+    "question_sha256": "12921c1d3ed01eb5e1f9cb82114250f8e766712f93bb05dabf75d0f666ccef4b",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-300",
+    "question": "中国铝业，云铝股份，南山铝业这三支目前买入性价比如何，如何推荐",
+    "question_sha256": "25cf8d974d1e034054c5675c78e07138ffb226d2dbf95e169d63725b89b0b0e6",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-301",
+    "question": "那为什么长端TIPS在2022年到2023年快速上涨时，黄金没有下跌而是维持在一个价格区间横盘？此后从2023年底到2026年，长端TIPS维持在高位时，黄金却迎来快速的上涨？",
+    "question_sha256": "1e300df6abfa8c3337c39cb1ad3d3e7f2a91ae2091136864da96a81deb295e10",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-302",
+    "question": "期货中临近合约出现 comtango.换月的时候你是怎么处理的？直接卖掉旧合约，同时切换新合约？还是再等等信号再切换？有没有什么参照的点？",
+    "question_sha256": "051c0cd0351e90f4095a0f44d0e077d650b5a6fb8201422b38eea2fdb8011b1c",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-303",
+    "question": "人口周期作为第二大周期,它的传导机制具体是什么?从日本/韩国的经验看,人口拐点之后,地产、股市、利率、汇率按什么顺序、什么时间尺度反应?映射到当下的中国和美国,分别处在哪一段?",
+    "question_sha256": "600fc63d00730ac55cc820b490e212975fd2b4419b31e8dd86aa4d1647a7234f",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-304",
+    "question": "你对JEPQ JEPI SPYI SCHD的看法是什么？是否符合当前的市场环境？在未来的市场发展中是否比持有VOO等ETF更值得？",
+    "question_sha256": "66bc32cec2af444f603bdbd6cebb05278e442d7fbcc9131b08b6f3aa0d95351f",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-305",
+    "question": "讲讲中美股市本质上的区别，从定价锚，权重角度，分析驱动的不同",
+    "question_sha256": "9eabf17b96feb24f9f94cce9a506bcd70c786070db0cb8595435faa91dde55eb",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-306",
+    "question": "帮我深度分析低空经济产业",
+    "question_sha256": "19d9aabbe7084c4b83c667b1d03f87704dcdce75798c4da6214b6deecce413a2",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-307",
+    "question": "A股的两融余额现在处在什么位置？两融作为杠杆指标，能看出A股市场的什么风险信号？和韩国散户杠杆有什么可比性？",
+    "question_sha256": "b890bc4fbf8b6f0802080e877292bf92b61c3fe87b3bc1c597c64734ad8afd99",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-308",
+    "question": "人民币汇率对A股的影响路径是什么样的？汇率升值和贬值，分别对A股的什么板块、什么逻辑影响最大？",
+    "question_sha256": "9f08998e8087016d80313847c2dd05a4c55101a39c88d68610fa8275f0f49fde",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-309",
+    "question": "usdc和USDT有什么区别",
+    "question_sha256": "0f8a53f256ec91bb6210d484f978dc730e488ad3b9dac4d18502e4becda19a64",
+    "topic": "金融工具比较"
+  },
+  {
+    "id": "prod386-310",
+    "question": "用价值分析的方法分析一下中广核矿业的估值，尤其注意各矿的矿寿",
+    "question_sha256": "70cba5297728d897e7384acc56bf8b57bbe7f20568303c6e013b82a4d6dffb51",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-311",
+    "question": "如何观察中国央行对外汇进行调控？央行是big playe/庄家，观察庄家的动向可以预期汇率升降",
+    "question_sha256": "5eeafbee2a8c5e138a23c9b004ff739ad0e4ff7b24072cc1f6c100866d11fa47",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-312",
+    "question": "详细分析一下美股基金DGRO和DVY过往十年的持仓收益及未来持仓三五年的预期收益展望",
+    "question_sha256": "a40402661f03f550886f214e05f48c287c073ab49746df679f0e6196cb7a5d63",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-313",
+    "question": "美国财政部月度收支报告、CBO 的赤字预测、季度再融资公告里的净发债计划 这几个报告最近的时间是什么时候",
+    "question_sha256": "ff2b4e055e587a40a587fc7ec1cf2a1f9591942e655f8dfe9c73d50ea9e88de5",
+    "topic": "宏观资料检索"
+  },
+  {
+    "id": "prod386-314",
+    "question": "港股青岛啤酒现在的估值是否合理，是否属于低估行情，市场整体消费情况如何",
+    "question_sha256": "3a715439261d33defefc9a3df5cab1ef1e6c5d561453a905ec3ba7e69af7fb6d",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-315",
+    "question": "2025年Q1到2026年Q2，全球主流云计算公司的资本开支统计",
+    "question_sha256": "276d2be08f43b7e2999311f67d601df484a05ab499912b85d10acbbfb5c4c564",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-316",
+    "question": "A 股目前两条链路，一条是北美算力出海链，一条是国产替代链条。国产替代链条结构中，哪些可能目前还有比较强的机会？举一些个股例子。梳理国产替代链条中有哪些链路。",
+    "question_sha256": "4480be530acee04ce4cb80596b5bd0849d87f3e2f2e03490e3cd0b6c732f09d5",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-317",
+    "question": "期限溢价对于美债收益率曲线是如何影响的，美国财政部的操作影响的结果是什么？高弹性资产最敏感指的是哪些？",
+    "question_sha256": "5e8646c004ca9647e689a1f33548149d7e58ac191b5b51d41f1b5c4ad63f556c",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-318",
+    "question": "我在中国大陆，在没有美股账户的情况下，只能买国内的基金，无论场内场外是不是都不能享受分红",
+    "question_sha256": "b32cb1df16e7ffef609149a8edecdf670ff4521adef39757ac30092f1b808ae4",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-319",
+    "question": "中远海发行业的市场前景如何？目前的市值股价性价比好吗？从行业多维度思考分析一下",
+    "question_sha256": "92a8833ba647e9d2f2209188578d31deea43600552f11692ab82f0ef263a9a9c",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-320",
+    "question": "焦煤期权期货的交易框架逻辑，",
+    "question_sha256": "ee76fe3e70f517aa302325af25fd5b5d8ef366ca8694a40713919da97842d052",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-321",
+    "question": "国内债券市场利率持续低位，原因是什么？",
+    "question_sha256": "f77c500871a6a84427b686d2fb20701257f18f158bccfbdafed4f0c2c4e0b6fc",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-322",
+    "question": "同样是红利 为什么有的公司比如长江电力pe=20倍那么高，有的只有5倍",
+    "question_sha256": "d6a069abee2658e8ea2214780300c808e6a4e2d5217afc27162a336c8dfd0eed",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-323",
+    "question": "现在黄金购买的底层逻辑是什么",
+    "question_sha256": "8684ac89356d589ccb4ffe317a377ba3a7a3e12ec6df418c77dc925afc1ef190",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-324",
+    "question": "做一下海天味业的DCF估值。",
+    "question_sha256": "d40feb86974edf3db1c9a0881e8e14a22d7815aa494e2954be449b69a25c6bef",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-325",
+    "question": "对于投资黄金怎么看？富途牛牛里面的木星黄金白银基金和IAU比较，个人持有哪个未来三五年更优？",
+    "question_sha256": "f46d0f0368382bac1389b10e68440fcfe8e3daf3cf61ab8cb7594d34f8477625",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-326",
+    "question": "美联储加息对股市有什么影响",
+    "question_sha256": "3638edd307c8347fe043fec0eeaa12148381596848f01b7198928701ed9fc496",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-327",
+    "question": "哔哩哔哩的财报分析及后续走势预测",
+    "question_sha256": "8e201864136db08db2cc169199fbf28ca39416c7fe49a90a0fc64ff98861877e",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-328",
+    "question": "据Politico引述八名知情人士，特朗普政府正考虑对半导体征收新一轮全面关税，科技企业警告此举可能断送美国AI主导地位。请分析这一政策若落地对英伟达、台积电、存储链和费半ETF的定价影响，以及市场目前是否完全没有为此定价。",
+    "question_sha256": "a68f68270e7c37ba4f78f166e5845fc5ccf004a5d47c76811536fcb51e9a04a7",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-329",
+    "question": "中海油近3年自由现金流情况",
+    "question_sha256": "697cb8f6a6b6ad960db559eabe14f3d347d0fe881d1bf15c9a1cd60a04baf3e2",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-330",
+    "question": "你如何看待科创50后续的走势？我希望能构建一个稳健的指数投资策略，你的建议是什么？",
+    "question_sha256": "353245fb15dc4feddb7685e1e536f536e62c5f2b642257f62a6e65652bbed448",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-331",
+    "question": "伯克希尔最新的财报有哪些亮点？怎么解读？",
+    "question_sha256": "a83a0c1dd4d1dc10f6505dcc859e88ec0ba2bbcfbefd99b4e0beb9d8fb19f615",
+    "topic": "公司财报"
+  },
+  {
+    "id": "prod386-332",
+    "question": "小米公司发展的前景如何",
+    "question_sha256": "f4783a5b69ab8ef8325b777aae79716ed727c788fa90336d48672ea6b866a4ee",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-333",
+    "question": "分析下CrowdStrike财报",
+    "question_sha256": "131e5484dfe045bc693c23d0831e09b884cbcf0d892f2255dac2e41c8a8939e6",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-334",
+    "question": "医药属于老登股还是科技股",
+    "question_sha256": "9f1325a7bfcb7509c261c5ff27cdd51f9294c28f6ef8a5d64857aeb6019c8708",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-335",
+    "question": "适合普通人的基金投资策略是什么样的？",
+    "question_sha256": "8126fcba75e921c0a4c57f651875d6ac575a7e599a18bb7bd4e621ae585cee69",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-336",
+    "question": "我有个疑问，在投资ai的资本难道看不到AI可能不能像预期那般带来那么翻天覆地的变化和收入么？为什么还要这么大力的投入aidc的建设",
+    "question_sha256": "dd9b06c9e011f6d055fda0a60583104c2e17605c34f65e9c8a1825b3e21ef6f0",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-337",
+    "question": "什么是非农 请解释一下",
+    "question_sha256": "d8ef28a8eb35fba4dc3f7c42d32b37178752d042d87a3523652effb6e94a674e",
+    "topic": "宏观指标解释"
+  },
+  {
+    "id": "prod386-338",
+    "question": "长期复利选择哪些行业比较稳定？",
+    "question_sha256": "cc05311d7d60fe9193678ca5d2b9780f39303a595c64835fa645221b208c9f52",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-339",
+    "question": "中國房地產上市公司是否市值過低，整體PB有沒有偏低，以及相較於日本房地產的歷史和台灣房地產公司的市值而言，目前是不是一個良好的投資時刻? 若有機會上漲，是基於怎樣的環境? 政策或是基本面的反轉? 例如人民購買力等，但中國少子化會不會影響這些房價上漲的利多因素",
+    "question_sha256": "d500001c3022ac8dde8612d1e7d4a1fb75901ac49d5ebeb6dd50471a048e8fd1",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-340",
+    "question": "各大巨头都在融资建设数据中心，英伟达受益最大，其他巨头面临着赢家通吃，输家承担巨额债务，分析数据中心服务谁最有可能胜出，哪家机构的钱最有可能打水漂",
+    "question_sha256": "63321131529ec466aa277a65b875089d0f39ecf62121d23f89bbe7d1bcbf14a6",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-341",
+    "question": "请用 Markdown 列表分析苹果公司的主要业务",
+    "question_sha256": "3be342944ccbdbd349b5278fbf1db147a7c15ed780cb0a50760e1c7433cee708",
+    "topic": "公司业务"
+  },
+  {
+    "id": "prod386-342",
+    "question": "怎么样观测不同国债收益率的期限溢价",
+    "question_sha256": "ad4e200c13a9efb8189e2b02ddda4c2e5c0362cd44951275fdafec444fb0c74b",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-343",
+    "question": "请帮我分析中国机器人行业在一般工业机器人中最关键的零部件是哪一个，暂整体机器人中成本占比最高的零部件是哪个，相关零件的龙头股市哪些，另外帮我比较该行业的pe算出最划算的投资标的",
+    "question_sha256": "16666bd4d5264ecb593dc4a930940203a2ece17c470ee02061eaf742e3a6ebdc",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-344",
+    "question": "请分析港股比亚迪电子基本面，给出当前买卖建议",
+    "question_sha256": "748e840752fc0b6cfca6eaffe7674acea08dd9577a89dba768ddcef8ae347d83",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "prod386-345",
+    "question": "你怎么看AI短剧、AI漫剧、AI视频直播带货产业",
+    "question_sha256": "4a69002ae44fe298a5b4f69ceb8f3315689963f875909d61460d367a9568ec37",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-346",
+    "question": "美联储干预利率的工具有哪些，干预利率的原因有哪些。用最近美联储的动作来举例说明",
+    "question_sha256": "98502545cc42b710296e2a2987095e18fa98d688d0feb5bf0825835e7ea3ce1f",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-347",
+    "question": "分析中国核电最新财报。",
+    "question_sha256": "d473c1daf4fad6828858d74d92e48120238d8c4ee148158130e4eb509d19c895",
+    "topic": "公司财报"
+  },
+  {
+    "id": "prod386-348",
+    "question": "分析下创新药的逻辑，研发形药企和其他药企的的逻辑排序是如何的？利润、成长空间、现金流折现、护城河、叙事等方面",
+    "question_sha256": "e62f89220d94eb519b2da4c3a8122e6897e0a776ff372fc931b853ca6afc9044",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-349",
+    "question": "如何分析美债收益率波动影响的主要来源，请举例说明",
+    "question_sha256": "439edea2a985af9221be8174d44223a9856504a4337cd06dcb8bf1a650c275e1",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-350",
+    "question": "分析昆仑能源的利润构成和未来的展望",
+    "question_sha256": "9ee945b9b4bb2265a5fec2e620f8269529ddb4a2fc08ab00862df7f40b0e9d0a",
+    "topic": "公司盈利结构"
+  },
+  {
+    "id": "prod386-351",
+    "question": "光伏龙头股有哪些，我不要擦边的，我要核心就是的",
+    "question_sha256": "dc4f1915bd94799e78ca91dbcb18bc97b3f1408e99f7d4b5d0293e3215412279",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-352",
+    "question": "请你系统性分析大豪科技的情况，给到我建议",
+    "question_sha256": "2c47bfa7e42c129430ea7d98fdf968286f27d5c3afb7931f297d0cdec7156d88",
+    "topic": "公司综合研究"
+  },
+  {
+    "id": "prod386-353",
+    "question": "帮我做一个联想集团的详细调查分析",
+    "question_sha256": "87da343f29a7595e093b7bcc3f8f227d86d9c6003498970bebe585eb4d457515",
+    "topic": "公司研究"
+  },
+  {
+    "id": "prod386-354",
+    "question": "对于不同的行业，或者是周期股，蓝筹股类似这样的分类，需要的数据有什么不同，或者需要注意的地方",
+    "question_sha256": "fc0d82d596f282b6b0c1106c783d243e935ce2c6ad3ac3b43f05f6b18f72c606",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-355",
+    "question": "PE 在股票中的意思，及其相应的概念，譬如远期市盈率 等，他们在股市中对应的作用是什么，他是如何产生的，能代表什么关键性的地方",
+    "question_sha256": "0bb4a62a7aad7120c65587a64163c59768eb163fb3b4c5d1cb77b9abfcd171a1",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-356",
+    "question": "如何分析胜宏科技实控人突然将近半数间接持股转给配偶",
+    "question_sha256": "560aa5fcc14b6fb89ee7fff60c3d61e15946f232e729ec4ecc5d6577f46199c0",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-357",
+    "question": "你好，我想找一家发电企业的上市公司，计划长期持有期股票，大于5年时间。目前看市场是否值得投资的，基本面良好的发电企业，请推荐几家",
+    "question_sha256": "d12c2db2f480a360da60ff1c03aa9949d4f5e20b7b180ddb607137b8bbbf7d5c",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-358",
+    "question": "08年股市崩溃是不是在2000年股灾吸取经验了，所以采取的行动更快，造成的损失更小",
+    "question_sha256": "ff4e1a7d033084ca708b5a22e85a5677b56c4e37e92be8675d0ae376de7c75e0",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-359",
+    "question": "分析下新思科技财报及后续走势",
+    "question_sha256": "58cf8985f085601c77a083ba593f9d04a2e9f24ab77c746cd039d779e100b0ba",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-360",
+    "question": "生产一篇三一重工的投研分析报告，重点分析企业的劣势和风险。",
+    "question_sha256": "4d5076efe8af858e063b9d0c8b20b3f3faebb138a4624a716af4f21dfb0f658a",
+    "topic": "公司风险研究"
+  },
+  {
+    "id": "prod386-361",
+    "question": "产业周期是什么？详细分为哪几个阶段",
+    "question_sha256": "80fc37da33812b6482b1e1959c74f60d0c5c6c1f11e951131e40bda3d36bfd9e",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-362",
+    "question": "南网科技2026年二季报有没有比一季报要好",
+    "question_sha256": "d0f4d8b15a478809d43b59d40740a6f44040293c81e66a4b6756fd0b5bfe8ceb",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-363",
+    "question": "你分析一家公司的核心逻辑是什么？",
+    "question_sha256": "74851479dfa83d3730775339c1fccb3b07213233f4a2c750e126cb8f54664065",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-364",
+    "question": "如果 AI 行业盈利预期长期没有改善，对于黄金的影响是什么？",
+    "question_sha256": "f2d3964ef7e0e61e7576c7275253b4faab46fa547d4efb0496d1ef64a47573b8",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-365",
+    "question": "对于 MU、HOOD、SPOT，这几家公司有什么看法，分别在投资上是看多还是看空",
+    "question_sha256": "6c1b9f5868b29899f38d79b10a209256ecb3dcbf042545c6f923480b8d955e92",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-366",
+    "question": "请详细拆解2026年8月28日美联储主席沃什在杰克逊霍尔年会上的讲话？如何理解沃什讲话之后的资本市场表现，包括但不限于美债利率（美债曲线、实际利率）、黄金、铜、美股等，请详细展开分析和展望。",
+    "question_sha256": "e5a73c8af774ff3c0eff62f1976cfa1038cde15ab0d13db2b0cb362151184443",
+    "topic": "事件与历史核查"
+  },
+  {
+    "id": "prod386-367",
+    "question": "代币sui的投资前景",
+    "question_sha256": "667c2f058688d1b6f443e1228075006fa61564b992873934ea9191d62c038550",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-368",
+    "question": "检索一下台湾的CPO 产业相关的企业，根据现在全球 CPO 的发展聊一下台湾 CPO 企业发展的可能性。",
+    "question_sha256": "2d331ebf861ba7566a17bf9daaf05778c160cefec2aef59044f3ca7b9f8ef946",
+    "topic": "行业与产业链"
+  },
+  {
+    "id": "prod386-369",
+    "question": "美债危机最终会导致宽松吗",
+    "question_sha256": "5d4e2619d76d601d06af7d9ccebc06a2e251839e9d2202b683523aabd24ac5ed",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-370",
+    "question": "短期利率抬升对港股的流动性影响有多大？影响是结构性的还是全局的？",
+    "question_sha256": "e3d74263095a0ccbdc061d04c2d90f86481c8ca740aef7d06a710ee5a266e28e",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-371",
+    "question": "黄金和人民币，长期逻辑到底是什么？",
+    "question_sha256": "515dcb3600d5deaa4c9e5155856729331622cfbcd621dc24caacbcc002ab0f5b",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-372",
+    "question": "短期利率抬升，对亚马逊和微软等公司有实质利好吗？还是只是流动性转移？",
+    "question_sha256": "1bdcb51420cf468ad7aad279eff86734dcd7c45e69eedb8c64e637801d0445b3",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-373",
+    "question": "figma公司 潜力以及估值",
+    "question_sha256": "3715df73e9c5f5c30caca4a7f1e4872a8ad7f49b002b55afb63311255cd61bc2",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-374",
+    "question": "Invesco government agency portfolio是什么",
+    "question_sha256": "e2036f375ce922b586a3685c75036d7b79b9eb0db10ed883b31ad3e5148d0706",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-375",
+    "question": "对万华化学的财报分析",
+    "question_sha256": "a09334966a6623a89b39738730a5c59738e5b28a6d8da277408cc8b1dc1dc6d0",
+    "topic": "公司财报"
+  },
+  {
+    "id": "prod386-376",
+    "question": "灵活就业人数的增长是否可以作为判断经济更加恶化的因素",
+    "question_sha256": "fe35c4874a30b46679615819b8700832c2fd6960568344feb4a2984ccfd76c5b",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-377",
+    "question": "为什么股价在低位要放量才上升",
+    "question_sha256": "8e3008e9e186df79c1876cc4bffde62120086876d4b2936b2a7aec2753926b05",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-378",
+    "question": "对于有100万可投资资产的30岁左右的青年人，对他的投资建议是什么",
+    "question_sha256": "6c8058e29066593fba6b9a3bf03da9d5d4b3a21ed51300679141c6270fb6eaf2",
+    "topic": "策略与风险管理"
+  },
+  {
+    "id": "prod386-379",
+    "question": "大宗商品相对美股估值怎么计算的？",
+    "question_sha256": "5d0d3c0f38a77bd0e08e0caf14af46132e5c0a526390de049351a48517391722",
+    "topic": "概念与研究方法"
+  },
+  {
+    "id": "prod386-380",
+    "question": "顺丰最新一季度财报解读。",
+    "question_sha256": "f213a7b664ae50ac665695f963f84b2ed6966a251f2d14a3332c3081060e7506",
+    "topic": "公司基本面与财报"
+  },
+  {
+    "id": "prod386-381",
+    "question": "美国债务的解法是什么？现在的美国财政赤字率比较高，债务可持续性堪忧，未来有没有可能实现财政紧缩？减少贸易逆差会对财政紧缩有帮助么？",
+    "question_sha256": "7ef28e16dc723e741e64ff03daaa463626ded92f6308a60911c766533c030e43",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "prod386-382",
+    "question": "详细解释一下久期风险",
+    "question_sha256": "fb64f1a63d563fea3ee7a75495982d00a7bf5ef9309ce7efe966015c53eb455d",
+    "topic": "投资风险机制"
+  },
+  {
+    "id": "prod386-383",
+    "question": "币圈前100名市值的币是哪些",
+    "question_sha256": "bc693d613ea2007e4a980255b077c341e17905fb5fa5a8192c6f687d583065f0",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-384",
+    "question": "国内期货品种曲线从 contango 往 back 翻转的品种2026年6-8月",
+    "question_sha256": "41a61fa5549357494e21a29a6ce9c3057f7fed1a13330eba116208c501af07ba",
+    "topic": "数据与计算"
+  },
+  {
+    "id": "prod386-385",
+    "question": "港股里面的黄金股和白银股都有哪些？买哪个比较好？",
+    "question_sha256": "480bf9a1f8de1e9cda979ce51a1a9705cb0401d960da731216ae41a405dc6a47",
+    "topic": "比较与筛选"
+  },
+  {
+    "id": "prod386-386",
+    "question": "实际利率中枢实质性下移如何跟踪判断？",
+    "question_sha256": "1559dc3fa7874a6482f7d8eb706c2d81e039d0461a86f166fa0bf06a012abe30",
+    "topic": "宏观与跨资产"
+  },
+  {
+    "id": "en120-001",
+    "question": "Analyze Nvidia and create a research report for me.",
+    "question_sha256": "a1b8f7565b3d0a3d577d55be06849ef247d9648758bb265e592e3f5d7ad99df2",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-002",
+    "question": "7974 tokyo stock, please do some analysis",
+    "question_sha256": "f64a19a8a321c7540670a389e2412058dee3ea82ef61d6e88753ed9f55f0ee5e",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-003",
+    "question": "evaluate nvts stock",
+    "question_sha256": "7134f0c6b13861920159b393a19b21614856646f7c26e14a280cf4b9cbadd6e4",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-004",
+    "question": "Can you compare stocks wdc and stx",
+    "question_sha256": "d903f6f51bea37aec0495c1b005338b30d612df6771fe903e207962e730b33c9",
+    "topic": "公司比较"
+  },
+  {
+    "id": "en120-005",
+    "question": "What is the institutional consensus on SK hynix in recent research, and where do analysts disagree?",
+    "question_sha256": "c83f3990460ba9cb6ccb161fce0ea316b049c8fc424cdda44d460879457b3a22",
+    "topic": "研究观点核查"
+  },
+  {
+    "id": "en120-006",
+    "question": "Generate a comprehensive investment thesis for Posco",
+    "question_sha256": "5493da1222f86c32b14f55e61aa560c9d79b42c35191ad597fa1ebfb99d13d66",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-007",
+    "question": "Are the future remaining projects of Pan-United (Changi T5, rail extensions, BTO housing) support the current price of SGD1.56",
+    "question_sha256": "fe15ae93609b611aa3aa8e3ee6cf180ddd6ba761d3be1d66e53dfb8b326d7a93",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-008",
+    "question": "Please analysis: Does portfolio 50% SCHD 50%JEPQ  good for current market situation and now is good time to enter?",
+    "question_sha256": "31c437237fda12c218ba01db89eef8778c460c962a901c11b6d2f50d695e29b2",
+    "topic": "基金比较"
+  },
+  {
+    "id": "en120-009",
+    "question": "What is the latest closing price of Tencent (0700.HK) stock? Please also briefly explain the market view.",
+    "question_sha256": "d8730c03332e5a2b74e96f6e873a4e4799c442a5ea5a66106c1c5b3216590207",
+    "topic": "行情数据"
+  },
+  {
+    "id": "en120-010",
+    "question": "Please utilize your existing financial and stock market knowledge to conduct a comprehensive analysis of Tongda Co., Ltd. (300321.SZ) and Xinhan New Material Co., Ltd. (301076.SZ), including their core fundamentals, industry prospects, short-term (1-6 months) and medium-long-term (1-3 years) development expectations, current stock price trends, capital performance and valuation rationality. On this basis, put forward objective, practical and risk-distinguished investment strategies, trading and holding suggestions, and horizontal comparative investment value judgments for the two stocks, and give clear risk reminders for ordinary investors.",
+    "question_sha256": "94ee69cca71e7685aa00ba44235ab29979ce9d60467fd3a499db42a63d926a30",
+    "topic": "公司比较"
+  },
+  {
+    "id": "en120-011",
+    "question": "Why charter hall’s deal and performance fees dry up when the cost of capital is high?",
+    "question_sha256": "f826042eea231890509b92cf7d89cb78ed313d75d9abe8952c0d755cb56f2ef3",
+    "topic": "金融机制"
+  },
+  {
+    "id": "en120-012",
+    "question": "Analyze the fundamental of Pop Mart 09992",
+    "question_sha256": "f15bdc6f6582713db682498029a44279209e498cdac5110d0502314394f63736",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-013",
+    "question": "Hong Kong released its first five-year plan (2026-2030) and the 2026 Policy Address: AI as a key industry, reinforcing its role as the world's largest offshore RMB hub, supporting mainland and overseas leaders and emerging-industry firms to list in HK, an HKEX offshore RMB bond index plus reforms to connected transactions and spin-off rules, and a national power-semiconductor manufacturing innovation center by 2027. How much real incremental impact do these have on HK liquidity, IPO supply and HKEX itself? Which are structural positives and which are just framework language?",
+    "question_sha256": "6b033fd6b60407d8d9fff905a0aea759806c71d80cf581ac5847012f1e75b098",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-014",
+    "question": "UK August CPI rose to 3.1% year-on-year from 2.9%, up 0.5% monthly, with output PPI at 3.7% versus 3.3% expected — yet core CPI held at 2.6% and services CPI at 3.4% came in slightly below forecast. After the release markets trimmed BoE hike bets, leaning toward four hikes by end-2027. Which data point is the market really weighting? Are sterling, gilts and the FTSE mispriced?",
+    "question_sha256": "3f04a24f1b79504b7f5a3e7660893ae28e85938b284bae0fb332e5c15cb61a5d",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-015",
+    "question": "Zhipu told analysts it signed revenue-sharing deals with major domestic and overseas cloud providers, with revenue recognized from October; full-business ARR is already $1.8bn and year-end ARR guidance was raised 25% from $2.4bn to $3bn. The HK-listed shares jumped over 10%. How durable and profitable is monetizing open-source models via hosted APIs on overseas clouds? Is the guidance raise already in the price, and what might the market be missing?",
+    "question_sha256": "f21f1f2322d44435b83f8b6587062b70b948b55c916f9b68a75c468f0982bc55",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-016",
+    "question": "The Clarity Act failed a procedural Senate vote (50-49, ten votes short of the 60 needed), stalling crypto regulation. Coinbase fell over 10%, Circle over 11%, and Bitcoin tumbled. Is regulatory uncertainty a short-term headwind or a structural problem? Kraken also reported Base and Cardano gateway outages the same day — how does this affect market confidence?",
+    "question_sha256": "9378ec66d367f17ab1f81233d307747ab1637b9670c52a2e060f76e4f25b4fb4",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-017",
+    "question": "Japan's August exports rose 19.3% year on year, down from 23.2%, with shipments to the US up 24.9%, China up 20.6% and Asia up 21.4%, yet the unadjusted trade deficit widened to 1,105.6 billion yen and July core machinery orders fell 3.7% month on month, while Nikkei futures opened 0.3% higher. Analyze the divergence and what it means for Japanese equities and the yen.",
+    "question_sha256": "339bb487e0b6efc6af1d9f09f160ba8e87473a0d0586edfdb068bbdced732fad",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-018",
+    "question": "Per The Information, ByteDance's H1 revenue rose 30% to $120B while profit fell to $20B on AI spending, alongside a merger of Doubao, Lark and Volcano Engine. What does this mean for China's AI supply chain?",
+    "question_sha256": "c0b43403da34230e9175da4b99ead9e26564b81b908b4f69e7aed889b2b7532d",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-019",
+    "question": "The WTO projects AI will add 13.2% to global GDP and expand trade by 40% by 2040, with the biggest gains in digitally deliverable services. But with the 10-year Treasury above 5% and two Fed hikes expected, high-multiple tech faces discount-rate pressure. How do you weigh the long-term AI thesis against the near-term rate shock?",
+    "question_sha256": "d456b59c883012ebfd0ea5e8b3f842b5025a274bad91648664d44229892b2fe2",
+    "topic": "研究观点核查"
+  },
+  {
+    "id": "en120-020",
+    "question": "Apple has accepted Samsung's Q1 2027 memory pricing at roughly $2.0/Gb for DRAM and $0.33/Gb for NAND, 30–40% above Q3 2026 levels. Analyze the drivers of this memory upcycle (AI-server HBM crowding out commodity capacity), how many quarters it can last, whether phone and PC makers can pass costs through, and which parts of the A-share and Hong Kong memory, PCB and chip-equipment chains have earnings leverage that is underappreciated or already overpriced.",
+    "question_sha256": "a175054e696732c7749c6f7b4b2e2e9031d25d822c34a6bd9c7afc4331c6b5d8",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-021",
+    "question": "Bank of America's CEO guided Q3 trading revenue to be roughly flat; the stock fell as much as 6% intraday and closed down over 5%, its worst session since April 2025, dragging Wall Street banks lower. With the 10-year yield above 5% and a Fed hike expected, how should bank net interest margins and trading revenue be repriced?",
+    "question_sha256": "2fa0a237c002434397431a5906960e820d0109836c7bd8abd5231fabfd7bf762",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-022",
+    "question": "South Korea's industry minister said the $200bn total investment cap and $20bn annual investment pace will be maintained as previously agreed with the US. SK Hynix meanwhile fell over 4% to $182.62 in grey-market trading. Analyze the real impact of this arrangement on the won, Korean fiscal capacity and the semiconductor supply chain, whether the market has fully priced the Korea-US deal, and the execution risks to watch.",
+    "question_sha256": "5ed289a9a21d128726ecc002df083893e1c2b6c4c6cae1e769c85de56d59c366",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-023",
+    "question": "The BRICS New Delhi declaration voiced serious concern over surging unilateral tariff and non-tariff measures that distort trade and breach WTO rules, while the Xi-Modi meeting stressed trade imbalances, supply-chain issues and predictable market access, with China taking the BRICS chair in 2027. How much does warmer China-India ties and the tariff narrative actually matter for emerging-market assets and country ETFs?",
+    "question_sha256": "d3939c6d8f47079193b2f166a5b00ed00e9f72efd7a9719b2f2d245ada54cdb9",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-024",
+    "question": "COMEX copper fell more than 1% intraday to $6.5157. Investors are debating a global copper shortage while puzzling over rising US inventories. Assess the real drivers behind the rally — inventory dislocation, tariffs and reshaped trade flows, or long-run electrification demand — and the key risks for bulls and bears at current levels.",
+    "question_sha256": "1170dc6ddb4f23dfd9daba2a4472a0f37d9168a8fdfdb557647ae11d9f4b5e95",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-025",
+    "question": "Anthropic CEO Dario Amodei proposed a three-step \"pacing the frontier\" strategy: slow the pace of capability improvement — not halt training — coordinate joint safety standards among frontier AI firms in democratic nations, and give embedded third-party evaluators continuous, employee-level access. Assess the implications for AI valuations, the pace of compute capex, and competitive dynamics — and how it squares with Nvidia leading Anthropic's IPO.",
+    "question_sha256": "c6a5193ae939980383eb75134f7dadf455ddba415fd83eaa8fe9d45ac3142a13",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-026",
+    "question": "US August CPI came in at 3.4% y/y (in line) with core CPI at +0.3% m/m (above consensus); gasoline rose 3.9% and shelter +0.3%. Traders now price roughly a 90% chance of a hike next week and at least three hikes by mid-2027, yet spot gold is above $4,400. Goldman warns that renewed hike expectations could trigger dealer hedge unwinds and a sharper-than-usual gold correction. Explain the logic behind hikes and gold rising together, where the expectation gap sits, and the main risks.",
+    "question_sha256": "49f45be48dafa0c9ee124a75750e41bd5094a84fa5d64828344c4cd2fcba650c",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-027",
+    "question": "Oracle reported fiscal Q1 revenue of $19.3bn, up 30% y/y, with cloud infrastructure revenue up 121%. The stock opened more than 7% higher but closed down 1.82%, then fell over 3% in after-hours trade to $147.67. Analyze the gap between headline growth and the share price reaction: capex and margin pressure, customer concentration in AI contracts, and what would need to change for the market to re-rate the stock.",
+    "question_sha256": "6e1d90feaf30f8c6bb195e36e0aa43ea81edc7a3f27292bab85991cb43504489",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-028",
+    "question": "Inspur Information plans a private placement of up to RMB9bn to build next-generation AI infrastructure and liquid-cooling compute projects, while China's State Council called for improving compute infrastructure and strengthening compute resource monitoring and dispatch. With policy and capital both stepping up, how should investors weigh profitability versus capacity risk in China's domestic compute chain?",
+    "question_sha256": "dd2239d463a4f38a477e6d9bd2edf9c9eb8f5bb61efdc79a487d9f9ee10abf3b",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-029",
+    "question": "The most-active lithium carbonate contract dropped nearly 10% below 130,000 yuan/ton, the weakest since Feb 6, before paring losses to 7.91% at 130,680, while polysilicon fell 4%. Analyze supply-demand and inventory shifts, whether the selloff already overprices oversupply, and the impact on battery and solar chain earnings expectations.",
+    "question_sha256": "27ef4a39c88fdbc1ced6cb983428c98e22660ecb97941d7af6865b0f5a1f5b41",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-030",
+    "question": "Reuters reports the Trump administration has yet to decide on refined copper tariffs, caught between securing supply and containing prices, while A-share nonferrous metals slumped with Northern Copper and Western Mining limit-down and several nonferrous ETFs off more than 4%. Analyze how much tariff expectation was embedded in record copper prices, the effect of pre-emptive US stockpiling, and asset implications if tariffs land or are dropped.",
+    "question_sha256": "31f0b17c4f4bc6e575be16dc487a0f4bf6474112e765587a5f2b256f7f6b4aa2",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-031",
+    "question": "Broadcom disclosed about $179.2B in remaining performance obligations as of Aug 2, with roughly 25% expected to be recognized as revenue over the next 12 months. Analyze what this backlog structure means for AI revenue visibility, expectations gaps, valuation, and key risks.",
+    "question_sha256": "421be55674e639664f5976a7d22d5fce285c4639ccfdf0a38bed3b51aa12097a",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-032",
+    "question": "Apple's first foldable iPhone Duo is priced at $1,999. Goldman keeps a 14M base / 35M bull case shipment forecast for 2026, Deepwater doubled its revenue estimate, while Morningstar and Jefferies are cautious; BofA cut its target to $370 from $380. Shares closed down 0.3% at $315.34 and were up ~1.1% premarket. Analyze the real impact on ASP, margins, the supply chain, and the expectations gap.",
+    "question_sha256": "5a6d13ebb1e8c19aadcb7fe43287ab1885e6a1c1b1444d5a4d2190f943fac4a5",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-033",
+    "question": "TSMC reported August revenue of NT$514.81bn, +10.1% MoM and +53.3% YoY. Analyze what this means for AI compute supply-chain pricing, where expectations may be mispriced, and the key risks ahead.",
+    "question_sha256": "dfd2d51cd1ccc09eea5ed0dc681ddce3bd3b7bd6407704fb19c670bc072676af",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-034",
+    "question": "China's MOFCOM says the two sides are negotiating a $30bn reciprocal tariff-reduction framework and aim to implement it soon; the foreign ministry says leader-level interaction this year is under discussion, and Sinograin reportedly bought ~1m tonnes of U.S. soybeans this week. Analyze which sectors and names would genuinely benefit if the framework lands, and how much is already priced in.",
+    "question_sha256": "e2ff498d951f8cb0ce2ae86359efe914b602e2569d984c4ab68aa82c911b1f47",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-035",
+    "question": "The NYT reports regulators are investigating Nvidia's licensing deal with Groq, even as Nvidia said it will support up to 2 gigawatts of AI infrastructure in Australia by 2027. Analyze the scope and possible outcomes of the antitrust probe, constraints on Nvidia's ecosystem deal-making, and how AI capex momentum is balanced against regulatory risk.",
+    "question_sha256": "248f41a3bd63fc546909f772c4a51c79945070a7d6b5a2edcdde4098dff35e66",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-036",
+    "question": "The Treasury tripled its long-bond buyback but bought only $6bn; the 10-year auction cleared at 4.834% and yields broke 4.84%, the highest since November 2023. Is this inflation expectations, supply pressure or fiscal credibility, and what does it mean for US equity valuations?",
+    "question_sha256": "8c483f220d67016ca98f00c25953bef7f68be163af407d4c6f23c1bee5eed416",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-037",
+    "question": "Europe's STOXX 600 closed down 1.57%, with the DAX -1.84%, France -2.01% and the UK -1.41%, while European gas futures topped €80/MWh for the first time since 2023. What do rising energy costs mean for European earnings and the ECB's policy path?",
+    "question_sha256": "615210f2f9d2acf1de1b11b2b1347e468f0b824af3a1ddab7091fdc599b88f3e",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-038",
+    "question": "Dell rose over 4% to a record $559, up nearly 350% YTD, while Bloomberg reports a $4bn bond sale to refinance debt. SK Hynix's US listing hit a record, up ~5% with a $1.4trn cap, and HP launched an enterprise AI platform with Nvidia and Red Hat. Assess earnings quality and valuation risk.",
+    "question_sha256": "6dfd2614cb5cd815c7b918ff8dd6ac63b0e29faf396835af11ae2541f07ca3a0",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-039",
+    "question": "Enflame lists on the STAR Market Sept 11 at 142.18 yuan, guiding Jan-Sep revenue of 2.3-3.0bn yuan, up 326%-455%, while MetaX unlocks 13.97m shares from Sept 17. Analyze valuation benchmarks, scarcity premium and unlock supply pressure.",
+    "question_sha256": "913fba16d3c5e49f9d370bfb6fa10e53d4ba453a262a30efb918740d17783a8d",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-040",
+    "question": "Amazon sized its first sterling bond at £4.25bn with over £12bn of demand while the stock fell about 1.8%; Uber is also debuting in euro bonds seeking €4.5bn; separately OpenAI reportedly expects around $750bn of compute spending by 2030 and Google announced €13bn of Finnish data center investment for 2027-2028. Analyze what debt-funded AI infrastructure signals and the free cash flow risks.",
+    "question_sha256": "ebf7878fd2712fd4f30c18f29ee34ccb71f19a3f26ed6678fe19a80f6d51dde6",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-041",
+    "question": "DeepSeek plans to release V4.1 Flash around Sept 10, saying it beats V4 Pro on all metrics and routing V4 Pro requests at Flash pricing; its announced price cut puts cache hits at 0.02 yuan versus 1 yuan for misses, a 50x gap, while reports say DeepSeek is preparing a STAR Market IPO with CITIC doing due diligence. Analyze what collapsing inference costs mean for compute demand, cloud pricing and AI application margins.",
+    "question_sha256": "2095aa7129742bd06b20f7c250f8fbcbcd9cf32932df975ab8f380fb61bce000",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-042",
+    "question": "Reuters exclusively reports a document showing India's Serious Fraud Investigation Office recommends probing Xiaomi's India unit over alleged business-model irregularities and foreign investment law compliance; Xiaomi says it has received no communication and complies with all local laws. Analyze the real impact on Xiaomi's overseas revenue, valuation discount and sentiment toward China's outbound tech names, plus what to watch next.",
+    "question_sha256": "8b65fd47a7dcd0703c86c0be34090f82bc1f55e601658ad900332ce28bfc4153",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-043",
+    "question": "Google will invest at least €13bn in AI infrastructure in Finland in 2027-2028, and Fortum says the related PPA should lift group comparable RONA by about 1.4 percentage points over time. Analyze the impact on Google's free cash flow, on European power and data-center supply chains, and the risks in this AI capex cycle.",
+    "question_sha256": "d5f54d9bcea8f8dfc754a33ea4e0aaef4430e6d93bd091b86ed1e24e6883d4b7",
+    "topic": "公司投资"
+  },
+  {
+    "id": "en120-044",
+    "question": "China's August CPI rose 0.8% y/y (prior 0.5%) and 0.4% m/m versus a 0.3% poll, with core CPI back at 1.0%; PPI rose 3.8% y/y versus 3.6% expected and turned to +0.4% m/m from -0.7%. The statistics bureau cited energy prices (gasoline +9.3%) and imported commodity pass-through, while food prices still fell 1.4% y/y. Analyze how much reflects real demand, and the implications for policy easing room and A-share sector allocation.",
+    "question_sha256": "e3e7835a36303086438d128570d794047ac3509a20be4df27006e20f460f60f6",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-045",
+    "question": "Trump signed a proclamation adjusting the scope of 50% additional tariffs on some Canadian goods effective Sept 15, while CNBC reports the White House is broadening the 50% tariff list, allowing Section 232 duties to stack, upgrading some items to outright import bans, and moving to exclude Canada from US government procurement. Analyze the pass-through to US corporate costs and inflation, the hardest-hit sectors, and whether markets are underpricing this.",
+    "question_sha256": "4c1853bb1fef5ee23251b33636b974c55cb8cbb6e13a5c0b1a5f72520d71d5d9",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-046",
+    "question": "The Information reports China is limiting humanoid robot IPOs after Unitree's volatile debut. On the same day, Hong Kong-listed Youdi Robotics opened its first day up more than 142%, and an industry conference said national standards for dexterous hands should be finalized and published by year-end. Analyze how tighter regulation flows through to private valuations and listed robot names, what the standards mean for the industry, and the key risks.",
+    "question_sha256": "a9e89fc16cedf5423b930175c5844a0c7342327581a5cb8c54f834bf65c43cbe",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-047",
+    "question": "Meta launched its Muse AI agent, rolling out in the US on iOS, Android and muse.ai with AI glasses coming soon, plus Muse Confidential VM later this year; the same day OpenAI shipped ChatGPT Images 2.5 and two new API models. How strong is Meta's push toward a consumer AI entry point, and will the consumer AI race lift capex and squeeze margins?",
+    "question_sha256": "d0b1772c661318e807bd57d5d76a7ac6275bf0f0cf000b77211c5dce79dff235",
+    "topic": "产业与产品"
+  },
+  {
+    "id": "en120-048",
+    "question": "Qualcomm announced a multi-generational collaboration with Amazon on custom AI data-center chips, and issued a warrant to an Amazon affiliate for up to 25M shares at $161.26, vesting in tranches up to $60B. Shares jumped over 10% pre-market and about 6% at the open. Analyze what this means for Qualcomm's valuation story, the custom AI silicon competitive landscape (implications for Broadcom and Nvidia), the dilution cost of the warrant, and what the market may be over- or under-pricing.",
+    "question_sha256": "7500227edab3747ca819d70218d174415effcef24906e5890744534945a1729a",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-049",
+    "question": "Apple reportedly abandoned its short-term negotiating practice and signed a three-to-five-year NAND supply agreement with Kioxia with no price cap, as AI crowds out memory capacity. Samsung's Taylor, Texas fab starts 2nm trial production late this month with capacity fully booked, and Longsys executed its first buyback for RMB448M. Analyze the durability of the memory upcycle, how pricing power shifting to suppliers hits downstream hardware costs and memory stocks including A-share and STAR Market names, and whether the market is pricing the cycle's height correctly.",
+    "question_sha256": "8e08f50617f81e3beeebcf06b731462eb9c36682aaebc07ebbfb46cd10db2f05",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-050",
+    "question": "ASML said TSMC and Samsung committed to using its next-generation EUV systems, and it launched an initiative with TSMC to move the industry toward High NA EUV large-field masks; ASML rose about 4% and TSMC about 2.4%. Analyze what this really means for ASML's order visibility and 2027-2028 revenue, where views diverge on High NA adoption pace, and the read-through to equipment, materials and leading-edge capex.",
+    "question_sha256": "4ecedf8a70c619bacfaa5896633eb259315ec23213bba55c6a370f64e6db4afd",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-051",
+    "question": "Verizon and Corning announced a multi-year, multi-billion-dollar deal to supply 80 million miles of high-density optical fiber through 2032 for broadband and next-gen AI infrastructure; the same day Qualcomm and Amazon said they will co-develop optical connectivity up to 1.6T, Palantir named Nebius its preferred sovereign AI infrastructure partner, and a Chinese PCB maker announced a RMB2bn AI computing board project. Assess the evidence that AI capex is broadening from compute into optics, connectivity and power, which links benefit most, and whether orders convert to profit.",
+    "question_sha256": "333d015b04f98eb508423c6c38416cbde11aba9c16481b072162649b767c053f",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-052",
+    "question": "Per a Deutsche Bank note from Monday's investor briefing, BYD raised its 2026 overseas sales target to 1.9-2.0m units from 1.5m and set a goal of over 2.5m exports in 2027. Analyze the implied overseas capacity, per-unit profitability, tariff and localization risks, and the gap versus prior market expectations.",
+    "question_sha256": "f787285cb98e84c276e6dd4567da3c113672a6ead30436d9b8bd2023c0a44451",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-053",
+    "question": "CPCA data show August narrow passenger vehicle retail sales of 1.541 million units, down 23.6% y/y, while HK-listed autos weakened (Li Auto and Leapmotor each down over 2%) and customs data show August vehicle exports of $18.33bn, up 43% y/y. Analyze the causes of the domestic demand cliff (pulled-forward subsidies, price war, high base), whether export strength can offset weak domestic demand, margin and utilization pressure across the chain, and whether EV supply-chain stocks have priced this risk.",
+    "question_sha256": "fe4256d0a7449c0439f8ebb7973724e32249ccf4391f340bd6b636f72d96fc53",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-054",
+    "question": "Zimbabwe immediately banned antimony and tungsten exports and halted ore and concentrate shipments, extending the resource-localization push seen with lithium concentrate in February; the same day A-share nonferrous names surged and LME copper set a record high. Analyze the real impact on global antimony and tungsten supply and prices, which parts of the chain benefit, and how to price resource-nationalism risk.",
+    "question_sha256": "e7829218d4195d26feebb308ce13caf45a2601fdabf4a0498c40e31df582228a",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-055",
+    "question": "Moutai raised the retail price of Feitian 53% 500ml at its own stores from 1,753 to 1,766 yuan, its sixth adjustment this year, with the 1L version to 3,291 yuan, while i-Moutai prices were unchanged, leaving a 127-yuan gap, staff say stock is ample, and a few small formats were cut. Analyze what this signals about channel spreads, wholesale prices and end demand, and what it means for the baijiu investment case.",
+    "question_sha256": "1801af7dcbc7b7bb923c0ffe8a6befa9614176006a87a5e3c978ed73420791d3",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-056",
+    "question": "The RBA's Hunter said the board may need to hike if inflation intensifies, stressing low tolerance and a desire to cool the economy and housing — yet NAB August business conditions fell to -1 from +4, confidence to -8, and Westpac consumer sentiment dropped 5.2% to 84.4. Analyze this hawkish-versus-weakening conflict and its impact on AUD and Australian assets.",
+    "question_sha256": "9afc51f1f27ab4a1e8238a2bf078f8b10a813fc1e6aed317c555fc8036ff130e",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-057",
+    "question": "China's August exports rose 25.0% y/y in USD, imports 28.2%, with a $119.09bln surplus slightly below consensus; IC exports reached $40.73bln, up 129.8% y/y, autos +43%. Analyze what really drives the chip export surge, its sustainability, and implications for STAR 50 semiconductor heavyweights.",
+    "question_sha256": "d12c4a77b0a5051d616105e8d669e02035c7bd2f602997e5631e078055aa21b9",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-058",
+    "question": "Spot gold broke $4,440/oz (+0.77%) and COMEX gold topped $4,480; China's reserves rose to 76.73moz, a 22nd straight month of buying at the fastest pace of this cycle, even as Fed hike odds sit near 60%. Analyze the relative weight of geopolitics, central-bank demand and rate expectations in gold pricing, and the biggest correction risk.",
+    "question_sha256": "4c533391011fedb762c32602aca19b1a6cb948007db0bbd20df735c25530790b",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-059",
+    "question": "Japan's July nominal wages rose 4.7% YoY versus 3.8% expected, the largest gain since 1997, with real wages up 2.4%, a near five-year high; Q2 real GDP was revised up to +0.4% QoQ. USD/JPY fell 0.6% to 153.41 as FinMin Katayama pledged close US coordination on orderly FX with no policy change. Assess how much of a BOJ hike is priced, and the path for the yen and Japanese equities (Nikkei futures -0.9%).",
+    "question_sha256": "6d679add97768c351cb4aa86f04e101773111132cb4015c278cc5d6bbb745068",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-060",
+    "question": "Goldman sharply raised its global optical module forecasts to roughly $67.7bn, $131.4bn and $148.5bn for 2026-2028, up 33%, 81% and 115%, citing AI server architecture shifting to high-speed networking and more modules per GPU/ASIC driving 800G, 1.6T and 3.2T demand. Innolight rose about 20% and Cambridge Technology about 24% in Hong Kong. Assess the credibility of the upgrade, where profits accrue, and the key risks.",
+    "question_sha256": "f631f28a0db9cd51ca09f388be5deeba7e14655cb9655f61326b65df49c72ba0",
+    "topic": "研究观点核查"
+  },
+  {
+    "id": "en120-061",
+    "question": "At Xiaomi's autumn launch, Lei Jun said 21bn yuan has already been spent on in-house chips, with XRing O3 shipping and O100/D100 due in H1 next year; the Xiaomi 18 Fold starts at 10,999 yuan (ceramic edition 15,999) and the Pengcheng N70 Pro is priced at 209,900 yuan. Southbound flows bought about HK$1.38bn of Xiaomi, the largest that day. Assess how much in-house silicon and premiumization actually add to margins and valuation, and the risk from Huawei's Mate XT 2 starting at 19,999 yuan.",
+    "question_sha256": "1e5041fe7f7054f8fc2fa21af720cf57b93fded9957ac6804e6200d7bbbba06d",
+    "topic": "产业与产品"
+  },
+  {
+    "id": "en120-062",
+    "question": "Final Q2 eurozone GDP was revised up to +1.2% YoY and +0.6% QoQ, both above forecasts, and September Sentix investor confidence jumped to 5.1 vs 2.0 expected; yet German July industrial production fell 1.1% MoM and 1.6% YoY, far below forecasts, the AfD took 44% in Saxony-Anhalt and Merz's approval is just 15%, reversing the German recovery trade. Analyze the conflict between the aggregate data and German fundamentals/political risk, and what it means for European equities, bunds and the euro.",
+    "question_sha256": "e48fdc026b459e4248bc4332bcebce5f747abe95e55467c0f0bf3a71704e9cfc",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-063",
+    "question": "Longsys priced its Hong Kong listing at HK$236 with the public offer 40.32x oversubscribed and the international tranche 3.88x, raising HK$6.80bn net, with H shares trading from Sept 8; the same day CXMT said global DRAM conditions and prices improved in H1 while it remains in a heavy capex phase and will study dividends in due course. Analyze where the memory cycle stands, the H-share versus A-share valuation gap, and debut and follow-through risks.",
+    "question_sha256": "3ff57d8efc202f3336c5342e4011a91d0a27869f9d8394f12286410009063d2d",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-064",
+    "question": "Tesla fell 5.92% Friday as the Cybercab update disappointed while NHTSA opened a probe into Cybercab self-certification. Analyze the optimistic robotaxi assumptions embedded in valuation, the real bite of regulatory risk, and the next catalysts to watch.",
+    "question_sha256": "2e5ddd73c49ae64fda85a8f0f1de1507e151e1bc0c0eb044b2b89c45dd606ad1",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-065",
+    "question": "US August payrolls rose 162k vs 56k expected, with 55k of upward revisions and unemployment at 4.1%; CME odds of a September 25bp hike jumped to 60.3%. Analyze the expectation gap, why next week's CPI is decisive, and implications and risks for stocks, bonds and the dollar.",
+    "question_sha256": "cdd4bea1e88fadc6fb52ddcccfb4a32a4a6f7531dc85736450f232e7748a4ac5",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-066",
+    "question": "Pre-market news: Micron plans to add up to 60,000 wafers/month of HBM capacity by year-end, and Samsung is co-developing next-gen on-device AI chips with Arm. Analyze how faster HBM supply affects the memory upcycle, AI value-chain profit distribution, and the read-through to STAR 50 memory and equipment names.",
+    "question_sha256": "aaa28754c198ed075c3ff96d3e7d74a3e9b077fd345790b5fa96729e34bafd2c",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-067",
+    "question": "Lululemon fell 18% premarket after cutting its full-year outlook, while Michael Burry said it is his largest holding, that he will keep his position and plans to add after the open, buying aggressively below $100. Analyze what the guidance cut says about the business, where market pricing and the value case diverge, and the read-across for consumer stocks.",
+    "question_sha256": "1723d78333c9aa15a694812e0c9dba12c40d93a875aa5fe916da92e77c7602ad",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-068",
+    "question": "Norway's $2.3tn sovereign fund has proposed cutting the government-debt weight in its bond benchmark from 70% to 50%, an estimated $106bn reduction in global sovereign bonds, including a 12.2-point cut in Treasury exposure worth about $80bn, while raising US non-government fixed income by 11.4 points and JGBs by 2.8 points. Separately, Chinese commercial banks are reportedly buying Treasuries after lifting dollar deposit rates. Analyze the shifting Treasury demand base and implications for long-end yields.",
+    "question_sha256": "738451f7979b1da40f14bb0dcd09a61d73d4524e42b6b5f0156e3b367a6de3c5",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-069",
+    "question": "US average retail diesel has risen to $5.85 a gallon, topping the June 2022 record after a 17-cent jump in two days, with distillate stocks at seasonal record lows and East Coast inventories the lowest ever; Hormuz shipping is disrupted, Russia extended its diesel export ban to end-September, refiners are near capacity, and heating season demand is coming. Assess how persistent this diesel-led inflation is and what it means for Treasuries, equities and energy stocks.",
+    "question_sha256": "077e2bf3681237bd58110320545874c1d1ef18c2beb49f5e1df36d2d2c3a9eae",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-070",
+    "question": "Reports say September alone will bring roughly $200 billion of new US investment-grade corporate supply, on top of a $31.5 trillion Treasury market under strain with benchmark yields at their highest of Trump's second term, while AI capex is projected near $1.1 trillion next year. Analyze how AI funding needs plus fiscal borrowing could lift long-end yields and credit spreads, and what that means for richly valued tech stocks and debt-funded AI infrastructure players such as Anthropic's $15B pre-IPO facility and Crusoe's $3B raise at a $30B valuation.",
+    "question_sha256": "b8d63c57214241bbe7492fd458f99c01e6a165e742ab0534ae10a26de18cf6a9",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-071",
+    "question": "Nvidia has agreed to acquire open-source AI platform Hugging Face for $12.93 billion. Analyze the strategic logic: moving from selling chips to controlling model distribution, what it means for the CUDA ecosystem, open-source neutrality and rivals like AMD and the clouds, whether the market has priced a software/ecosystem premium, and whether antitrust scrutiny and developer attrition are the key risks.",
+    "question_sha256": "10c6f4fb5cf685d668c3b9e18bbda7dfba85b1618d1a73ec642d7984d21993d2",
+    "topic": "公司并购"
+  },
+  {
+    "id": "en120-072",
+    "question": "YMTC's Star Market IPO review status changed to the inquiry stage, against a backdrop of Samsung sharply gaining HBM share on SK Hynix, Texas Instruments' third price hike this year, and Korea scrambling to respond to US chip tariff plans. Analyze what a YMTC listing means for the STAR 50 index composition and valuations across domestic memory and semiconductor equipment/materials, plus the risks to watch.",
+    "question_sha256": "a471ce12b5f9e0d0bba3b001cbb06181e5010b055a332d227a8150a8f6894f05",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-073",
+    "question": "WTI settled at $91.30 and Brent at $95.52; Saudi Arabia set October Arab Light OSPs at a $2 discount to Oman/Dubai for Asia and a $2.15 discount to Brent for NW Europe; Iraq's August exports hit 73m barrels, the highest of the Iran war; Vance said Hormuz traffic is near pre-conflict levels while US diesel averaged a record $5.820/gal. Analyze how the risk premium is priced and how it could unwind.",
+    "question_sha256": "2d4ff545bbd3ef4f914fa2fb50b5d64e48b74e5af94840efd24454c51cbd217b",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-074",
+    "question": "Snowflake beat on Q2 and raised full-year product revenue guidance, sending shares up about 24% with Oppenheimer lifting its target to $475 from $400; ServiceNow +5.5%, Salesforce +3%, Adobe +3.3% and Palantir +7.7% the same day. Analyze whether software is shifting from AI-cost pressure to AI-revenue upside, and the valuation risks.",
+    "question_sha256": "9cf92b68488d62ad1f6f0e28bbacb115be6284e8e07d0ea66ba43cabb960e2d5",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-075",
+    "question": "US August ISM services PMI rose to 55.4 (consensus 54.2), new orders hit 60.9, prices paid jumped to a four-year high of 72.6, while employment stayed weak at 47.8; the 10-year yield was down 4bp at 4.754%. Analyze the implications for the Fed path and the gap versus market pricing in stocks and bonds.",
+    "question_sha256": "758298fb0a6abd616aa323af29ad42a924975fe9c66af93c3546adcc374f62f2",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-076",
+    "question": "Saudi-to-China VLCC earnings have climbed to about $656,000 per day, more than ten times a year ago, and Oman-to-China rose from roughly $131,000 to $220,000, sending COSCO Shipping Energy and peers limit-up — even as Europe-route container freight futures plunged 7% to 1,830. Explain the divergence between tanker and container rates, how much is Hormuz risk premium, and how much is already priced into shipping stocks.",
+    "question_sha256": "384139bf270cee38d586129ea153210e913765b28c848659641c83eed616975e",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-077",
+    "question": "Broadcom's FQ3 revenue was $29.59B, up 86% y/y, with FY26 AI revenue guidance lifted from $56B to $58B and management flagging a doubling to ~$115B in 2027 and $230B in 2028. Yet Q4 guidance of $34.8B missed the $35.05B consensus and gross margin is guided to ~73%. Analyze what expectations are priced in, whether the guidance blemish is overread, and the long-term logic and key risks of custom AI silicon.",
+    "question_sha256": "3368787e4f818931be4e8f1b4fd07f3f44ab7267fd1dc88e1d0016685163ee42",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-078",
+    "question": "A Microsoft SEC filing shows FY27 reporting will shift to two segments, Agents and Infrastructure plus Devices and Consumer, with restated Q4 Azure revenue of $29.42bn and FY27 Q1 guidance of $75.15-75.75bn for Agents & Infra and Azure growth of 44-45% in constant currency; the stock fell 0.84% Wednesday. Does the restructuring increase or reduce transparency on AI returns?",
+    "question_sha256": "cbd3ca3c33104ce254360302ac71a893caf80faaaabd97403af102423a201cb2",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-079",
+    "question": "As of June 30, large holders of US assets across six markets including Japan, Canada, Australia, Denmark and Finland hedged only 41% of their dollar exposure on average, the lowest since at least 2015; every 5-point rise in hedge ratios implies roughly $230 billion of flow. The dollar index closed down 0.1% at 99.56, 10-year Treasury yields sit at 4.784% and European yields hit multi-decade highs. Analyze how a questioned safe-haven status plus falling hedging costs could become self-reinforcing selling pressure, and the knock-on effects for emerging markets and gold.",
+    "question_sha256": "2592c38172fa6c6ccfd006c56cd67f2f7e794bd74a27f9c97cd6a7e94ee9fa86",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-080",
+    "question": "The Fed's Beige Book showed 8 of 12 districts growing slightly to modestly, flat employment and tariff costs starting to pass through to consumers, while NY Fed's Williams said inflation is slowly cooling and rates are 'well positioned' yet a hike at the next meeting isn't ruled out. Meanwhile August ADP added just 38k versus 48k expected and July factory orders rose 0.9% versus 0.6% expected. Analyze the expectations gap on the rate path and the data that matters most.",
+    "question_sha256": "9ec3c0e49715fca5c761d42eff80e7ce2383b713cb4e29494d795671dff4c7ab",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-081",
+    "question": "Reports say Moonshot AI (Kimi) confidentially filed an A1 with HKEX this week to start its Hong Kong IPO while raising what may be its final pre-IPO round at a roughly $50B pre-money valuation; the company declined to comment. Analyze the assumptions embedded in that valuation, the read-across for Hong Kong AI names and China's compute supply chain, and the risks to watch.",
+    "question_sha256": "45075032daa02cb2de48acefffb454dedb722be8784bca0037dc3a4a86521fca",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-082",
+    "question": "The judge in the ad tech case ruled Alphabet does not have to divest AdX but imposed behavioral remedies. What does that mean for ad revenue, the valuation discount and appeal risk?",
+    "question_sha256": "777a9cd3ac41af3ab262608be90faa614c26cb08614eec0e5e572750dbcdb962",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-083",
+    "question": "The Baltic Dry Index rose 5.5% to 3,331, the highest since December 2023, with capesize rates up 8.1% and daily earnings at $47,666. Is this real demand or capacity and routing disruption, and what does it imply for shipping stocks and commodities?",
+    "question_sha256": "76156dce518a8b5db901a12c432c9d4aacf1821cc98a4eaa76a44931d9686324",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-084",
+    "question": "The RBNZ unanimously raised the OCR by 25bp to 2.75%, its second straight hike, saying the move lowers the risk of larger future hikes; it lifted the Sept-2027 CPI forecast to 2.4% from 2.0% while nudging the end-2026 OCR track down to 2.81%. NZD/USD fell 0.5% to 0.5860, with banks having flagged a peak near 3.3%. Analyze the hawkish-versus-dovish read, the pricing logic behind the kiwi's drop and risks to the rate path.",
+    "question_sha256": "9a34922caddd04ec34fcaf78e2f0b540c416044cd0c8408e5cfcccef32b98414",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-085",
+    "question": "South Korea's August CPI rose 3.1% y/y, below the 3.2% poll, but core CPI jumped to 3.4% from 2.6% in July, with the monthly print at 0.2% vs 0.4% expected. Analyze the implications for BOK policy, the won and semiconductor heavyweights.",
+    "question_sha256": "d67dbe06d7e21104cab866ff6d3e92acbdc6eaab85f89a15977f7e7070a71116",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-086",
+    "question": "Dell posted Q2 revenue of $46.97B vs $44.95B expected and adjusted EPS of $7.04 vs $4.91, raising full-year revenue guidance; shares rose over 8% after hours after closing down 6.94%. HPE gained 4% in extended trade. Analyze the core debate over AI server margins and demand durability.",
+    "question_sha256": "4bca51b812256be8a20cc236ce522262202c488fcd836b1038c042955b56e6f3",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-087",
+    "question": "NIO's Q2 revenue of RMB32.14B missed the RMB33.49B consensus while net loss narrowed sharply to RMB722M, with CEO Li Bin citing an 18.5% vehicle margin; still, the stock fell over 4% early in US trading. August deliveries diverged: Leapmotor 103k (+80.7%), Zeekr +109.8%, Xpeng just +4%. Analyze margin durability and competitive risks.",
+    "question_sha256": "d8827d339756f04e1dfafa644fe0e79495174ac7ca3cb6d536e4475e9e572233",
+    "topic": "公司比较"
+  },
+  {
+    "id": "en120-088",
+    "question": "Euro area August CPI rose to 3.3% y/y from 2.9%, with core at 2.4% slightly below forecast and unemployment up to 6.4%; Italian CPI rose to 3.3%. ECB's Simkus said it is clear the bank should hike in September, and UK markets now price 50bp of BoE hikes by February. Analyze the expectations gap in European rate pricing and the impact on European equities and the euro.",
+    "question_sha256": "225d3cfe1ede596f67f7ed8597bf2d40699e6bf76a230d2f5d4ad059eca2f13e",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-089",
+    "question": "Fervo signed a near-400MW Utah geothermal power deal with Google, with an option to expand to nearly 1GW by June 2030, sending Fervo up over 7% premarket, while SB Energy filed for an IPO and HUMAIN announced a new 250MW data center. Analyze how power scarcity as the AI bottleneck reprices energy and compute names, and the risks.",
+    "question_sha256": "c70eb10dc6536723368c753532f5ab1d963dddf321e88db7e2289324ad465dbe",
+    "topic": "公司投资"
+  },
+  {
+    "id": "en120-090",
+    "question": "Samsung is allocating about 70% of its memory capacity through 2031 to long-term contract customers and targets HBM5 at twice HBM4E performance, with zHBM at eight times. GigaDevice said DRAM prices will rise moderately in H2 and tightness will not ease much in 2027, with SLC NAND strength lasting through 2027. Yet US memory names fell — Micron, Western Digital and SK Hynix all lower. Why the divergence between fundamentals and prices, and what does it mean for STAR 50 memory-chain stocks?",
+    "question_sha256": "c49d6666c53a3d42f0330f39fcf6f8beeea4deeaae33fe59ed384ca98722c83a",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-091",
+    "question": "Hua Hong announced a $4.17bn capital injection with partners into Wuxi Hua Hong phase 3 to build a 12-inch specialty foundry line of about 55k wafers/month, pending shareholder approval; the same day GigaDevice disclosed RMB654m of buybacks for capital reduction and Luxshare RMB1bn. Analyze the specialty-capacity cycle, capex drag on returns, and implications for STAR 50 semiconductor weights.",
+    "question_sha256": "e04f999b3d2038f98fa827ca7f30f02d8a5f0043e9caef8d4082fd476419ef95",
+    "topic": "公司投资"
+  },
+  {
+    "id": "en120-092",
+    "question": "Innolight plans to buy back 4–8 billion yuan of shares for equity incentives or an employee ownership plan, sending its A shares up over 3% and H shares up over 6% even as compute hardware and PCB names sold off. Analyze the signalling value of such a large buyback, its impact on EPS and incentive targets, and the expectation gap and risks in AI optical module demand and competition.",
+    "question_sha256": "2f17e38947709f2e4a569afc32130ae8b247b9d11fef5626873eaf5318408c7e",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-093",
+    "question": "Shein-W (00625.HK) raised $1.7bn at HK$48.56 for about 280m shares but fell more than 10% on its Sept 1 debut, while Mech-Mind Robotics slipped below its HK$101.70 offer price and the Hang Seng fell over 1%. Analyze what these breaks say about Hong Kong IPO pricing and the long-term case for cross-border e-commerce.",
+    "question_sha256": "e687217633c7287e01c947050e48a65f0051f94377353cb63f41d017cc38d0dd",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-094",
+    "question": "Korea's August exports jumped 68.7% y/y versus a 62.6% forecast with a $34.75bn surplus, yet manufacturing PMI slipped to 52.3, the president said rate hikes are inevitable, and Seoul proposed a 2.6 trillion won 2027 chip budget. Analyze what the export boom versus tightening means for Korean equities and the chip chain.",
+    "question_sha256": "0d32adadfdcb0491a11a46368b900a92524972464d24913d13e8b34ec718cc24",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-095",
+    "question": "The FTC and 22 state attorneys general allege Amazon concealed unfair charges in its digital ad auctions and reaped billions by manipulating ad pricing, while Amazon counters that the complaint cites no evidence of consumer price increases; the stock fell as much as 3.5% intraday and closed down 2.50%. Analyze advertising's profit contribution, the likely litigation path and timeline, and the valuation impact.",
+    "question_sha256": "bc97d34ed1a6d888dd0a6ae58b1e090cdf8de8cf5f23dfb436ca754d8c693dfb",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-096",
+    "question": "China Jushi has raised September electronic-fabric prices by 15% for thick and 20% for thin cloth, with mainstream averages above 10 yuan per meter, while Sinoma Science plans to raise up to 5bn yuan for high-frequency electronic fiber cloth and says second-gen LDK fabric is in shortage. Analyze the demand drivers, capacity-expansion timeline and post-2027 oversupply risk, and the earnings leverage for listed players.",
+    "question_sha256": "75be18c67609d26f466ec069f738e68c77d32cc85ec38df927cedd61969e0f26",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-097",
+    "question": "Zhipu (02513.HK) reported H1 2026 revenue of RMB954m, up 399.7% year on year, as HK AI names rallied with MiniMax-W +17% and Zhipu +5% while the Hang Seng Tech index closed +0.32%. Analyze the quality of that growth, losses and cash flow, the long-term assumptions embedded in valuations, and divergence risk versus AI hardware names.",
+    "question_sha256": "02f0f6dc07eb55eaad76699ec86793c1692642fd429492465f260a1ce8287b90",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-098",
+    "question": "China's MOFCOM and six other ministries issued a plan to expand goods consumption, targeting around RMB60trn in retail sales by 2030, ten-trillion-yuan green, smart and health markets, easing car purchase restrictions, growing the used-car and aftermarket segments, expanding consumer loan subsidies and promoting brain-machine and AI elderly-care products. Analyze the implementation pace, real earnings leverage for autos, appliances and smart hardware, and the gap versus actual consumption data.",
+    "question_sha256": "8a3bd57d56220ddc1f5cff7a584f069f68378d6a17263127599a09a54d5d7a3a",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-099",
+    "question": "China's August official manufacturing PMI came in at 49.8, above the 49.6 forecast and 49.2 prior, with production and new orders at 50.4 and 50.6, while non-manufacturing held at 49.0 and the composite was 49.5. Analyze the sustainability of the demand rebound, the signal from weak services, and implications for A-share style, bonds and policy expectations.",
+    "question_sha256": "85bd286a4b553577bebfa8f61b831a2dd45ba0b90ead622f747668c748cae621",
+    "topic": "宏观数据"
+  },
+  {
+    "id": "en120-100",
+    "question": "Bank of China's A-shares rose nearly 3% and H-shares over 4%, both hitting record highs after interim net profit attributable to shareholders came in at 123.594 billion yuan, up 5.1% year on year; CITIC Bank gained over 2% with Bank of Beijing, PSBC and CCB also higher, as banks bucked a falling market and southbound net buying topped HK$3 billion. Analyze whether the record run rests on earnings and dividends or defensive rotation, and the valuation and net-interest-margin risks.",
+    "question_sha256": "9aec2335bf676f3364a5d9829c4830e08edbc2173a8f5016fa43b6821a677fcc",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-101",
+    "question": "The PBOC and financial regulator issued reforms allowing mortgages of up to 40 years, following the CSRC's plan to support a new property development model. Sunac and Country Garden jumped over 14% in Hong Kong and A-share developers hit limit-up. Analyze the policy's real impact on developer cash flow and its durability.",
+    "question_sha256": "bbea44ae0876c1a7e8bbf6df0f2be754ac90e505e87ab727b2c0b7f4661e65dc",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-102",
+    "question": "Tianqi Lithium's H1 net profit jumped 4,925% and Gotion's Q2 profit rose 6,371% QoQ as the whole battery chain reported. Genuine cycle turn or low-base illusion?",
+    "question_sha256": "04df4617e6ecaef22cf2c0a5d5ed437923ead263c4d4801ab1f407d49c53eae2",
+    "topic": "公司比较"
+  },
+  {
+    "id": "en120-103",
+    "question": "Multiple PCB firms reported H1 results, with Jinan Guoji's net profit up 987% YoY and Huazheng New Material's Q2 profit up 359% QoQ on AI-driven demand for CCL and high-layer boards. Analyze pricing and capacity cycles, cycle durability and valuation risk.",
+    "question_sha256": "033b8319db694667c843de2001c61fdc394d27a1f61e93f53184965ebc93a043",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-104",
+    "question": "MetaX posted H1 revenue of RMB1.324B (+44.67%) and a RMB612M net profit versus a prior loss, though part of it came from fair-value gains. Assess the real earnings quality of domestic GPU shipments and the read-across to STAR 50 heavyweights.",
+    "question_sha256": "34cbdb7525435f17791ae65b8344434489aea65e9fa201131ac9eed965676a39",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-105",
+    "question": "LONGi reported H1 revenue of RMB27.05B (-17.58%) and a RMB3.68B net loss on weaker installs, low utilization, high silver prices and FX losses. Assess how far solar capacity clearing has gone, what triggers the profit inflection, and sector timing.",
+    "question_sha256": "b3252eee3775b2b11723092a42e95f2101a72ca8d59f6db788e089905e75e755",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-106",
+    "question": "State media reports liquid-cooling CDU lines are booked through late December with some firms' orders near 100% growth; China's liquid-cooled data center market hit RMB15.98B in 2025 (+45.2%) and global AI liquid cooling may top RMB100B in 2026. Analyze cold-plate versus immersion roadmaps, pricing and margin risk as capacity expands, and which STAR 50-linked names benefit first.",
+    "question_sha256": "780dc8aa700eb7f5fcbe3ca0f8e3f342d5824bc4c93ceb9440d0373e9af3a669",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-107",
+    "question": "The UK Chancellor says windfall taxes on banks and oil companies are under consideration. Analyse the potential hit to UK bank and oil-and-gas earnings, dividends and buybacks, how markets are pricing the odds of enactment, and the transmission to UK equities and European energy and financial ETFs.",
+    "question_sha256": "92a44ff1e28f863f520074cb8b5c2ea723bdb87e8d3b62d60d0118db667fe243",
+    "topic": "政策与监管"
+  },
+  {
+    "id": "en120-108",
+    "question": "EIA data show U.S. gas output rising to 122.6 bcf/d in August (from 122 in July) and oil output near 13.83 million bpd, easing to 13.77 million bpd in September, while gas whipsaws around $2.89 with over 1% daily swings. Analyze the tension between supply growth and demand (LNG exports, power/AI data-center load) and the likely price path.",
+    "question_sha256": "aa11e3a406a3349dd013215317946f3605518564973713175d1f92fde630c47d",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-109",
+    "question": "Anthropic is preparing to let existing shareholders sell some shares in its IPO while considering a longer-than-usual lockup; its private valuation hit $965bn in May and bankers have discussed an IPO valuation of about $1.5 trillion. Separately, music publishers have sued the company over copyrighted works. Analyze what insider selling means for pricing and float, the revenue assumptions implied by a $1.5tn valuation, and the risks from copyright litigation and AI capex funding pressure.",
+    "question_sha256": "eae7c50c48da150a531e9290d4cdce4bf0c7d30af815fb94fbc825c050f6cadd",
+    "topic": "公司融资"
+  },
+  {
+    "id": "en120-110",
+    "question": "Trump says the US has secured majority control of over 65 billion barrels of Venezuelan proven reserves, while Chevron is close to completing negotiations on migrating its joint ventures. Yet WTI settled at $83.40 (-0.16%) and Brent at $89.31 (-0.43%). Analyze the realistic production timeline, the impact on the medium-term supply curve, and why the market shrugged.",
+    "question_sha256": "d2585aa74742d7205649290d4c2145d60335ae9146493c2ba8582ec025471d2f",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-111",
+    "question": "OpenAI says it is ending its partnership with Cursor after the company's acquisition by SpaceX. Analyze the shift from cooperation to competition between AI coding tools and foundation-model providers, Musk's strategic intent in consolidating AI applications, and the long-term investment logic and risks for related software and compute names.",
+    "question_sha256": "dd200bc8b89b180e696f5975af75b38a913264f2eae9099de00095d072f9583f",
+    "topic": "公司并购"
+  },
+  {
+    "id": "en120-112",
+    "question": "Reports say the Advent-Stripe consortium will walk away from acquiring PayPal; the stock fell over 18% premarket and opened down nearly 14%, its worst since Feb 3, while Affirm jumped 16% on a strong revenue outlook. Analyze payments-sector pricing once the deal premium disappears.",
+    "question_sha256": "c6a43353aeeeebcd605ca848e98854e1dba3665d3da927bfcb4ce77e848cd31f",
+    "topic": "公司并购"
+  },
+  {
+    "id": "en120-113",
+    "question": "Marvell's FY26 Q2 revenue of $2.74bn and 94-cent EPS both beat, but its long-term revenue outlook was not raised meaningfully and the stock opened down 7-8%. Analyze how high expectations for custom AI ASICs have been set and what the next checkpoints are.",
+    "question_sha256": "63ef3bfe1f61ecdda5298a47d47d708eedf31f219ee7c7c9b959aa6b868f7815",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-114",
+    "question": "CXMT posted H1 revenue of 150.3bn yuan (+873% y/y) and net profit of 77.6bn yuan, swinging to profit, and says the global DRAM shortage will persist in H2 with LPDDR6 sampling to key customers. Analyze where we are in the memory cycle and the impact on the STAR 50 and domestic memory chain valuations.",
+    "question_sha256": "1df981a215985af6635b6726f732ab266026bf645bb6b04987b24c6ec0d8f5c9",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-115",
+    "question": "Meituan posted Q2 revenue of RMB104.64bn vs RMB101.08bn expected and operating profit of RMB2.69bn versus an expected loss, with core local commerce revenue up 10.1% to RMB71.5bn and segment operating profit back to RMB5.7bn, yet H1 adjusted net loss was RMB2.44bn. How sustainable is the margin recovery, and what is the risk of renewed subsidy wars?",
+    "question_sha256": "8532289ad59706ae7d03dfdc7a94b6881c4064797a5c85084abd3ca9786f7a0a",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-116",
+    "question": "SK Hynix's CEO expects the memory shortage to continue through end-2030 with no meaningful downturn signals, while launching a $4B Indiana memory hub with HBM4E volume production in H2 2029 and talking to 100+ materials/equipment partners for a local supply chain. Yet memory stocks were mixed (SK Hynix +2%, Western Digital -1.47%, SanDisk -0.96%, Micron -2.6% intraday). Analyze the gap between industry guidance and share reaction, pricing implications and risks.",
+    "question_sha256": "f66e334c888e8526988bcd4ae0acfe40dc3db83477ea91482f204f9be7444d1f",
+    "topic": "产业与供需"
+  },
+  {
+    "id": "en120-117",
+    "question": "NVIDIA posted FY27Q2 revenue of $96.2B (+106% y/y) and guided FY28 revenue growth to about 70% versus the ~45% consensus; shares opened up ~7%, adding $359B in market cap. Break down where the expectation gap comes from, how credible it is, and the key risks.",
+    "question_sha256": "781b38b120edcd7772b4b9905fa804524aa6f236ba97caf88369232a19e392cd",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-118",
+    "question": "China Life reported H1 revenue of RMB434.3bn (+81.5%) and net profit of RMB134.5bn (+228.6%) with a RMB0.358 dividend, while CPIC's profit rose 10.4% to RMB30.8bn with a RMB0.42 dividend. Analyze how much comes from investment gains versus underwriting, its sustainability, and what it means for insurer valuations.",
+    "question_sha256": "8c948065b8beab1551c4b90394cc87984ad9197b5244430bd545ebaf36636806",
+    "topic": "公司比较"
+  },
+  {
+    "id": "en120-119",
+    "question": "Mixue's H1 revenue rose just 2.3% to RMB15.22B while net profit fell about 15% to RMB2.3B, and it proposed a special dividend of RMB2.65 per share, yet the Hong Kong shares fell as much as 10% in the afternoon as the Hang Seng closed down 0.34%. What growth was priced in, why did store and coffee expansion not translate into profit, and can a big payout rebuild the valuation?",
+    "question_sha256": "04d860db955c50fc065a673f0b50c3889aea504926c6c5469f490064a49c4ea8",
+    "topic": "公司基本面"
+  },
+  {
+    "id": "en120-120",
+    "question": "What’s chapter 2 of the intelligent investor saying???",
+    "question_sha256": "4aed738e327da974d0f84b57fbe58a584ed75fc23c4534f779ece94727968e07",
+    "topic": "投资文献"
+  }
+]
