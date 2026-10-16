@@ -1,0 +1,1 @@
+使用 .agents/skills/audit-frozen-claims/SKILL.md 审计当前目录的 case.json、claims.json 和完整 trace.json。本题所有{count}个原子共同交给你核验，保持原子原文和编号不变。先读取 Skill。你可以复用材料、外部搜索、打开网页与计算。只处理这一题，不启动其他 Agent。最终按 result-schema.json 输出逐项审计 JSON。

@@ -1,0 +1,15 @@
+{
+  "version": "finance500-public-v1",
+  "count": 500,
+  "source_csv_sha256": "dad68165d8442c059741da741af663df49f3cfd91f8c80b5325f4c098af6f8ce",
+  "source_hash_mismatch_ids": [
+    "prod386-260"
+  ],
+  "files": {
+    "questions.json": "2570ba547e8aff76f30aab8c5a9ebca90452b93407375ac8d0092917512f13df",
+    "rubrics.json": "4929d175282e2a97d95db7f4ffb1a332fdb4dfe1d0a3b4febdce8651e6e56f12"
+  },
+  "positive_items": 12786,
+  "negative_items": 3856,
+  "note": "题面原样导出；移除内部溯源地址。正负项采用冻结500题标准，通用事实影响规则见 prompts/quality.txt。没有逐模型人工修正或历史分数。"
+}

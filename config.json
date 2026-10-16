@@ -1,0 +1,19 @@
+{
+  "gateway": "https://api.ikuncode.cc/v1",
+  "extract_model": "deepseek-v4.1-flash",
+  "audit_model": "deepseek-v4-flash",
+  "quality_model": "deepseek-v4.1-flash",
+  "extract_concurrency": 40,
+  "audit_concurrency": 40,
+  "quality_concurrency": 40,
+  "request_timeout": 900,
+  "audit_timeout": 1500,
+  "max_attempts": 3,
+  "extract_max_rounds": 12,
+  "max_tokens": 32768,
+  "response_model_aliases": {
+    "deepseek-v4.1-flash": [
+      "deepseek/deepseek-flash"
+    ]
+  }
+}
