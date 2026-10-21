@@ -1,92 +1,142 @@
-# Finance 500：一键质量与幻觉评测
+<div align="center">
 
-展示页源码位于 [`site/`](site/)，提供模型榜单、500 题搜索和正负项 rubric 浏览。构建与 GitLab Pages 发布方法见 [展示页文档](docs/website.md)。网站发布需要实例启用 Pages；仓库地址本身不是展示页地址。
+# AgenticFinBench
 
-500道金融题、逐题正负项 rubric，以及原子抽取 → v3 证据核验 → 质量评分的完整流水线。提供模型的回答文件，配置一个 key，执行一个命令即可看到逐题分数与平均分。不依赖内部网站、历史评测目录或 Codex 账号。
+### Benchmarking Financial Agents on Diverse Tasks from Real-World Requests
 
-## 快速开始
+**NashNova Research**
 
-运行环境：**Linux x86_64、Python 3.11+（含 venv）、Node.js 22+、npm、curl、flock**。macOS/Windows 请在 Linux VM/WSL2 中运行。首次命令自动安装 Python 依赖、官方 DSH CLI 与校验过 SHA256 的 PRoot；无需 Docker 或 sudo。需可访问 npm、GitHub 与模型网关。
+**500 real-world tasks · 8 categories · 2 languages · 4 complexity levels**
+
+[Dataset](data/questions.json) · [Rubrics](data/rubrics.json) · [Quick start](#quick-start) · [中文指南](README.zh-CN.md)
+
+</div>
+
+---
+
+AgenticFinBench evaluates financial agents on diverse, open-ended requests drawn from real-world use. It combines **question-specific rubrics** with **claim-level evidence auditing** to assess how well a response addresses a task and whether its factual claims hold up. Audit evidence informs a final quality score; evidence attribution and factual reliability remain available as separate diagnostics.
+
+This repository releases the frozen 500-task dataset, positive and negative rubrics, and a standalone evaluation pipeline. Supply your agent's answers and optional execution traces to run claim extraction, evidence verification, and rubric-based scoring.
+
+## Why AgenticFinBench?
+
+- **Real financial work.** Tasks cover knowledge Q&A, data and calculation, screening, comparison, investment research, financial analysis, event analysis, and investment planning.
+- **Beyond a single reference answer.** Question-specific criteria assess task completion and analytical quality for requests with multiple defensible answers.
+- **Evidence-informed scores.** Factual claims are checked against execution traces and, when needed, external sources or calculations. Confirmed errors are assessed for their impact on the response.
+- **Reproducible inputs.** Frozen questions and rubrics are bound to file hashes. Runs save manifests, intermediate judgments, evidence, and completion status.
+
+The accompanying manuscript studies 11 agent configurations and examines how factual errors, agent harnesses, and financial tools affect performance. Its category and complexity annotations are under expert review. This repository does not yet include the manuscript's complete collection of model responses, execution traces, or per-claim audit judgments.
+
+## What is included
+
+- [`data/questions.json`](data/questions.json): **500 frozen questions**, retaining their original IDs and wording.
+- [`data/rubrics.json`](data/rubrics.json): question-specific standards with **12,786 positive criteria** and **3,856 negative criteria**.
+- [`data/manifest.json`](data/manifest.json): dataset version, source hash, file hashes, and a documented source-hash discrepancy.
+- [`benchmark/`](benchmark/), [`fincarat/`](fincarat/), and [`prompts/`](prompts/): evaluation runner, claim extraction, audit instructions, and scoring rules.
+- [`examples/one-answer.jsonl`](examples/one-answer.jsonl): a synthetic example for checking the workflow.
+- [`site/`](site/): a static leaderboard and question/rubric explorer; see the [website guide](docs/website.md).
+
+**Release scope.** The dataset and runner were previously named *Finance 500*. Existing version identifiers and hashes are retained for reproducibility. The bundled `site/results.json` is a **historical snapshot from October 16, 2026**, containing 12 configurations: 10 cover 500 questions, while Trae and Dumate cover 499 each. It is not the manuscript's 11-configuration result set. The runner does not consume this leaderboard or reproduce its historical manual review decisions.
+
+## Evaluation workflow
+
+1. **Submit answers.** Generate responses with your own model or agent. Bind each answer and optional original tool trace to a frozen question ID.
+2. **Extract factual claims.** Preserve entities, time periods, units, and context in independently auditable claims.
+3. **Audit evidence.** One isolated agent session per question examines the claims, complete answer, and original trace, with external verification when needed.
+4. **Score quality.** A judge assesses positive and negative criteria together with audit evidence. Deterministic code computes the quality score and independently checks the arithmetic.
+
+### Interpreting the outputs
+
+**Quality (0–100)** is the primary score. Positive criteria are binary and their weights sum to 100. Explicitly triggered negative criteria and confirmed factual errors can reduce the score. Scoring deduplicates penalties for the same root cause, accounts for points already lost, and applies a cap when an essential calculation or conclusion fails.
+
+**Evidence diagnostics** retain trace support, factual support, contradiction, and unresolved claims. The public v3 runner also reports legacy combined support using an OR rule: support from either axis is sufficient. This is not factual accuracy. An external contradiction is retained even when the trace supports the claim, and the quality judge reviews its effect. Unverified claims are not automatically factual errors.
+
+A legacy *policy pass rate* is reported separately, treating unresolved, unsupported claims as passing. It is not a hallucination-free rate and does not exempt confirmed factual errors from quality scoring. These runner diagnostics should not be substituted for the manuscript's audit-outcome definitions.
+
+## Quick start
+
+**Requirements:** Linux x86_64, Python 3.11+ with `venv`, Node.js 22+, npm, curl, and flock. On macOS or Windows, use a Linux VM or WSL2. The bootstrap installs Python dependencies, the official DSH CLI, and a SHA256-verified PRoot binary. Docker and sudo are not required.
 
 ```bash
+git clone https://github.com/NashnovaResearch/AgenticFinBench.git
+cd AgenticFinBench
 cp .env.example .env
-# 编辑 .env，填入 IKUNCODE_DEEPSEEK_API_KEY=你自己的key
+# Set IKUNCODE_DEEPSEEK_API_KEY in .env to your own API key.
 ./run.sh --answers examples/one-answer.jsonl --out results/demo
 ```
 
-上面只评1题，包含真实模型调用，会产生 API 费用。示例回答为人工编写的流程样例，无原始 Trace，并非某个模型的历史成绩。自己的500题回答：
+This example evaluates **one synthetic answer** and makes paid API calls. It is a workflow example, not a model's benchmark result. To evaluate your own answer file:
 
 ```bash
-./run.sh --answers answers.jsonl --out results/my-model
+./run.sh --answers answers.jsonl --out results/my-agent
 ```
 
-再次执行同一命令会校验输入与版本，并复用成功阶段。逐题完成抽取后立即进入 v3，v3完成后立即评分，不等待整批结束。默认各阶段40题并发；修改 `config.json` 可分别调整。第一次运行建议 `--limit 1`，或用 `--ids prod100-001` 指定一题。输入或配置变动请使用新输出目录。
+Start with `--limit 1` or select a question with `--ids prod100-001`. Repeating the same command verifies the inputs and configuration, then reuses successful stages. Use a new output directory when inputs or configuration change.
 
-只校验、不调用模型：
+To validate inputs without evaluation calls:
 
 ```bash
 ./run.sh --answers answers.jsonl --out results/check --check
 ```
 
-`--check` 仍会安装运行依赖，但不会产生评测调用。失败有界保留，不会无限计费。抽取/质量各最多3个 attempt；抽取每 attempt 最多12轮续抽，截断正文不会算成功。v3每题一次会话，最多25分钟，第19分钟停止外部取证。达到上限时退出码为1；检查输出里的失败原因和已有原始响应，勿盲目循环命令。若抽取已返回完整正文，只是传输/校验适配失败，可在新目录用 `--recover-from results/旧跑次` 离线恢复兼容的完整抽取响应，再进入后续阶段；输入、模型、网关和抽取 prompt 不一致会拒绝恢复。
+`--check` may still install dependencies, but does not call evaluation models. Setup and evaluation need network access to the configured gateway, npm, and GitHub.
 
-## 回答文件
+### Answer format
 
-JSONL每行一题，也接受 JSON 数组。`id` 必须来自 `data/questions.json`，不能重复；`answer` 为完整回答。可选 `question` 如提供必须与冻结题面完全一致。
+Use JSONL with one answer per line, or a JSON array:
 
 ```json
-{"id":"prod100-001","answer":"模型的完整回答……","trace_file":"traces/prod100-001.json","answer_generated_at":"2026-10-16T10:00:00Z"}
+{"id":"prod100-001","answer":"Your agent's complete answer...","trace_file":"traces/prod100-001.json","answer_generated_at":"2026-10-16T10:00:00Z"}
 ```
 
-`trace_file` 相对回答文件目录解析，也可直接使用 `trace` JSON 对象/数组。应提供完整原始工具调用及返回，不要只放模型自述。未提供 Trace 时仍做外部事实核验，Trace轴为 incomplete，不伪造工具证据；报告会保留这一局限。时间字段只用于解释回答背景，不向原题添加隐藏时点要求。回答生成由参评模型或 Agent 自行完成，本包评测提交的回答，不替用户选择或运行答题产品。
+- `id` must match a unique ID in `data/questions.json`; duplicates are rejected.
+- `answer` is the complete response. If provided, `question` must exactly match the frozen wording.
+- `trace_file` is optional and resolves relative to the answer file. Alternatively, provide a `trace` JSON object or array. Include original tool calls and results, rather than the agent's description of its actions.
+- Without a trace, external verification still runs and the trace axis records incompleteness.
+- `answer_generated_at` supplies context; it does not add an unstated date requirement to a question.
 
-## 输出
+### Configuration and bounded execution
 
-终端逐题显示质量分；每30秒显示完成数和实际活跃并发。输出目录包含：
+The shipped [`config.json`](config.json) uses `https://api.ikuncode.cc/v1`, `deepseek-v4.1-flash` for extraction and quality judgments, and `deepseek-v4-flash` with high reasoning for v3 audits via `@deepseek-ai/dsh@0.1.5-rc.1`. These are this standalone release's settings, not a claim that every paper experiment used the same configuration.
 
-- `scores.csv`：逐题质量分、原子数、证据支持率、事实反驳率、未核实数和政策通过率。
-- `summary.json`：逐题结果与质量算术平均分，附完成分母、失败数；仅全部选定题完成时 `final=true`。不足500题明确标注选定数量，不能称为500题最终成绩。
-- `progress.json`：每阶段完成与活跃数、逐题状态和失败原因。
-- `cases/<id>/extract.json`、`audit.json`、`quality.json`：原子、两轴判定、正负项逐项判定/证据/确定性计分。
-- `cases/<id>/<stage>/attempt-*`：完整模型流、请求、失败、DSH会话和证据。成功阶段写入哈希回执，防止输入变更后错误复用。
-- `manifest.json`：题面/回答/Trace、rubric、代码、prompt、参数和依赖版本绑定，不保存 key。
+Each stage defaults to 40 concurrent questions. Extraction and quality judgments allow at most three attempts; extraction permits up to 12 continuation rounds per attempt. Each v3 question uses one session with a 25-minute deadline and stops external evidence collection at minute 19. Failures remain visible and bounded; do not run an unbounded retry loop.
 
-平均质量分为已完成题的逐题平均；证据/反驳比例采用已完成题的原子总数加权。没有事实原子时该题比例为 null。失败题不假装成功、不补质量满分，也不会纳入完成均分。
+Each audit has a private file view and `/tmp`; the project `.env`, other questions, and host `/proc` are not mounted. PRoot provides tool file isolation, not a security boundary against malicious code. Subagents are disabled.
 
-## 评分含义
+The [Chinese guide](README.zh-CN.md) documents response-model aliases, recovery of compatible complete extraction responses, and detailed scoring rules.
 
-**质量（0–100）**：全部冻结正向项满足/不满足，权重总和100；负向项明确触发才扣分。同根因取最大罚分，已因同一错误丢失的正向分抵扣重复罚分，再应用封顶。程序计分，并用独立 Decimal 计算复核。
+## Results and reproducibility
 
-抽取和质量请求显式使用 `thinking.type=disabled` 并流式保存正文与用量；空正文/截断不会误判成功。ikuncode 当前可能把 DS4.1 的响应模型名写作通用别名 `deepseek/deepseek-flash`，`config.json` 显式记录可接受别名，原始请求模型与响应别名均留档；别名不是对网关实际底层模型的独立验证。
+Each run writes:
 
-质量评委为 `deepseek-v4.1-flash`，一次请求读取完整题目、回答、全套正负项、v3已有证据，直接返回结构化判定，不逐项调用，也不需要人工 Codex 修正。输出格式/完整性失败才有界修复。评委判断有波动，不能把结构验证视为语义正确性保证。
+- `scores.csv`: per-question quality scores, claim counts, evidence support, factual contradiction, unresolved counts, and policy pass rates.
+- `summary.json`: question results, mean quality score, and completed/failed counts. `final=true` requires every selected question to finish.
+- `progress.json`: stage progress and failure reasons.
+- `cases/<id>/`: extracted claims, audit and quality judgments, raw responses, and attempt records.
+- `manifest.json`: hashes of questions, answers, traces, rubrics, code, prompts, configuration, and dependency versions; no API key.
 
-通用事实影响规则与全部题共用，见 `prompts/quality.txt`：
+The quality mean uses completed questions. Evidence and contradiction rates pool their claims. Failed questions are not assigned perfect scores. Subset results must report their selected denominator and must not be described as full 500-question scores.
 
-1. **Trace支持不能跳过事实反驳**：全部事实轴 contradicted 都要检查抽取对齐、反驳证据和答案语境。未核实不等于错误。
-2. **错误影响依赖链**：先匹配原负向项，未覆盖的独立事实错误按旁支3分、实质12分、核心25分处理；核心必要计算/结论失效封顶60。按独立纠正单元去重，保留未受影响的分析。
-3. **完整条件与严重度约束**：检查答案内部矛盾、替代满足路径；只有实际使用的决策阈值才做反事实，必须绑定源文、数值与分类翻转，不能编造门槛升档。相关主题本身不足以升级严重度。
+The original single-question [validation record](docs/canary-validation.json) reports 11 claims, a completed audit, and quality 83.33. Resuming added no model requests. The initial run required recovery from a model-alias mismatch and a second quality-judgment attempt. This validates the workflow, not semantic correctness or completion of all 500 questions.
 
-**v3证据轴**：官方 `@deepseek-ai/dsh@0.1.5-rc.1`，默认 `deepseek-v4-flash` + high；每题一个 Agent 会话读取全部冻结原子、回答与 Trace，必要时搜索正文或计算。禁用 subagent；每题私有文件视图和 `/tmp`，不挂载项目 `.env`、其他题或宿主 `/proc`。PRoot用于工具文件隔离，不是针对恶意代码的安全容器。
-
-保留两个底层标签：Trace支持与事实支持/反驳/未决。综合证据支持采用 OR（任一supported即supported），所以“证据支持率”不叫“事实正确率”。另外单独输出事实反驳率，即使Trace支持也计入事实反驳。保留历史政策通过率：综合未支持但事实未决按通过计分；这个数不代表无幻觉。质量评分不会用该默认通过政策豁免明确事实错误。这里没有把质量与证据随意加权成第三个“总分”。
-
-## 数据与版本
-
-`data/questions.json` 为当前500题（380道原有题、120道英文题），保留原题号与题面；`data/rubrics.json` 为对应冻结正负项，共12,786正向项、3,856负向项。题型不同，项数不同，不重新生成标准。导出移除了内部 Trace 地址等溯源字段。
-
-`data/manifest.json` 保存来源 CSV SHA256、导出文件哈希及题面哈希异常清单。源 CSV 的 `prod386-260` 自带哈希与正文不符，导出按原文复算并记录，不修改题面。运行前严格检查全部500题唯一ID、题面/rubric一致性、权重和链接。
-
-本发布版本 `public-full-pipeline-v1` 使用冻结题库与通用评分规则，提供独立可运行评测；评测运行器不读取历史逐模型人工复核、历史分数或离线修正结果，也不承诺逐分复现榜单。展示页的 `site/results.json` 仅用于展示已冻结成绩，与运行器输入分离。
-
-## 单题验收
-
-已用 `examples/one-answer.jsonl` 完成真实调用验证：11条原子、v3完成、质量83.33分；同命令续跑未新增模型请求。初次发现网关模型返回别名差异后，恢复了已有抽取正文；质量结构校验在第2次判定通过。详见 [验收记录](docs/canary-validation.json)。这是流程验证，不代表500题完成或评分语义已经无误。
-
-## 开发验证
+### Offline development checks
 
 ```bash
+python3 -m venv .venv
+.venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m unittest discover -s tests -v
+.venv/bin/python -m benchmark --answers examples/one-answer.jsonl --out results/check --check
+python3 scripts/build_site.py
 ```
 
-`.env`、`.runtime`、`.venv`、回答文件与 `results/` 默认忽略。不要提交 key、真实用户 Trace 或运行日志。模型请求/回复完整保存在本机结果目录，发布结果前自行审阅其中的业务数据。
+The website build produces `public/` locally. Website source is included, but publishing the repository does not automatically deploy GitHub Pages. See [`docs/website.md`](docs/website.md) for the existing build and hosting notes.
+
+## Project links
+
+- **GitHub:** [NashnovaResearch/AgenticFinBench](https://github.com/NashnovaResearch/AgenticFinBench)
+- **GitLab development repository:** [backend/public-benchmark](https://gitlab.cmcf.io/backend/public-benchmark)
+- **Chinese guide:** [README.zh-CN.md](README.zh-CN.md)
+
+The manuscript is titled **AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests**, by **NashNova Research**. A public paper URL and formal citation will be added when available.
+
+`.env`, local runtimes, submitted answers, and evaluation outputs are ignored by Git. Keep credentials and private traces out of commits. Review generated run records before sharing them.
