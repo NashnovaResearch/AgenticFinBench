@@ -1,0 +1,22 @@
+{
+  "snapshot_date": "2026-10-21",
+  "source": "main_english_1016 manuscript snapshot",
+  "note": "Paper-reported results, transcribed without new evaluation. Category and complexity annotations await expert review. Legacy results.json is retained separately.",
+  "sources": {
+    "tab_main_rows.tex": "98d8a98589e33b01e68399b3d464e424900a79ab4efa8d5f05625c0d6b254d2e",
+    "tab_audit_full_rows.tex": "77570b4bead9d55b3d2531bae4ce033eec0bd4bedd6d023f567cc5ba418c62cc",
+    "tab_stats_rows.tex": "6f1acfce2b03dcdf7bb21f8cdf521bb7829852ee722322114eb4f91e8041f172",
+    "tab_taxonomy_category_rows.tex": "f2bae4fb77623fb098bc2ec1026187546e3187992cfa952db4a70e5b6652b443"
+  },
+  "figures": {
+    "fig_overview.pdf": "f411b7eb88927078628431f0afde43e1232923e59019f26bbe636cbc1d60b1ba",
+    "fig_cost_quality_11.pdf": "e02eb04533ef3ba1a2ef85589515b3d4bdb71f297b2bab165c9b5447128fbb4b",
+    "fig_distribution.pdf": "e1c7c9ff15e120b43ab0f6dedeaaad5b34cd308ba6621bb49d195f22d0a5fb5d",
+    "fig_construction.pdf": "5e0bc83ae8aeb65ba757f0370a9c7ab62787bd8383a5d8098a45a04c2adb1ac0",
+    "fig_fulfillment_compact.pdf": "7dc9802478c7e27fa54c30050fa305aac2f79e5879ffe0c5c15c98b8cd34c13a",
+    "fig_main_compact.pdf": "9ffb6cb576f10a75a701d44c4d1f84153bb6b19361115ead55680c3bfcaf1e2a",
+    "fig_grounding_compact.pdf": "60389013d2c769a102b08fdbcd986827a16bd48ee212c7f1fd7273b3da77af39",
+    "fig_tooling_compact.pdf": "8ebbc26bf983ad765bb4eb716d24ffb42228ef59b30608491a4cf8712a41a3fd",
+    "fig_difficulty_compact.pdf": "d77f236a963fa03370049c859de1ca02a40541d0c220b46d5859acdb13f71e53"
+  }
+}

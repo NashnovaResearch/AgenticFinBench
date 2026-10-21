@@ -1,0 +1,186 @@
+{
+  "title": "AgenticFinBench manuscript results",
+  "snapshot_date": "2026-10-21",
+  "question_count": 500,
+  "configuration_count": 11,
+  "confidence_interval": "95% paired question-bootstrap intervals; 10,000 resamples",
+  "source": "docs/paper-snapshot/tab_main_rows.tex and tab_audit_full_rows.tex",
+  "models": [
+    {
+      "rank": 1,
+      "model": "GPT-5.6 Sol",
+      "harness": "Codex CLI",
+      "q": 91.55,
+      "ci": [
+        90.5,
+        92.55
+      ],
+      "baseline": 91.83,
+      "delta": -0.28,
+      "count": 500,
+      "claims": 22995,
+      "response_hallucination": 2.8,
+      "claim_hallucination": 0.07
+    },
+    {
+      "rank": 2,
+      "model": "DeepSeek V4.1 Flash",
+      "harness": "Pi",
+      "q": 90.11,
+      "ci": [
+        88.95,
+        91.25
+      ],
+      "baseline": 96.38,
+      "delta": -6.27,
+      "count": 500,
+      "claims": 62567,
+      "response_hallucination": 37.8,
+      "claim_hallucination": 0.51
+    },
+    {
+      "rank": 3,
+      "model": "GPT-6.1 Sol",
+      "harness": "Codex CLI",
+      "q": 90.06,
+      "ci": [
+        88.87,
+        91.2
+      ],
+      "baseline": 90.16,
+      "delta": -0.11,
+      "count": 500,
+      "claims": 16567,
+      "response_hallucination": 2.4,
+      "claim_hallucination": 0.07
+    },
+    {
+      "rank": 4,
+      "model": "GPT-6 Astra",
+      "harness": "Codex CLI",
+      "q": 90.03,
+      "ci": [
+        88.96,
+        91.07
+      ],
+      "baseline": 90.04,
+      "delta": -0.01,
+      "count": 500,
+      "claims": 15217,
+      "response_hallucination": 0.8,
+      "claim_hallucination": 0.03
+    },
+    {
+      "rank": 5,
+      "model": "Kimi K3",
+      "harness": "Kimi hosted",
+      "q": 89.97,
+      "ci": [
+        88.62,
+        91.18
+      ],
+      "baseline": 93.37,
+      "delta": -3.41,
+      "count": 500,
+      "claims": 37890,
+      "response_hallucination": 24.8,
+      "claim_hallucination": 0.48
+    },
+    {
+      "rank": 6,
+      "model": "DeepSeek V4.1 Flash",
+      "harness": "DSH",
+      "q": 88.89,
+      "ci": [
+        87.63,
+        90.1
+      ],
+      "baseline": 92.88,
+      "delta": -3.99,
+      "count": 500,
+      "claims": 41735,
+      "response_hallucination": 32.8,
+      "claim_hallucination": 0.65
+    },
+    {
+      "rank": 7,
+      "model": "Claude Opus 5.5",
+      "harness": "Claude Code CLI",
+      "q": 88.12,
+      "ci": [
+        86.82,
+        89.35
+      ],
+      "baseline": 90.24,
+      "delta": -2.12,
+      "count": 500,
+      "claims": 27819,
+      "response_hallucination": 13.2,
+      "claim_hallucination": 0.31
+    },
+    {
+      "rank": 8,
+      "model": "GPT-6 Luna",
+      "harness": "Codex CLI",
+      "q": 83.07,
+      "ci": [
+        81.67,
+        84.43
+      ],
+      "baseline": 83.49,
+      "delta": -0.42,
+      "count": 500,
+      "claims": 13753,
+      "response_hallucination": 3.2,
+      "claim_hallucination": 0.13
+    },
+    {
+      "rank": 9,
+      "model": "Seed-2.1-pro",
+      "harness": "Trae Work",
+      "q": 82.93,
+      "ci": [
+        81.0,
+        84.82
+      ],
+      "baseline": 86.14,
+      "delta": -3.21,
+      "count": 500,
+      "claims": 25885,
+      "response_hallucination": 43.4,
+      "claim_hallucination": 1.89
+    },
+    {
+      "rank": 10,
+      "model": "DeepSeek V4.1 Flash",
+      "harness": "WorkBuddy",
+      "q": 78.43,
+      "ci": [
+        76.54,
+        80.27
+      ],
+      "baseline": 81.94,
+      "delta": -3.51,
+      "count": 500,
+      "claims": 21376,
+      "response_hallucination": 27.2,
+      "claim_hallucination": 1.03
+    },
+    {
+      "rank": 11,
+      "model": "DuMate",
+      "harness": "DuMate CLI",
+      "q": 72.12,
+      "ci": [
+        70.09,
+        74.19
+      ],
+      "baseline": 77.2,
+      "delta": -5.08,
+      "count": 500,
+      "claims": 19923,
+      "response_hallucination": 43.8,
+      "claim_hallucination": 2.46
+    }
+  ]
+}

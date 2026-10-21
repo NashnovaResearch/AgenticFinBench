@@ -8,7 +8,7 @@
 
 **500 real-world tasks · 8 categories · 2 languages · 4 complexity levels**
 
-[Dataset](data/questions.json) · [Rubrics](data/rubrics.json) · [Quick start](#quick-start) · [中文指南](README.zh-CN.md)
+[**Project website ↗**](https://nashnovaresearch.github.io/AgenticFinBench/) · [Dataset](data/questions.json) · [Rubrics](data/rubrics.json) · [Quick start](#quick-start) · [中文指南](README.zh-CN.md)
 
 </div>
 
@@ -36,7 +36,7 @@ The accompanying manuscript studies 11 agent configurations and examines how fac
 - [`examples/one-answer.jsonl`](examples/one-answer.jsonl): a synthetic example for checking the workflow.
 - [`site/`](site/): a static leaderboard and question/rubric explorer; see the [website guide](docs/website.md).
 
-**Release scope.** The dataset and runner were previously named *Finance 500*. Existing version identifiers and hashes are retained for reproducibility. The bundled `site/results.json` is a **historical snapshot from October 16, 2026**, containing 12 configurations: 10 cover 500 questions, while Trae and Dumate cover 499 each. It is not the manuscript's 11-configuration result set. The runner does not consume this leaderboard or reproduce its historical manual review decisions.
+**Release scope.** The dataset and runner were previously named *Finance 500*. Existing version identifiers and hashes are retained for reproducibility. The website uses `site/paper-results.json`, transcribed from the 11-configuration manuscript tables on October 21, 2026, with 500 common questions. Original paper figures and a source-hash manifest accompany the results. The bundled `site/results.json` is a **historical snapshot from October 16, 2026**, containing 12 configurations: 10 cover 500 questions, while Trae and Dumate cover 499 each. It is not the manuscript's 11-configuration result set. The runner does not consume this leaderboard or reproduce its historical manual review decisions.
 
 ## Evaluation workflow
 
@@ -129,7 +129,7 @@ python3 -m venv .venv
 python3 scripts/build_site.py
 ```
 
-The website build produces `public/` locally. Website source is included, but publishing the repository does not automatically deploy GitHub Pages. See [`docs/website.md`](docs/website.md) for the existing build and hosting notes.
+The website build produces `public/` locally. GitHub Actions validates the frozen inputs, builds the static site, and deploys it to [GitHub Pages](https://nashnovaresearch.github.io/AgenticFinBench/) on updates to `main`. See [`docs/website.md`](docs/website.md) for the source and publishing workflow.
 
 ## Project links
 
