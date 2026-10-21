@@ -17,6 +17,14 @@
     "fig_main_compact.pdf": "9ffb6cb576f10a75a701d44c4d1f84153bb6b19361115ead55680c3bfcaf1e2a",
     "fig_grounding_compact.pdf": "60389013d2c769a102b08fdbcd986827a16bd48ee212c7f1fd7273b3da77af39",
     "fig_tooling_compact.pdf": "8ebbc26bf983ad765bb4eb716d24ffb42228ef59b30608491a4cf8712a41a3fd",
-    "fig_difficulty_compact.pdf": "d77f236a963fa03370049c859de1ca02a40541d0c220b46d5859acdb13f71e53"
+    "fig_difficulty_compact.pdf": "d77f236a963fa03370049c859de1ca02a40541d0c220b46d5859acdb13f71e53",
+    "fig_evaluation_framework.pdf": "40df3d1f52255c0634c70b8c352eada40ac6c06e823ad595a652c22800b22b59"
+  },
+  "figure_updates": {
+    "fig_evaluation_framework.pdf": {
+      "source": "figure1_preview.pdf supplied by the author",
+      "date": "2026-10-21",
+      "use": "Evaluation Framework section; replaces the original overview figure on the website"
+    }
   }
 }
