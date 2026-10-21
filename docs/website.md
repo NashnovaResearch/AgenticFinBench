@@ -18,7 +18,7 @@ The build validates frozen dataset hashes, all 500 question/rubric bindings, the
 - `site/paper-results.json`: the October 21, 2026 manuscript snapshot, 11 configurations and 500 common questions; quality Q, confidence intervals, baseline R, differences, and claim/response hallucination diagnostics. Values preserve the precision of the paper tables.
 - `docs/paper-snapshot/`: the source table rows for quality, auditing, dataset statistics, and category counts.
 - `site/paper-sources.json`: SHA256 records for the source rows and the original figure PDFs.
-- `site/assets/figures/`: original manuscript PDFs and 2,200-pixel PNG renders. Click a figure to enlarge it or open the PDF for full resolution.
+- `site/assets/figures/`: original manuscript PDFs and high-resolution PNG renders. The Evaluation Framework section uses the author-supplied `figure1_preview.pdf`, published as `fig_evaluation_framework.pdf`, with its hash and provenance recorded in the source manifest. Click a figure to enlarge it or open the PDF for full resolution.
 - `site/results.json`: the earlier October 16 snapshot of 12 configurations and 5,998 scores. Retained for provenance; **not used by the current leaderboard**.
 - `data/`: frozen question and rubric exports. No relabeling or edits to these inputs were made for the website.
 
