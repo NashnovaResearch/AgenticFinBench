@@ -18,7 +18,7 @@ async function initQuestions() {
   const perPage = 5, cache = new Map();
   function list() {
     const pages = Math.ceil(filtered.length/perPage);
-    $('match-count').textContent = `${filtered.length} questions`;
+    $('match-count').textContent = `${filtered.length} ${filtered.length === 1 ? "question" : "questions"}`;
     $('page-label').textContent = pages ? `${page+1} / ${pages}` : '0 / 0';
     $('prev-page').disabled = page === 0;
     $('next-page').disabled = page+1 >= pages;
