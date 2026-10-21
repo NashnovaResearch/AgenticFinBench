@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 19" fill="none" role="img" aria-label="nashnova logomark">
+  <title>nashnova logomark</title>
+  <path d="M8.82143 6.23495V9.52054L3.08796 5.43428V12.2979L4.09116 13.0157L0 17.1786V0L8.82143 6.23495Z" fill="url(#nashnova-logo-primary)" />
+  <path d="M5.10712 11.8722V8.58505L10.8406 12.6729V5.80927L9.83738 5.09148L13.9285 0.928589V18.1072L5.10712 11.8722Z" fill="url(#nashnova-logo-secondary)" />
+  <defs>
+    <linearGradient id="nashnova-logo-primary" x1="0" y1="10.3314" x2="8.84266" y2="8.64587" gradientUnits="userSpaceOnUse">
+      <stop offset="0.427885" stop-color="#AB54D0" />
+      <stop offset="1" stop-color="#6357E7" />
+    </linearGradient>
+    <linearGradient id="nashnova-logo-secondary" x1="15.6256" y1="15.5018" x2="5.00897" y2="9.67478" gradientUnits="userSpaceOnUse">
+      <stop offset="0.427885" stop-color="#757CFF" />
+      <stop offset="1" stop-color="#B991EC" />
+    </linearGradient>
+  </defs>
+</svg>

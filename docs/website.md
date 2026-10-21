@@ -1,35 +1,41 @@
-# Finance 500 展示页
+# AgenticFinBench research website
 
-`site/` 是无框架的静态展示页，包含 12 组冻结质量成绩、500 题搜索和逐题正负项 rubric、评测方法、下载入口与一键运行说明。不调用评测模型，不需要 API key。
+Live site: https://nashnovaresearch.github.io/AgenticFinBench/
 
-```sh
+The static HTML/CSS/JavaScript site in `site/` includes the manuscript leaderboard, dataset distribution, construction process, evaluation framework, five findings with original paper figures, and a searchable question/rubric explorer. It has no model calls, backend, tracking, or API-key requirements.
+
+## Build and preview
+
+```bash
 python3 scripts/build_site.py
 python3 -m http.server 8765 --bind 127.0.0.1 --directory public
 ```
 
-访问 `http://127.0.0.1:8765/`。构建从 `data/` 校验冻结哈希并生成 `public/`。Rubric 按题加载，首页不会下载全部约 16 MB 的标准。所有本地链接均为相对路径，可部署在域名根目录或子路径。构建产物不提交 Git。
+The build validates frozen dataset hashes, all 500 question/rubric bindings, the 11-configuration paper leaderboard against saved manuscript rows, figure hashes, and static HTML asset links. Output is `public/`, ignored by Git. Rubrics load per question rather than downloading the entire rubric file on first visit. Paths are relative so the site works below `/AgenticFinBench/`.
 
-## 内容维护
+## Evidence and content
 
-- 题目和标准：`data/questions.json`、`data/rubrics.json`、`data/manifest.json`，仍按原评测校验规则维护。
-- 最终成绩：`site/results.json`，保留来源摘要 SHA256、各组完成题数和共同 499 题均分。页面只显示最终分数，不展示旧分对比。
-- 统计范围：默认各组已完成题目；Trae 与 Dumate 缺少 `en120-120`，是 499/500。共同题集选项使用各组相同的 499 题。
-- 成绩来自已冻结回答的增量复核，包含原判定复用，不声明为公开运行器新跑的一轮结果。公开运行器不读取此榜单。
-- 首页统计为发布时的冻结规模；如更新数据版本，需要同步核对页面数字和日期。
+- `site/paper-results.json`: the October 21, 2026 manuscript snapshot, 11 configurations and 500 common questions; quality Q, confidence intervals, baseline R, differences, and claim/response hallucination diagnostics. Values preserve the precision of the paper tables.
+- `docs/paper-snapshot/`: the source table rows for quality, auditing, dataset statistics, and category counts.
+- `site/paper-sources.json`: SHA256 records for the source rows and the original figure PDFs.
+- `site/assets/figures/`: original manuscript PDFs and 2,200-pixel PNG renders. Click a figure to enlarge it or open the PDF for full resolution.
+- `site/results.json`: the earlier October 16 snapshot of 12 configurations and 5,998 scores. Retained for provenance; **not used by the current leaderboard**.
+- `data/`: frozen question and rubric exports. No relabeling or edits to these inputs were made for the website.
 
-## GitLab 发布
+Language counts are 374 Chinese / 126 English. Batch composition is 83 seed / 297 expansion / 120 English-batch questions. These are different classifications. Category and complexity labels await expert validation; the site preserves the manuscript's caveat.
 
-每次 CI 的 `site-build` 都生成可下载的 `public/` 静态发布包，不安装额外依赖。现有评测校验、SAST 和密钥扫描仍保留。
+The public runner and manuscript diagnostics have protocol differences described in the README. The website reports manuscript results, without claiming a new public-runner rerun or including the unpublished complete answer/trace corpus. No paid evaluations were started during publication.
 
-2026-10-16 实测：当前项目是 Private；当前账号的可见性选择器禁用；部署菜单与项目功能设置均没有 Pages，Pages 管理入口返回 404。因此提交页面代码不等于已获得匿名可访问的网站 URL，不能把仓库 URL 当作展示页 URL。
+## GitHub Pages deployment
 
-管理员完成 GitLab Pages 服务、域名和 TLS 配置后：
+`.github/workflows/pages.yml` builds on pull requests and `main` pushes. The deploy job runs only for `main`, using GitHub Pages artifacts and the `github-pages` environment. Repository Pages settings use **GitHub Actions** as the publishing source. Only the deploy job has `pages: write` and `id-token: write`; repository contents are read-only to the workflow.
 
-1. 在项目 CI/CD Variables 设置 `PUBLISH_GITLAB_PAGES=true`（普通非敏感变量）。
-2. 运行 `main` 的流水线；`deploy-pages` 自动发布 `public/`。
-3. 在 Deploy → Pages 读取实际 URL，并验证未登录访问。
-4. 若要允许访客下载 GitLab 仓库，还需由有权限的管理员核对项目/上级组的公开可见性；仅发布网站不会自动公开私有仓库。
+To publish a change, merge reviewed changes into `main`. Check the Actions run and live website. Manual redeployment is available through `workflow_dispatch`. The repository About website and the README both link to the live Pages URL.
 
-如使用其他静态服务器，只需部署 `public/` 内容，无后端、数据库或密钥。禁止将仓库根目录、`.env`、运行回答或评测日志整体作为网站发布目录。
+GitLab remains a development mirror. Its existing offline validation, SAST, secret detection, and static build are retained. GitLab Pages deployment stays conditional on instance setup and `PUBLISH_GITLAB_PAGES=true`; the public website is hosted on GitHub Pages.
 
-布局参考了 [FinSearchComp](https://randomtutu.github.io/FinSearchComp/) 的研究型页面结构；页面代码、图形与文案独立编写，没有使用其榜单或图片。
+## Design and verification
+
+The research-page progression is inspired by [FinSearchComp](https://randomtutu.github.io/FinSearchComp/), with independently written code and text and original AgenticFinBench figures. Warm neutral surfaces and muted purple follow NashNova's branding.
+
+Verify desktop and mobile navigation, three leaderboard sorts, image dialog and Escape close, task search and empty state, source-batch filtering, positive/negative rubric tabs, downloads, and the absence of horizontal page overflow. Model results and figures must be updated together with their source hashes; do not substitute the legacy leaderboard or silently mix denominators.
