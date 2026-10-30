@@ -1,30 +1,44 @@
 {
-  "snapshot_date": "2026-10-21",
-  "source": "main_english_1016 manuscript snapshot",
-  "note": "Paper-reported results, transcribed without new evaluation. Category and complexity annotations await expert review. Legacy results.json is retained separately.",
+  "snapshot_date": "2026-10-30",
+  "source": "main_english_1029.tex",
+  "manuscript_sha256": "679c04045ea7fd0e999d640d8daf62eb1cdde9f8d53a85e8fb08bdeb0bbc33a9",
+  "cohort_source_sha256": "516781fa6a34eba2f5fb6e3a41ffe6bcc3a064d7c53f6ca2bb69fdb4c8bb0c3b",
+  "note": "18 configurations on the fixed 230-question cohort; frozen results, no new model calls. PDFs are exact manuscript assets; PNGs rendered from those PDFs.",
   "sources": {
-    "tab_main_rows.tex": "98d8a98589e33b01e68399b3d464e424900a79ab4efa8d5f05625c0d6b254d2e",
-    "tab_audit_full_rows.tex": "77570b4bead9d55b3d2531bae4ce033eec0bd4bedd6d023f567cc5ba418c62cc",
-    "tab_stats_rows.tex": "6f1acfce2b03dcdf7bb21f8cdf521bb7829852ee722322114eb4f91e8041f172",
-    "tab_taxonomy_category_rows.tex": "f2bae4fb77623fb098bc2ec1026187546e3187992cfa952db4a70e5b6652b443"
+    "tab_audit_full_rows.tex": "b464ec115633cdb1a4e2b3543e46250d203dc51e29d9aea71bddeeeb20912b8b",
+    "tab_main_rows.tex": "43872d56b35065df32e1fe53a7ddc55e96b982dadb03fa188ee5e484be3d5b45",
+    "tab_stats_rows.tex": "3a86b5e32c8cb4bf15686bd54b870f8438dde4fb8dbc50466d5ac0de3e78d365",
+    "tab_taxonomy_category_rows.tex": "77730bfbcdffc2e98bf42133ad740f54af8ca991a77d341762f9d794d5c18fa1"
   },
   "figures": {
-    "fig_overview.pdf": "f411b7eb88927078628431f0afde43e1232923e59019f26bbe636cbc1d60b1ba",
-    "fig_cost_quality_11.pdf": "e02eb04533ef3ba1a2ef85589515b3d4bdb71f297b2bab165c9b5447128fbb4b",
-    "fig_distribution.pdf": "e1c7c9ff15e120b43ab0f6dedeaaad5b34cd308ba6621bb49d195f22d0a5fb5d",
-    "fig_construction.pdf": "5e0bc83ae8aeb65ba757f0370a9c7ab62787bd8383a5d8098a45a04c2adb1ac0",
-    "fig_fulfillment_compact.pdf": "7dc9802478c7e27fa54c30050fa305aac2f79e5879ffe0c5c15c98b8cd34c13a",
-    "fig_main_compact.pdf": "9ffb6cb576f10a75a701d44c4d1f84153bb6b19361115ead55680c3bfcaf1e2a",
-    "fig_grounding_compact.pdf": "60389013d2c769a102b08fdbcd986827a16bd48ee212c7f1fd7273b3da77af39",
-    "fig_tooling_compact.pdf": "8ebbc26bf983ad765bb4eb716d24ffb42228ef59b30608491a4cf8712a41a3fd",
-    "fig_difficulty_compact.pdf": "d77f236a963fa03370049c859de1ca02a40541d0c220b46d5859acdb13f71e53",
-    "fig_evaluation_framework.pdf": "40df3d1f52255c0634c70b8c352eada40ac6c06e823ad595a652c22800b22b59"
+    "fig_audit18_aligned.pdf": "f259f9a72b97bf08d1435919b90ad8521f642448844f54caede915af6cd2ba29",
+    "fig_audit18_aligned.png": "b0a2599a9369f775f753bb3e5ce9515c3f3ea8aadeca7d001ff7dc97729297e6",
+    "fig_construction.pdf": "bd06b4e9300da934d11b0ded89cfbfa0dee04305cefbec98750437eab78a6902",
+    "fig_construction.png": "3071436b2f3068ddb14ba2b00159789dfd791ab2f24d42b63651cc3d9bd35fe2",
+    "fig_cost_quality_18.pdf": "aa3930119724f6d128fa666c0bc1135adefddaf34379cf6affb79c1b5e720446",
+    "fig_cost_quality_18.png": "95f0abbe9cd6a952a98f639f58e5fdbd37a96c0d612ecdd1800141615d95a00a",
+    "fig_difficulty_compact.pdf": "1e56a5846072d068ad1ecf096dbd7ab62e9fa12f4f930d7e3a3b02aaeb4dcc1f",
+    "fig_difficulty_compact.png": "6c47fb316c50a287c02cf5f415a8cff07be75ea50bb26bcc60a7882721ac1041",
+    "fig_distribution.pdf": "c60cadc63f95a0af7d57d3f0c9dbb24b78ef36df589974714e2af9409b0385c0",
+    "fig_distribution.png": "625e6285168a48ed84ef51bd1c4b2eb23cf7568e96767089de4e01efc19e9a61",
+    "fig_evaluation_framework.pdf": "b7303e78b531d405b44844e548834b4b4ffac88c6be05769cca4bf6e1778180e",
+    "fig_evaluation_framework.png": "1b9e9960016ada66854219edf870541764712b1d05908210ce6774745a096376",
+    "fig_fulfillment_compact.pdf": "5646d094e464c3817e3406c0a6e662908b755aafdf3b51141a528b59c7808cb2",
+    "fig_fulfillment_compact.png": "fe4d0ae87e1a475449da0a7832b83c3485cb8dab2cddcf82b52c45d2df19b0b3",
+    "fig_rq3_crossed.pdf": "de5955f71f4946134814f6ed6bf5cae79315eb1045da2c096a22a5c2ab45f69b",
+    "fig_rq3_crossed.png": "69446c3fa84a1a439f68f118a16d122f5d9ce54d6ea2b3ef461764f6e4ad7c5b",
+    "fig_tooling_compact.pdf": "b9e6d60ff4aa2d598ca2c30d5c99397e450bc70bfd5dd8bc7d54fcec8986908c",
+    "fig_tooling_compact.png": "d568e693998d3d038f0f5c9b9a71dff0e8f06f5236ac87483ebff48dec24e1c8"
   },
-  "figure_updates": {
-    "fig_evaluation_framework.pdf": {
-      "source": "figure1_preview.pdf supplied by the author",
-      "date": "2026-10-21",
-      "use": "Evaluation Framework section; replaces the original overview figure on the website"
-    }
+  "figure_source_names": {
+    "fig_cost_quality_18": "fig_cost_quality_18",
+    "fig_distribution": "fig_dataset_overview",
+    "fig_construction": "fig_construction",
+    "fig_fulfillment_compact": "fig_fulfillment_wide",
+    "fig_audit18_aligned": "fig_audit18_aligned",
+    "fig_rq3_crossed": "fig_rq3_crossed",
+    "fig_tooling_compact": "fig_tooling_compact",
+    "fig_difficulty_compact": "fig_difficulty_compact",
+    "fig_evaluation_framework": "overview"
   }
 }

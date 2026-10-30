@@ -1,15 +1,23 @@
 {
-  "version": "finance500-public-v1",
-  "count": 500,
-  "source_csv_sha256": "dad68165d8442c059741da741af663df49f3cfd91f8c80b5325f4c098af6f8ce",
-  "source_hash_mismatch_ids": [
-    "prod386-260"
-  ],
+  "version": "agenticfinbench230-public-v1",
+  "count": 230,
+  "cohort_source_sha256": "516781fa6a34eba2f5fb6e3a41ffe6bcc3a064d7c53f6ca2bb69fdb4c8bb0c3b",
   "files": {
-    "questions.json": "2570ba547e8aff76f30aab8c5a9ebca90452b93407375ac8d0092917512f13df",
-    "rubrics.json": "4929d175282e2a97d95db7f4ffb1a332fdb4dfe1d0a3b4febdce8651e6e56f12"
+    "questions.json": "1f50d0e24c4316b256b777867d4f162ac17a08f0a20a3bf2b5cb567ed4b3aba2",
+    "rubrics.json": "12005386c2cca4f08c2a233eae72b283970cdd7a2290d0184d578b5cb48a8fd8",
+    "cohort230.json": "51ae0be4717c8e517325498d314ec4b2333621f34e09836e72012df788e13f42"
   },
-  "positive_items": 12786,
-  "negative_items": 3856,
-  "note": "题面原样导出；移除内部溯源地址。正负项采用冻结500题标准，通用事实影响规则见 prompts/quality.txt。没有逐模型人工修正或历史分数。"
+  "positive_items": 5817,
+  "negative_items": 1780,
+  "languages": {
+    "Chinese": 189,
+    "English": 41
+  },
+  "levels": {
+    "L1": 10,
+    "L2": 70,
+    "L3": 86,
+    "L4": 64
+  },
+  "note": "Exact frozen paper cohort; original question IDs, wording and rubric items preserved. Historical source pool is not included in this release."
 }

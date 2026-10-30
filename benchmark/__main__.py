@@ -56,12 +56,12 @@ async def main(args):
     lock=(out/'controller.lock').open('a');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     from importlib.metadata import version
     runtime={n:version(n) for n in ['openai','pydantic','jsonschema','zstandard','python-dotenv']}
-    binding={'runtime':runtime,'version':VERSION,'config':config,'files':source_hashes(),'cases':{c['id']:digest(c) for c in cases},'dataset_count':500,'selected_count':len(cases)}
+    binding={'runtime':runtime,'version':VERSION,'config':config,'files':source_hashes(),'cases':{c['id']:digest(c) for c in cases},'dataset_count':230,'selected_count':len(cases)}
     if (out/'manifest.json').exists():require(read(out/'manifest.json')['binding']==binding,'Run inputs/config/code changed; choose a NEW --out directory')
     else:save(out/'manifest.json',{'binding':binding,'created_at':time.time()})
     for c in cases:save(out/'inputs'/f"{c['id']}.json",c)
     if args.check:
-        print(json.dumps({'validated':len(cases),'dataset':500,'paid_calls':0,'version':VERSION}));return 0
+        print(json.dumps({'validated':len(cases),'dataset':230,'paid_calls':0,'version':VERSION}));return 0
     from dotenv import load_dotenv
     load_dotenv(ROOT/'.env',override=False)
     key=os.environ.get('IKUNCODE_DEEPSEEK_API_KEY','');require(bool(key),'Missing IKUNCODE_DEEPSEEK_API_KEY; fill .env')
@@ -73,7 +73,7 @@ async def main(args):
     def report():
         stagecounts={s:sum(s in x.get('completed',[]) for x in states.values()) for s in sems}
         scores=[x['quality_score'] for x in done.values()]
-        summary={'version':VERSION,'selected':len(cases),'dataset_count':500,'completed':len(done),
+        summary={'version':VERSION,'selected':len(cases),'dataset_count':230,'completed':len(done),
             'failed':sum(x['status']=='failed' for x in states.values()),'stages':stagecounts,'active':active.copy(),
             'mean_quality_score':sum(scores)/len(scores) if scores else None,'mean_denominator':len(scores),
             'final':len(done)==len(cases),'updated_at':time.time(),'questions':[done[k] for k in sorted(done)]}
@@ -171,7 +171,7 @@ async def main(args):
 
 
 def cli():
-    p=argparse.ArgumentParser(description='500题：原子抽取 → v3 Agent → 正负项/事实影响质量评分')
+    p=argparse.ArgumentParser(description='230题：原子抽取 → v3 Agent → 正负项/事实影响质量评分')
     p.add_argument('--answers',type=Path,required=True);p.add_argument('--out',type=Path,required=True)
     p.add_argument('--config',type=Path,default=ROOT/'config.json');p.add_argument('--ids');p.add_argument('--limit',type=int,default=0)
     p.add_argument('--recover-from',type=Path,help='Explicitly recover compatible complete extractor responses without another call')

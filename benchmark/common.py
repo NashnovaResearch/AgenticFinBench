@@ -3,7 +3,7 @@ import json
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'public-full-pipeline-v1'
+VERSION = 'public-full-pipeline-v2-cohort230'
 
 
 def read(path):
@@ -39,7 +39,12 @@ def dataset():
     rs = read(ROOT/'data/rubrics.json')
     q = {x['id']: x for x in qs}
     r = {x['question_id']: x for x in rs}
-    require(len(qs) == len(rs) == len(q) == len(r) == 500 and q.keys() == r.keys(), 'Expected exact 500 question/rubric pairs')
+    require(len(qs) == len(rs) == len(q) == len(r) == 230 and q.keys() == r.keys(), 'Expected exact 230 question/rubric pairs')
+    cohort = read(ROOT/'data/cohort230.json')
+    bindings = {x['question_id']: x for x in cohort['questions']}
+    require(len(bindings) == cohort['count'] == 230 and bindings.keys() == q.keys(), 'Cohort membership mismatch')
+    for k, v in q.items():
+        require(v['question_sha256'] == bindings[k]['question_sha256'] and v['level'] == bindings[k]['level'], 'Cohort binding mismatch: ' + k)
     from .scoring import validate_rubric
     for k, v in q.items():
         require(v['question'] == r[k]['question'] and sha(v['question'].encode()) == v['question_sha256'] == r[k]['question_sha256'], 'Question/rubric mismatch: ' + k)

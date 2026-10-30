@@ -17,7 +17,7 @@ class Tests(unittest.TestCase):
             'negative':[],'fact_reviews':[],'fact_errors':[]}
 
     def test_dataset(self):
-        q,r=dataset();self.assertEqual(len(q),500);self.assertEqual(q.keys(),r.keys())
+        q,r=dataset();self.assertEqual(len(q),230);self.assertEqual(q.keys(),r.keys())
 
     def test_saved_audit_recovery_checks_frozen_inputs(self):
         from benchmark.audit import recover
