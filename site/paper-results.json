@@ -5,7 +5,7 @@
   "configuration_count": 18,
   "response_count": 4140,
   "confidence_interval": "95% paired question-bootstrap intervals; 10,000 resamples",
-  "source": "main_english_1029.tex; docs/paper-snapshot tables",
+  "source": "docs/paper-snapshot/tab_main_overview.tex, tab_main_rows.tex and tab_audit_full_rows.tex",
   "models": [
     {
       "rank": 1,
@@ -21,7 +21,10 @@
       "count": 230,
       "claims": 10626,
       "response_hallucination": 3.0,
-      "claim_hallucination": 0.09
+      "claim_hallucination": 0.09,
+      "baseline_rank": 5,
+      "time_minutes": 6.25,
+      "cost_usd": 0.3073
     },
     {
       "rank": 2,
@@ -37,7 +40,10 @@
       "count": 230,
       "claims": 16160,
       "response_hallucination": 13.0,
-      "claim_hallucination": 0.26
+      "claim_hallucination": 0.26,
+      "baseline_rank": 2,
+      "time_minutes": 14.71,
+      "cost_usd": 0.0192
     },
     {
       "rank": 3,
@@ -53,7 +59,10 @@
       "count": 230,
       "claims": 11326,
       "response_hallucination": 2.6,
-      "claim_hallucination": 0.06
+      "claim_hallucination": 0.06,
+      "baseline_rank": 6,
+      "time_minutes": 2.06,
+      "cost_usd": 0.7207
     },
     {
       "rank": 4,
@@ -69,7 +78,10 @@
       "count": 230,
       "claims": 29156,
       "response_hallucination": 41.7,
-      "claim_hallucination": 0.62
+      "claim_hallucination": 0.62,
+      "baseline_rank": 1,
+      "time_minutes": 2.2,
+      "cost_usd": 0.0592
     },
     {
       "rank": 5,
@@ -85,7 +97,10 @@
       "count": 230,
       "claims": 8174,
       "response_hallucination": 2.6,
-      "claim_hallucination": 0.07
+      "claim_hallucination": 0.07,
+      "baseline_rank": 7,
+      "time_minutes": 3.6,
+      "cost_usd": 0.1731
     },
     {
       "rank": 6,
@@ -101,7 +116,10 @@
       "count": 230,
       "claims": 7380,
       "response_hallucination": 0.9,
-      "claim_hallucination": 0.03
+      "claim_hallucination": 0.03,
+      "baseline_rank": 9,
+      "time_minutes": 2.1,
+      "cost_usd": 0.5604
     },
     {
       "rank": 7,
@@ -117,7 +135,10 @@
       "count": 230,
       "claims": 16771,
       "response_hallucination": 22.2,
-      "claim_hallucination": 0.45
+      "claim_hallucination": 0.45,
+      "baseline_rank": 3,
+      "time_minutes": 6.06,
+      "cost_usd": 0.3546
     },
     {
       "rank": 8,
@@ -133,7 +154,10 @@
       "count": 230,
       "claims": 18847,
       "response_hallucination": 31.3,
-      "claim_hallucination": 0.61
+      "claim_hallucination": 0.61,
+      "baseline_rank": 4,
+      "time_minutes": 3.2,
+      "cost_usd": 0.0682
     },
     {
       "rank": 9,
@@ -149,7 +173,10 @@
       "count": 230,
       "claims": 19575,
       "response_hallucination": 12.6,
-      "claim_hallucination": 0.23
+      "claim_hallucination": 0.23,
+      "baseline_rank": 8,
+      "time_minutes": 3.89,
+      "cost_usd": 0.2224
     },
     {
       "rank": 10,
@@ -165,7 +192,10 @@
       "count": 230,
       "claims": 12812,
       "response_hallucination": 10.9,
-      "claim_hallucination": 0.2
+      "claim_hallucination": 0.2,
+      "baseline_rank": 11,
+      "time_minutes": 0.94,
+      "cost_usd": 0.2005
     },
     {
       "rank": 11,
@@ -181,7 +211,10 @@
       "count": 230,
       "claims": 12874,
       "response_hallucination": 16.5,
-      "claim_hallucination": 0.4
+      "claim_hallucination": 0.4,
+      "baseline_rank": 10,
+      "time_minutes": 1.31,
+      "cost_usd": 0.1741
     },
     {
       "rank": 12,
@@ -197,7 +230,10 @@
       "count": 230,
       "claims": 10711,
       "response_hallucination": 7.4,
-      "claim_hallucination": 0.31
+      "claim_hallucination": 0.31,
+      "baseline_rank": 12,
+      "time_minutes": 3.27,
+      "cost_usd": 0.9125
     },
     {
       "rank": 13,
@@ -213,7 +249,10 @@
       "count": 230,
       "claims": 11361,
       "response_hallucination": 13.5,
-      "claim_hallucination": 0.4
+      "claim_hallucination": 0.4,
+      "baseline_rank": 13,
+      "time_minutes": 1.32,
+      "cost_usd": 0.2764
     },
     {
       "rank": 14,
@@ -229,7 +268,10 @@
       "count": 230,
       "claims": 10850,
       "response_hallucination": 21.7,
-      "claim_hallucination": 0.8
+      "claim_hallucination": 0.8,
+      "baseline_rank": 14,
+      "time_minutes": 1.34,
+      "cost_usd": 0.1491
     },
     {
       "rank": 15,
@@ -245,7 +287,10 @@
       "count": 230,
       "claims": 6340,
       "response_hallucination": 1.7,
-      "claim_hallucination": 0.08
+      "claim_hallucination": 0.08,
+      "baseline_rank": 16,
+      "time_minutes": 2.04,
+      "cost_usd": 0.0076
     },
     {
       "rank": 16,
@@ -261,7 +306,10 @@
       "count": 230,
       "claims": 11276,
       "response_hallucination": 47.0,
-      "claim_hallucination": 2.13
+      "claim_hallucination": 2.13,
+      "baseline_rank": 15,
+      "time_minutes": 10.5,
+      "cost_usd": 0.3098
     },
     {
       "rank": 17,
@@ -277,7 +325,10 @@
       "count": 230,
       "claims": 9568,
       "response_hallucination": 27.4,
-      "claim_hallucination": 0.92
+      "claim_hallucination": 0.92,
+      "baseline_rank": 17,
+      "time_minutes": 9.45,
+      "cost_usd": 0.0251
     },
     {
       "rank": 18,
@@ -293,8 +344,12 @@
       "count": 230,
       "claims": 8891,
       "response_hallucination": 41.7,
-      "claim_hallucination": 2.38
+      "claim_hallucination": 2.38,
+      "baseline_rank": 18,
+      "time_minutes": 8.55,
+      "cost_usd": 0.0209
     }
   ],
-  "cost_note": "Fourteen configurations use recorded-token mean cost for the 230 questions. Kimi, Trae and DuMate retain original run-average costs; WorkBuddy retains the original visible-text estimate."
+  "cost_note": "Fourteen configurations use recorded-token mean cost for the 230 questions. Kimi, Trae and DuMate retain original run-average costs; WorkBuddy retains the original visible-text estimate.",
+  "efficiency_note": "Time and cost are generation averages as reported in the manuscript main table; they exclude evaluation cost. Fourteen configurations use recorded-token costs on the 230 questions. Kimi, Trae and DuMate retain original run-average costs; WorkBuddy retains its visible-text estimate."
 }

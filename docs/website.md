@@ -15,8 +15,8 @@ The build validates frozen dataset hashes, all 230 question/rubric bindings, the
 
 ## Evidence and content
 
-- `site/paper-results.json`: the October 30, 2026 manuscript snapshot, 18 configurations and 230 common questions; quality Q, confidence intervals, baseline B, differences, and claim/response hallucination diagnostics. Values preserve the precision of the paper tables.
-- `docs/paper-snapshot/`: the source table rows for quality, auditing, dataset statistics, and category counts.
+- `site/paper-results.json`: the October 30, 2026 manuscript snapshot, 18 configurations and 230 common questions; quality Q, confidence intervals, audit score and rank changes, generation time (minutes), cost (USD), and additional baseline and claim/response hallucination diagnostics. Values preserve the precision of the paper tables.
+- `docs/paper-snapshot/`: the source main table for quality and generation efficiency, plus rows for auditing, dataset statistics, and category counts.
 - `site/paper-sources.json`: SHA256 records for the source rows and the original figure PDFs.
 - `site/assets/figures/`: original manuscript PDFs and high-resolution PNG renders. The Evaluation Framework section uses the current manuscript evaluation overview. Click a figure to enlarge it or open the PDF for full resolution.
 - `data/`: frozen question and rubric exports. Question wording and rubric items are preserved; complexity levels come from the frozen cohort manifest.
@@ -35,4 +35,4 @@ The build replaces its generated `public/` directory before exporting, so remove
 
 The research-page progression is inspired by [FinSearchComp](https://randomtutu.github.io/FinSearchComp/), with independently written code and text and original AgenticFinBench figures. Warm neutral surfaces and muted purple follow NashNova's branding.
 
-Verify desktop and mobile navigation, three leaderboard sorts, image dialog and Escape close, task search and empty state, source-batch filtering, positive/negative rubric tabs, downloads, and the absence of horizontal page overflow. Model results and figures must be updated together with their source hashes; do not substitute the legacy leaderboard or silently mix denominators.
+Verify desktop and mobile navigation, quality, time and cost leaderboard sorts, image dialog and Escape close, task search and empty state, source-batch filtering, positive/negative rubric tabs, downloads, and the absence of horizontal page overflow. Model results and figures must be updated together with their source hashes; do not substitute the legacy leaderboard or silently mix denominators.
