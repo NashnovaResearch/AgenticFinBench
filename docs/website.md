@@ -1,6 +1,6 @@
 # AgenticFinBench research website
 
-This GitLab release contains the current 18-configuration, 230-question website source. The separately hosted GitHub site is not updated by a GitLab-only push.
+Live site: [AgenticFinBench](https://nashnovaresearch.github.io/AgenticFinBench/). This release contains 18 configurations on the fixed 230-question cohort.
 
 The static HTML/CSS/JavaScript site in `site/` includes the manuscript leaderboard, dataset distribution, construction process, evaluation framework, five findings with original paper figures, and a searchable question/rubric explorer. It has no model calls, backend, tracking, or API-key requirements.
 
@@ -25,9 +25,9 @@ Language counts are 189 Chinese / 41 English. Batch composition is 44 seed / 146
 
 The public runner and manuscript diagnostics have protocol differences described in the README. The website reports manuscript results, without claiming a new public-runner rerun or including the unpublished complete answer/trace corpus. No paid evaluations were started during publication.
 
-## GitLab publication
+## GitHub Pages publication
 
-Push to the GitLab default branch after offline validation. `site-build` creates the static artifact; GitLab Pages deployment remains conditional on instance setup and `PUBLISH_GITLAB_PAGES=true`. A source push alone does not establish a live Pages deployment. The GitHub remote and its live site are outside this release.
+The `.github/workflows/pages.yml` workflow validates and packages `public/` on pull requests and pushes to `main`. After a merge to `main`, its deploy job publishes the artifact to GitHub Pages. Repository Pages settings must use GitHub Actions. Verify the successful deployment and live data before declaring the website updated. GitLab retains its separate CI configuration.
 
 The build replaces its generated `public/` directory before exporting, so removed questions cannot remain accessible through stale per-question rubric files. Only 230 questions and their matching rubrics are packaged. The old source pool and historical results JSON are absent from the current tree; earlier Git commits are not rewritten.
 

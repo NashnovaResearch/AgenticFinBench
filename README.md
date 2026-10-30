@@ -8,7 +8,7 @@
 
 **230 real-world tasks · 8 categories · 2 languages · 4 complexity levels**
 
-[**Website source**](site/) · [Dataset](data/questions.json) · [Rubrics](data/rubrics.json) · [Quick start](#quick-start) · [中文指南](README.zh-CN.md)
+[**Project website ↗**](https://nashnovaresearch.github.io/AgenticFinBench/) · [Dataset](data/questions.json) · [Rubrics](data/rubrics.json) · [Quick start](#quick-start) · [中文指南](README.zh-CN.md)
 
 </div>
 
@@ -59,8 +59,8 @@ A legacy *policy pass rate* is reported separately, treating unresolved, unsuppo
 **Requirements:** Linux x86_64, Python 3.11+ with `venv`, Node.js 22+, npm, curl, and flock. On macOS or Windows, use a Linux VM or WSL2. The bootstrap installs Python dependencies, the official DSH CLI, and a SHA256-verified PRoot binary. Docker and sudo are not required.
 
 ```bash
-git clone https://gitlab.cmcf.io/backend/public-benchmark.git
-cd public-benchmark
+git clone https://github.com/NashnovaResearch/AgenticFinBench.git
+cd AgenticFinBench
 cp .env.example .env
 # Set IKUNCODE_DEEPSEEK_API_KEY in .env to your own API key.
 ./run.sh --answers examples/one-answer.jsonl --out results/demo
@@ -130,7 +130,7 @@ python3 -m venv .venv
 python3 scripts/build_site.py
 ```
 
-The website build produces `public/` locally. GitLab CI validates and packages it; Pages deployment depends on instance configuration. This release is pushed only to GitLab. See the [website guide](docs/website.md).
+The website build produces `public/` locally. GitHub Actions validates and packages it, then deploys GitHub Pages on pushes to `main`. See the [website guide](docs/website.md).
 
 `.env`, local runtimes, submitted answers, and evaluation outputs are ignored by Git. Keep credentials and private traces out of commits. Review generated run records before sharing them.
 

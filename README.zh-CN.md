@@ -1,12 +1,12 @@
 # AgenticFinBench：一键质量与事实核验评测
 
-[展示页源码](site/) · [English](README.md) · [GitLab](https://gitlab.cmcf.io/backend/public-benchmark)
+[展示网站 ↗](https://nashnovaresearch.github.io/AgenticFinBench/) · [English](README.md) · [GitHub](https://github.com/NashnovaResearch/AgenticFinBench)
 
 AgenticFinBench 是论文 **AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests** 的题集与评测代码发布仓库，由 **NashNova Research** 维护。论文覆盖230道真实金融任务、8类任务、2种语言及4个复杂度层级，以逐题 rubric 与事实主张核验共同形成质量评分。
 
 本次发布与最新论文一致：**18组配置 × 230题，共4,140份冻结回答的统计结果**。榜单由论文表格导出，并附原始图表和来源哈希。当前分支及网站下载仅保留固定230题，旧源池和历史榜单已移除；旧Git提交仍是历史记录。本仓尚未包含论文全部模型回答、执行Trace和逐原子判决。
 
-展示页源码位于 [`site/`](site/)，提供模型榜单、230 题搜索和正负项 rubric 浏览。构建与 GitLab Pages 发布方法见 [展示页文档](docs/website.md)。网站发布需要实例启用 Pages；仓库地址本身不是展示页地址。
+展示页源码位于 [`site/`](site/)，提供模型榜单、230 题搜索和正负项 rubric 浏览。构建与 GitHub Pages 发布方法见 [展示页文档](docs/website.md)。合入main后由GitHub Actions构建并部署Pages；仓库地址本身不是展示页地址。
 
 230道金融题、逐题正负项 rubric，以及原子抽取 → v3 证据核验 → 质量评分的完整流水线。提供模型的回答文件，配置一个 key，执行一个命令即可看到逐题分数与平均分。不依赖内部网站、历史评测目录或 Codex 账号。
 
