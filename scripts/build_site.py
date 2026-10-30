@@ -86,7 +86,25 @@ def build():
     assert len(list((out / 'data/rubrics').glob('*.json'))) == 230
     assert not (out / 'results.json').exists()
     assert sum(m['claims'] for m in paper['models']) == 232698
+    # Content-addressed resources keep a new HTML page from using cached old code/data.
+    results_bytes = (out / 'paper-results.json').read_bytes()
+    results_name = 'paper-results.' + hashlib.sha256(results_bytes).hexdigest()[:16] + '.json'
+    (out / results_name).write_bytes(results_bytes)
+    app = (out / 'assets/app.js').read_text().replace("readJson('paper-results.json')", f"readJson('{results_name}')")
+    app_bytes = app.encode()
+    app_name = 'assets/app.' + hashlib.sha256(app_bytes).hexdigest()[:16] + '.js'
+    (out / app_name).write_bytes(app_bytes)
+    css_bytes = (out / 'assets/style.css').read_bytes()
+    css_name = 'assets/style.' + hashlib.sha256(css_bytes).hexdigest()[:16] + '.css'
+    (out / css_name).write_bytes(css_bytes)
     html = (out / 'index.html').read_text()
+    html = html.replace('src="assets/app.js"', f'src="{app_name}"')
+    html = html.replace('href="assets/style.css"', f'href="{css_name}"')
+    html = html.replace('href="paper-results.json"', f'href="{results_name}"')
+    assert 'src="assets/app.js"' not in html
+    assert 'href="assets/style.css"' not in html
+    assert f"readJson('{results_name}')" in app
+    (out / 'index.html').write_text(html)
     for value in re.findall(r'(?:src|href|data-figure)="([^"]+)"', html):
         if not value.startswith(('http', '#')):
             assert (out / value.split('#')[0]).exists(), value
