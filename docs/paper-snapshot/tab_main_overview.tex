@@ -1,0 +1,35 @@
+% Quality values preserved from tab_main.tex; generation sources recorded in
+% state/paper-main-results-20261029/metrics.json. No new model calls.
+\begin{table}[H]
+\centering
+\caption{Quality and generation efficiency for 18 configurations on the same 230 questions. $Q$ is the quality score; $Q-B$ and $B\to Q$ show the score and rank changes after auditing. Intervals are 95\% paired question-bootstrap intervals from 10,000 resamples. Rows follow mean $Q$. Bold marks the best result and underlining the second and third best in $Q$ (higher is better), time, and cost (lower is better).}
+\label{tab:main}
+\small
+\renewcommand{\arraystretch}{0.95}
+\setlength{\tabcolsep}{1pt}
+\begin{tabular*}{\textwidth}{@{\extracolsep{\fill}}rllrrrcrr@{}}
+\toprule
+Rank & Model & Harness & {\boldmath$Q$} & 95\% CI & $Q-B$ & \makecell{Rank\\$B\to Q$} & \makecell{Time\\(min)} & \makecell{Cost\\(USD)} \\
+\midrule
+1 & GPT-5.6 Sol & Codex CLI & \textbf{89.20} & 87.61--90.71 & -0.27 & 5 $\rightarrow$ 1 & 6.25 & 0.3073 \\
+2 & DeepSeek V4.1 Flash & Codex CLI & \underline{88.79} & 87.44--90.09 & -1.46 & 2 $\rightarrow$ 2 & 14.71 & \underline{0.0192} \\
+3 & GPT-5.6 Sol & Pi & \underline{88.62} & 87.31--89.89 & -0.38 & 6 $\rightarrow$ 3 & 2.06 & 0.7207 \\
+4 & DeepSeek V4.1 Flash & Pi & 87.84 & 85.87--89.64 & -7.58 & 1 $\rightarrow$ 4 & 2.20 & 0.0592 \\
+5 & GPT-6.1 Sol & Codex CLI & 87.68 & 85.98--89.31 & -0.13 & 7 $\rightarrow$ 5 & 3.60 & 0.1731 \\
+6 & GPT-6 Astra & Codex CLI & 87.27 & 85.69--88.84 & -0.01 & 9 $\rightarrow$ 6 & 2.10 & 0.5604 \\
+7 & Kimi K3 & Kimi hosted & 86.74 & 84.39--88.87 & -3.46 & 3 $\rightarrow$ 7 & 6.06 & 0.3546 \\
+8 & DeepSeek V4.1 Flash & DSH & 85.82 & 83.67--87.87 & -3.87 & 4 $\rightarrow$ 8 & 3.20 & 0.0682 \\
+9 & Gemini 4 Argon & Gemini CLI & 85.09 & 83.32--86.79 & -2.54 & 8 $\rightarrow$ 9 & 3.89 & 0.2224 \\
+10 & Claude Opus 5.5 & Pi & 84.92 & 83.47--86.39 & -0.99 & 11 $\rightarrow$ 10 & \textbf{0.94} & 0.2005 \\
+11 & Claude Opus 5.5 & Claude Code CLI & 84.38 & 82.56--86.17 & -2.54 & 10 $\rightarrow$ 11 & \underline{1.31} & 0.1741 \\
+12 & GPT-5.6 Sol & DSH & 84.03 & 82.11--85.84 & -1.41 & 12 $\rightarrow$ 12 & 3.27 & 0.9125 \\
+13 & Claude Opus 5.5 & Codex CLI & 83.13 & 81.40--84.80 & -1.30 & 13 $\rightarrow$ 13 & \underline{1.32} & 0.2764 \\
+14 & Claude Opus 5.5 & DSH & 80.68 & 78.77--82.50 & -3.08 & 14 $\rightarrow$ 14 & 1.34 & 0.1491 \\
+15 & GPT-6 Luna & Codex CLI & 78.69 & 76.74--80.67 & -0.20 & 16 $\rightarrow$ 15 & 2.04 & \textbf{0.0076} \\
+16 & Seed-2.1-pro & Trae Work & 77.95 & 74.69--80.99 & -3.44 & 15 $\rightarrow$ 16 & 10.50 & 0.3098 \\
+17 & DeepSeek V4.1 Flash & WorkBuddy & 71.27 & 68.39--74.09 & -3.90 & 17 $\rightarrow$ 17 & 9.45 & 0.0251 \\
+18 & DuMate & DuMate CLI & 65.42 & 62.43--68.32 & -5.44 & 18 $\rightarrow$ 18 & 8.55 & \underline{0.0209} \\
+
+\bottomrule
+\end{tabular*}
+\end{table}

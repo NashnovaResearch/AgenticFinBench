@@ -5,10 +5,15 @@ const fmt = n => Number(n).toFixed(2).replace(/\.00$/, '');
 async function readJson(path) { const r = await fetch(path); if (!r.ok) throw new Error(`Unable to load ${path} (${r.status})`); return r.json(); }
 async function initScores() {
  const data=await readJson('paper-results.json');
+ const leaders = Object.fromEntries(['q','time_minutes','cost_usd'].map(field=>[field,[...data.models].sort((a,b)=>field==='q'?b[field]-a[field]:a[field]-b[field]).slice(0,3).map(m=>m.rank)]));
+ function metric(m,field,digits){
+  const place=leaders[field].indexOf(m.rank), value=m[field].toFixed(digits);
+  return place===0?`<strong>${value}</strong>`:place>0?`<u>${value}</u>`:value;
+ }
  function render(){
   const field=$('score-sort').value;
-  const rows=[...data.models].sort((a,b)=>field==='response_hallucination'?a[field]-b[field]:b[field]-a[field]);
-  $('score-rows').innerHTML=rows.map(m=>`<tr class="${m.rank===1?'winner':''}"><td><span class="rank ${m.rank<=3?'top':''}">${String(m.rank).padStart(2,'0')}</span></td><td class="model-name"><b>${escapeHtml(m.model)}</b><small>${escapeHtml(m.harness)}</small></td><td><div class="score-cell">${m.q.toFixed(2)}<span class="score-bar" aria-hidden="true"><span style="width:${m.q}%"></span></span></div></td><td class="ci">${m.ci[0].toFixed(2)}–${m.ci[1].toFixed(2)}</td><td>${m.baseline.toFixed(2)}</td><td class="deduction">${m.delta.toFixed(2).replace('-','−')}</td><td class="hall-rate">${m.response_hallucination.toFixed(1)}%</td></tr>`).join('');
+  const rows=[...data.models].sort((a,b)=>field==='q'?b[field]-a[field]:a[field]-b[field]);
+  $('score-rows').innerHTML=rows.map(m=>`<tr class="${m.rank===1?'winner':''}"><td><span class="rank ${m.rank<=3?'top':''}">${m.rank}</span></td><td class="model-name">${escapeHtml(m.model)}</td><td>${escapeHtml(m.harness)}</td><td class="paper-quality">${metric(m,'q',2)}</td><td class="ci">${m.ci[0].toFixed(2)}–${m.ci[1].toFixed(2)}</td><td class="deduction">${m.delta.toFixed(2).replace('-','−')}</td><td>${m.baseline_rank} → ${m.rank}</td><td>${metric(m,'time_minutes',2)}</td><td>${metric(m,'cost_usd',4)}</td></tr>`).join('');
  }
  $('score-sort').addEventListener('change',render);render();
 }
@@ -64,5 +69,5 @@ document.querySelectorAll('[data-figure]').forEach(b=>b.addEventListener('click'
 $('close-figure').addEventListener('click',()=>dialog.close());
 dialog.addEventListener('click',e=>{if(e.target===dialog){const r=dialog.getBoundingClientRect();if(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom)dialog.close();}});
 dialog.addEventListener('close',()=>{document.body.style.overflow='';figureTrigger?.focus();});
-initScores().catch(e=>{$('score-rows').innerHTML=`<tr><td colspan="7" class="error">${escapeHtml(e.message)}. Download the results JSON above.</td></tr>`;});
+initScores().catch(e=>{$('score-rows').innerHTML=`<tr><td colspan="9" class="error">${escapeHtml(e.message)}. Download the results JSON above.</td></tr>`;});
 initQuestions().catch(e=>{$('match-count').textContent='Unable to load questions';$('question-detail').innerHTML=`<p class="error">${escapeHtml(e.message)}</p>`;});

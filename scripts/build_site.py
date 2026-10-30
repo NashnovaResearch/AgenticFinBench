@@ -59,6 +59,23 @@ def build():
         assert float(re.search(r'[0-9.]+', fields[2])[0]) == model['q']
         assert [float(x) for x in fields[3].split('--')] == model['ci']
         assert float(fields[4]) == model['baseline'] and float(fields[5]) == model['delta']
+    overview_rows = [line for line in (ROOT / 'docs/paper-snapshot/tab_main_overview.tex').read_text().splitlines() if re.match(r'^\d+ &', line)]
+    assert len(overview_rows) == len(paper['models']) == 18
+    for line, model in zip(overview_rows, paper['models']):
+        fields = line.split(' & ')
+        number = lambda s: float(re.search(r'-?\d+(?:\.\d+)?', s)[0])
+        assert int(fields[0]) == model['rank']
+        assert fields[1:3] == [model['model'], model['harness']]
+        assert number(fields[3]) == model['q']
+        assert [float(x) for x in fields[4].split('--')] == model['ci']
+        assert number(fields[5]) == model['delta']
+        assert int(fields[6].split()[0]) == model['baseline_rank']
+        assert number(fields[7]) == model['time_minutes']
+        assert number(fields[8]) == model['cost_usd']
+        for field, cell, descending in [('q', fields[3], True), ('time_minutes', fields[7], False), ('cost_usd', fields[8], False)]:
+            leaders = sorted(paper['models'], key=lambda m: m[field], reverse=descending)[:3]
+            assert ('textbf' in cell) == (model == leaders[0])
+            assert ('underline' in cell) == (model in leaders[1:])
     audit_rows = (ROOT / 'docs/paper-snapshot/tab_audit_full_rows.tex').read_text().splitlines()
     for line in audit_rows:
         fields = [x.strip() for x in line.split(' & ')]
