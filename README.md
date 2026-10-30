@@ -132,13 +132,6 @@ python3 scripts/build_site.py
 
 The website build produces `public/` locally. GitLab CI validates and packages it; Pages deployment depends on instance configuration. This release is pushed only to GitLab. See the [website guide](docs/website.md).
 
-## Project links
-
-- **GitLab repository:** [backend/public-benchmark](https://gitlab.cmcf.io/backend/public-benchmark)
-- **Chinese guide:** [README.zh-CN.md](README.zh-CN.md)
-
-The manuscript is titled **AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests**, by **NashNova Research**. A public paper URL and formal citation will be added when available.
-
 `.env`, local runtimes, submitted answers, and evaluation outputs are ignored by Git. Keep credentials and private traces out of commits. Review generated run records before sharing them.
 
 Cost coordinates for fourteen configurations use recorded-token averages on the 230 questions. Kimi, Trae and DuMate retain original run-average costs; WorkBuddy retains its visible-text estimate. No new generation or evaluation was performed for this release.
