@@ -36,3 +36,5 @@ The build replaces its generated `public/` directory before exporting, so remove
 The research-page progression is inspired by [FinSearchComp](https://randomtutu.github.io/FinSearchComp/), with independently written code and text and original AgenticFinBench figures. Warm neutral surfaces and muted purple follow NashNova's branding.
 
 Verify desktop and mobile navigation, quality, time and cost leaderboard sorts, image dialog and Escape close, task search and empty state, source-batch filtering, positive/negative rubric tabs, downloads, and the absence of horizontal page overflow. Model results and figures must be updated together with their source hashes; do not substitute the legacy leaderboard or silently mix denominators.
+
+The build gives the JavaScript, stylesheet and leaderboard JSON content-hashed filenames and binds them in the generated HTML. Changes to leaderboard data also change the script URL. JSON requests revalidate browser caches, preventing a new table header from being paired with a cached old renderer. Stable JSON download URLs remain available for external consumers.

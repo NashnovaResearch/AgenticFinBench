@@ -2,7 +2,7 @@
 const $ = id => document.getElementById(id);
 const escapeHtml = value => String(value ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const fmt = n => Number(n).toFixed(2).replace(/\.00$/, '');
-async function readJson(path) { const r = await fetch(path); if (!r.ok) throw new Error(`Unable to load ${path} (${r.status})`); return r.json(); }
+async function readJson(path) { const r = await fetch(path, {cache:'no-cache'}); if (!r.ok) throw new Error(`Unable to load ${path} (${r.status})`); return r.json(); }
 async function initScores() {
  const data=await readJson('paper-results.json');
  const leaders = Object.fromEntries(['q','time_minutes','cost_usd'].map(field=>[field,[...data.models].sort((a,b)=>field==='q'?b[field]-a[field]:a[field]-b[field]).slice(0,3).map(m=>m.rank)]));
