@@ -6,7 +6,7 @@
 
 **NashNova Research**
 
-**500 real-world tasks · 8 categories · 2 languages · 4 complexity levels**
+**230 real-world tasks · 8 categories · 2 languages · 4 complexity levels**
 
 [**Project website ↗**](https://nashnovaresearch.github.io/AgenticFinBench/) · [Dataset](data/questions.json) · [Rubrics](data/rubrics.json) · [Quick start](#quick-start) · [中文指南](README.zh-CN.md)
 
@@ -16,7 +16,7 @@
 
 AgenticFinBench evaluates financial agents on diverse, open-ended requests drawn from real-world use. It combines **question-specific rubrics** with **claim-level evidence auditing** to assess how well a response addresses a task and whether its factual claims hold up. Audit evidence informs a final quality score; evidence attribution and factual reliability remain available as separate diagnostics.
 
-This repository releases the frozen 500-task dataset, positive and negative rubrics, and a standalone evaluation pipeline. Supply your agent's answers and optional execution traces to run claim extraction, evidence verification, and rubric-based scoring.
+This repository releases the frozen 230-task dataset, positive and negative rubrics, and a standalone evaluation pipeline. Supply your agent's answers and optional execution traces to run claim extraction, evidence verification, and rubric-based scoring.
 
 ## Why AgenticFinBench?
 
@@ -25,18 +25,19 @@ This repository releases the frozen 500-task dataset, positive and negative rubr
 - **Evidence-informed scores.** Factual claims are checked against execution traces and, when needed, external sources or calculations. Confirmed errors are assessed for their impact on the response.
 - **Reproducible inputs.** Frozen questions and rubrics are bound to file hashes. Runs save manifests, intermediate judgments, evidence, and completion status.
 
-The accompanying manuscript studies 11 agent configurations and examines how factual errors, agent harnesses, and financial tools affect performance. Its category and complexity annotations are under expert review. This repository does not yet include the manuscript's complete collection of model responses, execution traces, or per-claim audit judgments.
+The accompanying manuscript studies 18 agent configurations and examines how factual errors, agent harnesses, and financial tools affect performance. This repository does not yet include the manuscript's complete collection of model responses, execution traces, or per-claim audit judgments.
 
 ## What is included
 
-- [`data/questions.json`](data/questions.json): **500 frozen questions**, retaining their original IDs and wording.
-- [`data/rubrics.json`](data/rubrics.json): question-specific standards with **12,786 positive criteria** and **3,856 negative criteria**.
-- [`data/manifest.json`](data/manifest.json): dataset version, source hash, file hashes, and a documented source-hash discrepancy.
+- [`data/questions.json`](data/questions.json): **230 frozen questions**, retaining their original IDs and wording.
+- [`data/rubrics.json`](data/rubrics.json): question-specific standards with **5,817 positive criteria** and **1,780 negative criteria**.
+- [`data/manifest.json`](data/manifest.json): dataset version, cohort source hash, file hashes, and distribution counts.
+- [`data/cohort230.json`](data/cohort230.json): exact question membership, question hashes and complexity levels (10/70/86/64). Language counts are 189 Chinese and 41 English; source batches are 44 seed, 146 expansion and 40 English-batch questions.
 - [`benchmark/`](benchmark/), [`fincarat/`](fincarat/), and [`prompts/`](prompts/): evaluation runner, claim extraction, audit instructions, and scoring rules.
 - [`examples/one-answer.jsonl`](examples/one-answer.jsonl): a synthetic example for checking the workflow.
 - [`site/`](site/): a static leaderboard and question/rubric explorer; see the [website guide](docs/website.md).
 
-**Release scope.** The dataset and runner were previously named *Finance 500*. Existing version identifiers and hashes are retained for reproducibility. The website uses `site/paper-results.json`, transcribed from the 11-configuration manuscript tables on October 21, 2026, with 500 common questions. Original paper figures and a source-hash manifest accompany the results. The bundled `site/results.json` is a **historical snapshot from October 16, 2026**, containing 12 configurations: 10 cover 500 questions, while Trae and Dumate cover 499 each. It is not the manuscript's 11-configuration result set. The runner does not consume this leaderboard or reproduce its historical manual review decisions.
+**Release scope.** This release matches the current manuscript: **18 configurations × 230 questions = 4,140 frozen responses**. The leaderboard is exported from the paper tables, with source hashes and original figures. The current tree and website downloads contain only the fixed 230-question cohort; the previous source pool and historical leaderboard have been removed. Earlier Git commits remain historical records. The runner does not consume the leaderboard or reproduce historical manual adjudications.
 
 ## Evaluation workflow
 
@@ -115,9 +116,9 @@ Each run writes:
 - `cases/<id>/`: extracted claims, audit and quality judgments, raw responses, and attempt records.
 - `manifest.json`: hashes of questions, answers, traces, rubrics, code, prompts, configuration, and dependency versions; no API key.
 
-The quality mean uses completed questions. Evidence and contradiction rates pool their claims. Failed questions are not assigned perfect scores. Subset results must report their selected denominator and must not be described as full 500-question scores.
+The quality mean uses completed questions. Evidence and contradiction rates pool their claims. Failed questions are not assigned perfect scores. Subset results must report their selected denominator and must not be described as full 230-question scores.
 
-The original single-question [validation record](docs/canary-validation.json) reports 11 claims, a completed audit, and quality 83.33. Resuming added no model requests. The initial run required recovery from a model-alias mismatch and a second quality-judgment attempt. This validates the workflow, not semantic correctness or completion of all 500 questions.
+The original single-question [validation record](docs/canary-validation.json) reports 11 claims, a completed audit, and quality 83.33. Resuming added no model requests. The initial run required recovery from a model-alias mismatch and a second quality-judgment attempt. This validates the workflow, not semantic correctness or completion of all 230 questions.
 
 ### Offline development checks
 
@@ -129,14 +130,8 @@ python3 -m venv .venv
 python3 scripts/build_site.py
 ```
 
-The website build produces `public/` locally. GitHub Actions validates the frozen inputs, builds the static site, and deploys it to [GitHub Pages](https://nashnovaresearch.github.io/AgenticFinBench/) on updates to `main`. See [`docs/website.md`](docs/website.md) for the source and publishing workflow.
-
-## Project links
-
-- **GitHub:** [NashnovaResearch/AgenticFinBench](https://github.com/NashnovaResearch/AgenticFinBench)
-- **GitLab development repository:** [backend/public-benchmark](https://gitlab.cmcf.io/backend/public-benchmark)
-- **Chinese guide:** [README.zh-CN.md](README.zh-CN.md)
-
-The manuscript is titled **AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests**, by **NashNova Research**. A public paper URL and formal citation will be added when available.
+The website build produces `public/` locally. GitHub Actions validates and packages it, then deploys GitHub Pages on pushes to `main`. See the [website guide](docs/website.md).
 
 `.env`, local runtimes, submitted answers, and evaluation outputs are ignored by Git. Keep credentials and private traces out of commits. Review generated run records before sharing them.
+
+Cost coordinates for fourteen configurations use recorded-token averages on the 230 questions. Kimi, Trae and DuMate retain original run-average costs; WorkBuddy retains its visible-text estimate. No new generation or evaluation was performed for this release.

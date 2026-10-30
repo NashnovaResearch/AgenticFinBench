@@ -15,10 +15,19 @@ def build():
     questions = json.loads((ROOT / 'data/questions.json').read_text())
     rubrics = json.loads((ROOT / 'data/rubrics.json').read_text())
     qmap = {q['id']: q for q in questions}
-    assert len(qmap) == len(questions) == len(rubrics) == 500
+    cohort = json.loads((ROOT / 'data/cohort230.json').read_text())
+    bindings = {q['question_id']: q for q in cohort['questions']}
+    assert len(bindings) == 230 and bindings.keys() == qmap.keys()
+    for qid, q in qmap.items():
+        assert hashlib.sha256(q['question'].encode()).hexdigest() == q['question_sha256'] == bindings[qid]['question_sha256']
+        assert q['level'] == bindings[qid]['level']
+    assert len(qmap) == len(questions) == len(rubrics) == 230
     assert {r['question_id'] for r in rubrics} == set(qmap)
     out = ROOT / 'public'
-    out.mkdir(exist_ok=True)
+    # This directory is generated and ignored; remove stale downloadable questions.
+    if out.exists():
+        shutil.rmtree(out)
+    out.mkdir()
     shutil.copytree(ROOT / 'site', out, dirs_exist_ok=True)
     (out / 'data/rubrics').mkdir(parents=True, exist_ok=True)
     for r in rubrics:
@@ -32,17 +41,13 @@ def build():
     shutil.copyfile(ROOT / 'examples/one-answer.jsonl', out / 'data/one-answer.jsonl')
     assert sum(len(r['positive']) for r in rubrics) == manifest['positive_items']
     assert sum(len(r['negative']) for r in rubrics) == manifest['negative_items']
-    results = json.loads((out / 'results.json').read_text())
-    assert len(results['models']) == 12
-    assert sum(m['count'] for m in results['models']) == 5998
-    assert all(0 <= m['new_Q'] <= 100 for m in results['models'])
     assert not [p for p in out.rglob('*') if p.name == '.env' or p.name.startswith('AGENTS')]
     paper = json.loads((out / 'paper-results.json').read_text())
-    assert paper['question_count'] == 500
-    assert len(paper['models']) == paper['configuration_count'] == 11
-    assert sorted(m['rank'] for m in paper['models']) == list(range(1, 12))
-    assert len({(m['model'], m['harness']) for m in paper['models']}) == 11
-    assert all(m['count'] == 500 and 0 <= m['q'] <= 100 for m in paper['models'])
+    assert paper['question_count'] == 230
+    assert len(paper['models']) == paper['configuration_count'] == 18
+    assert sorted(m['rank'] for m in paper['models']) == list(range(1, 19))
+    assert len({(m['model'], m['harness']) for m in paper['models']}) == 18
+    assert all(m['count'] == 230 and 0 <= m['q'] <= 100 for m in paper['models'])
     sources = json.loads((out / 'paper-sources.json').read_text())
     for name, expected in sources['sources'].items():
         assert hashlib.sha256((ROOT / 'docs/paper-snapshot' / name).read_bytes()).hexdigest() == expected
@@ -61,14 +66,16 @@ def build():
         assert int(fields[1].replace(',', '')) == model['claims']
         assert float(fields[3].split()[0]) == model['response_hallucination']
         assert float(fields[4].split()[0]) == model['claim_hallucination']
-    assert sum(m['claims'] for m in paper['models']) == 305727
+    assert len(list((out / 'data/rubrics').glob('*.json'))) == 230
+    assert not (out / 'results.json').exists()
+    assert sum(m['claims'] for m in paper['models']) == 232698
     html = (out / 'index.html').read_text()
     for value in re.findall(r'(?:src|href|data-figure)="([^"]+)"', html):
         if not value.startswith(('http', '#')):
             assert (out / value.split('#')[0]).exists(), value
     (out / '.nojekyll').touch()
-    print('Paper website: 11 configurations, common 500 questions; source hashes verified.')
-    print(f'Site built: {len(questions)} questions, {len(rubrics)} rubrics, 12 legacy results → {out}')
+    print('Paper website: 18 configurations, common 230 questions; source hashes verified.')
+    print(f'Site built: {len(questions)} questions, {len(rubrics)} rubrics → {out}')
 
 
 if __name__ == '__main__':

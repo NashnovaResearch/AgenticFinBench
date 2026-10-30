@@ -2,13 +2,13 @@
 
 [展示网站 ↗](https://nashnovaresearch.github.io/AgenticFinBench/) · [English](README.md) · [GitHub](https://github.com/NashnovaResearch/AgenticFinBench)
 
-AgenticFinBench 是论文 **AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests** 的题集与评测代码发布仓库，由 **NashNova Research** 维护。论文覆盖500道真实金融任务、8类任务、2种语言及4个复杂度层级，以逐题 rubric 与事实主张核验共同形成质量评分。
+AgenticFinBench 是论文 **AgenticFinBench: Benchmarking Financial Agents on Diverse Tasks from Real-World Requests** 的题集与评测代码发布仓库，由 **NashNova Research** 维护。论文覆盖230道真实金融任务、8类任务、2种语言及4个复杂度层级，以逐题 rubric 与事实主张核验共同形成质量评分。
 
-本仓此前使用 Finance 500 名称；冻结数据的版本标识和哈希保持原样。展示网站使用 `site/paper-results.json` 中从当前论文表格导出的11组配置、共同500题结果，并附原始论文图表和来源哈希。`site/results.json` 保留2026年10月16日的12组历史配置快照，不用于新版网站榜单。本仓尚未包含论文全部模型回答、执行 Trace 和逐原子判决。
+本次发布与最新论文一致：**18组配置 × 230题，共4,140份冻结回答的统计结果**。榜单由论文表格导出，并附原始图表和来源哈希。当前分支及网站下载仅保留固定230题，旧源池和历史榜单已移除；旧Git提交仍是历史记录。本仓尚未包含论文全部模型回答、执行Trace和逐原子判决。
 
-展示页源码位于 [`site/`](site/)，提供模型榜单、500 题搜索和正负项 rubric 浏览。构建与 GitLab Pages 发布方法见 [展示页文档](docs/website.md)。网站发布需要实例启用 Pages；仓库地址本身不是展示页地址。
+展示页源码位于 [`site/`](site/)，提供模型榜单、230 题搜索和正负项 rubric 浏览。构建与 GitHub Pages 发布方法见 [展示页文档](docs/website.md)。合入main后由GitHub Actions构建并部署Pages；仓库地址本身不是展示页地址。
 
-500道金融题、逐题正负项 rubric，以及原子抽取 → v3 证据核验 → 质量评分的完整流水线。提供模型的回答文件，配置一个 key，执行一个命令即可看到逐题分数与平均分。不依赖内部网站、历史评测目录或 Codex 账号。
+230道金融题、逐题正负项 rubric，以及原子抽取 → v3 证据核验 → 质量评分的完整流水线。提供模型的回答文件，配置一个 key，执行一个命令即可看到逐题分数与平均分。不依赖内部网站、历史评测目录或 Codex 账号。
 
 ## 快速开始
 
@@ -20,7 +20,7 @@ cp .env.example .env
 ./run.sh --answers examples/one-answer.jsonl --out results/demo
 ```
 
-上面只评1题，包含真实模型调用，会产生 API 费用。示例回答为人工编写的流程样例，无原始 Trace，并非某个模型的历史成绩。自己的500题回答：
+上面只评1题，包含真实模型调用，会产生 API 费用。示例回答为人工编写的流程样例，无原始 Trace，并非某个模型的历史成绩。自己的230题回答：
 
 ```bash
 ./run.sh --answers answers.jsonl --out results/my-model
@@ -51,7 +51,7 @@ JSONL每行一题，也接受 JSON 数组。`id` 必须来自 `data/questions.js
 终端逐题显示质量分；每30秒显示完成数和实际活跃并发。输出目录包含：
 
 - `scores.csv`：逐题质量分、原子数、证据支持率、事实反驳率、未核实数和政策通过率。
-- `summary.json`：逐题结果与质量算术平均分，附完成分母、失败数；仅全部选定题完成时 `final=true`。不足500题明确标注选定数量，不能称为500题最终成绩。
+- `summary.json`：逐题结果与质量算术平均分，附完成分母、失败数；仅全部选定题完成时 `final=true`。不足230题明确标注选定数量，不能称为230题最终成绩。
 - `progress.json`：每阶段完成与活跃数、逐题状态和失败原因。
 - `cases/<id>/extract.json`、`audit.json`、`quality.json`：原子、两轴判定、正负项逐项判定/证据/确定性计分。
 - `cases/<id>/<stage>/attempt-*`：完整模型流、请求、失败、DSH会话和证据。成功阶段写入哈希回执，防止输入变更后错误复用。
@@ -79,15 +79,15 @@ JSONL每行一题，也接受 JSON 数组。`id` 必须来自 `data/questions.js
 
 ## 数据与版本
 
-`data/questions.json` 为当前500题（380道原有题、120道英文题），保留原题号与题面；`data/rubrics.json` 为对应冻结正负项，共12,786正向项、3,856负向项。题型不同，项数不同，不重新生成标准。导出移除了内部 Trace 地址等溯源字段。
+`data/questions.json` 为当前230题（189道中文、41道英文；来源批次为44道种子题、146道扩展题、40道英文批次题），保留原题号与题面；`data/rubrics.json` 为对应冻结正负项，共5,817正向项、1,780负向项。题型不同，项数不同，不重新生成标准。导出移除了内部 Trace 地址等溯源字段。
 
-`data/manifest.json` 保存来源 CSV SHA256、导出文件哈希及题面哈希异常清单。源 CSV 的 `prod386-260` 自带哈希与正文不符，导出按原文复算并记录，不修改题面。运行前严格检查全部500题唯一ID、题面/rubric一致性、权重和链接。
+`data/manifest.json` 保存版本、冻结题集来源哈希和导出文件哈希；`data/cohort230.json` 固定230个题号、题面哈希和复杂度，L1/L2/L3/L4为10/70/86/64。运行前检查230题唯一ID、题面/rubric一致性、权重和链接。
 
-本发布版本 `public-full-pipeline-v1` 使用冻结题库与通用评分规则，提供独立可运行评测；评测运行器不读取历史逐模型人工复核、历史分数或离线修正结果，也不承诺逐分复现榜单。展示页的 `site/results.json` 仅用于展示已冻结成绩，与运行器输入分离。
+本发布版本 `public-full-pipeline-v2-cohort230` 使用冻结题库与通用评分规则，提供独立可运行评测；评测运行器不读取历史逐模型人工复核、历史分数或离线修正结果，也不承诺逐分复现榜单。展示页的 `site/paper-results.json` 仅用于展示已冻结成绩，与运行器输入分离。
 
 ## 单题验收
 
-已用 `examples/one-answer.jsonl` 完成真实调用验证：11条原子、v3完成、质量83.33分；同命令续跑未新增模型请求。初次发现网关模型返回别名差异后，恢复了已有抽取正文；质量结构校验在第2次判定通过。详见 [验收记录](docs/canary-validation.json)。这是流程验证，不代表500题完成或评分语义已经无误。
+已用 `examples/one-answer.jsonl` 完成真实调用验证：11条原子、v3完成、质量83.33分；同命令续跑未新增模型请求。初次发现网关模型返回别名差异后，恢复了已有抽取正文；质量结构校验在第2次判定通过。详见 [验收记录](docs/canary-validation.json)。这是流程验证，不代表230题完成或评分语义已经无误。
 
 ## 开发验证
 
@@ -96,3 +96,5 @@ JSONL每行一题，也接受 JSON 数组。`id` 必须来自 `data/questions.js
 ```
 
 `.env`、`.runtime`、`.venv`、回答文件与 `results/` 默认忽略。不要提交 key、真实用户 Trace 或运行日志。模型请求/回复完整保存在本机结果目录，发布结果前自行审阅其中的业务数据。
+
+成本图中14组采用230题记录Token的平均成本；Kimi、Trae、DuMate保留原跑次均摊成本，WorkBuddy保留可见文本估算。本次发布没有启动新的回答生成或付费评测。
